@@ -110,6 +110,10 @@
         <source>Delivery and returns</source>
         <target>Bezorging en retour</target>
       </trans-unit>
+      <trans-unit id="bcfdebad821aef8b2f8b1b6ea481aea4">
+        <source>Discover %brand% at %shop%: %products% and more.</source>
+        <target>Ontdek %brand% bij %shop%: %products% en meer.</target>
+      </trans-unit>
       <trans-unit id="fc46f6383e012278263fd788d9b198ad">
         <source>Discover more</source>
         <target>Meer ontdekken</target>

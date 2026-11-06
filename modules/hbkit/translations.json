@@ -5755,6 +5755,17 @@
    "pt-PT": "Entrega e devoluções",
    "ru-RU": "Доставка и возврат"
   },
+  "Discover %brand% at %shop%: %products% and more.": {
+   "fr-FR": "Découvrez %brand% chez %shop% : %products% et plus encore.",
+   "es-ES": "Descubre %brand% en %shop%: %products% y mucho más.",
+   "it-IT": "Scopri %brand% da %shop%: %products% e molto altro.",
+   "pl-PL": "Odkryj %brand% w %shop%: %products% i nie tylko.",
+   "de-DE": "Entdecken Sie %brand% bei %shop%: %products% und mehr.",
+   "cs-CZ": "Objevte %brand% v %shop%: %products% a další.",
+   "nl-NL": "Ontdek %brand% bij %shop%: %products% en meer.",
+   "pt-PT": "Descubra %brand% na %shop%: %products% e muito mais.",
+   "ru-RU": "Откройте для себя %brand% в %shop%: %products% и не только."
+  },
   "Discover more": {
    "fr-FR": "En savoir plus",
    "es-ES": "Descubrir más",
