@@ -1,0 +1,3360 @@
+{
+ "meta": {
+  "slug": "aurelle-jewels",
+  "theme": "aurelle-jewels",
+  "name": "Aurelle Jewels",
+  "version": "1.0.0",
+  "description": {
+   "en": "Fine jewellery store with an elegant editorial layout: rings, necklaces, earrings, bracelets, pearls and bridal jewellery.",
+   "fr": "Boutique de joaillerie au style éditorial élégant : bagues, colliers, boucles d'oreilles, bracelets, perles et bijoux de mariage.",
+   "es": "Tienda de joyería con un diseño editorial elegante: anillos, collares, pendientes, pulseras, perlas y joyas de novia.",
+   "it": "Gioielleria dallo stile editoriale elegante: anelli, collane, orecchini, bracciali, perle e gioielli da sposa.",
+   "pl": "Sklep z biżuterią w eleganckim, edytorskim stylu: pierścionki, naszyjniki, kolczyki, bransoletki, perły i biżuteria ślubna.",
+   "de": "Schmuck-Shop mit elegantem Editorial-Layout: Ringe, Halsketten, Ohrringe, Armbänder, Perlen und Brautschmuck.",
+   "cs": "Obchod se šperky v elegantním editoriálním stylu: prsteny, náhrdelníky, náušnice, náramky, perly a svatební šperky.",
+   "nl": "Juwelierszaak met een elegante editorial layout: ringen, kettingen, oorbellen, armbanden, parels en bruidssieraden.",
+   "pt": "Joalharia com um layout editorial elegante: anéis, colares, brincos, pulseiras, pérolas e joias de noiva.",
+   "ru": "Ювелирный магазин в элегантном журнальном стиле: кольца, колье, серьги, браслеты, жемчуг и свадебные украшения."
+  }
+ },
+ "vars": {
+  "shop": "Aurelle Jewels",
+  "free_over": {
+   "en": "€150",
+   "fr": "150 €",
+   "es": "150 €",
+   "it": "150 €",
+   "pl": "150 €",
+   "de": "150 €",
+   "cs": "150 €",
+   "nl": "€ 150",
+   "pt": "150 €",
+   "ru": "150 €"
+  }
+ },
+ "shop": {
+  "name": "Aurelle Jewels",
+  "email": "hello@aurelle.example",
+  "phone": "+33 1 23 45 67 89",
+  "address1": "18 rue de la Paix",
+  "postcode": "75002",
+  "city": "Paris",
+  "country": "FR",
+  "logo": "brand/logo.png",
+  "favicon": "brand/favicon.ico",
+  "social": {
+   "instagram": "https://www.instagram.com/",
+   "pinterest": "https://www.pinterest.com/"
+  }
+ },
+ "tokens": {
+  "primary": "#16392f",
+  "primary_contrast": "#f7f4ef",
+  "accent": "#b08d57",
+  "bg": "#f7f4ef",
+  "surface": "#efe8dd",
+  "text": "#1c2421",
+  "muted": "#5f6662",
+  "border": "#e4ddd2",
+  "sale": "#9b2c3a",
+  "dark": "#16392f",
+  "dark_text": "#f7f4ef",
+  "field_border": "#c9bfae",
+  "field_height": "48",
+  "font_heading": "Cormorant Garamond",
+  "font_body": "Jost",
+  "heading_weight": "500",
+  "heading_transform": "none",
+  "heading_spacing": "0",
+  "radius": "0",
+  "button_radius": "0",
+  "button_transform": "none",
+  "header_style": "classic",
+  "footer_style": "dark",
+  "card_style": "plain",
+  "cart_style": "drawer",
+  "cart_layout": "cards",
+  "listing_layout": "drawer",
+  "category_header": "minimal",
+  "grid_columns": "4",
+  "product_layout": "classic",
+  "product_thumbs": "bottom",
+  "product_tabs": "accordion",
+  "free_bar": "1",
+  "header_sticky": "up",
+  "search_style": "panel",
+  "search_trigger": "word",
+  "cart_word": "bag"
+ },
+ "topbar": {
+  "active": 1,
+  "text": {
+   "en": "Free insured delivery over €150 | Complimentary gift box | 2-year guarantee",
+   "fr": "Livraison assurée offerte dès 150 € | Écrin cadeau offert | Garantie 2 ans",
+   "es": "Envío asegurado gratis desde 150 € | Estuche de regalo incluido | Garantía de 2 años",
+   "it": "Spedizione assicurata gratuita sopra i 150 € | Scatola regalo inclusa | Garanzia di 2 anni",
+   "pl": "Darmowa ubezpieczona dostawa od 150 € | Pudełko prezentowe w zestawie | 2 lata gwarancji",
+   "de": "Kostenloser versicherter Versand ab 150 € | Geschenkbox inklusive | 2 Jahre Garantie",
+   "cs": "Pojištěná doprava zdarma nad 150 € | Dárková krabička v ceně | Záruka 2 roky",
+   "nl": "Gratis verzekerde verzending vanaf € 150 | Cadeaudoosje inbegrepen | 2 jaar garantie",
+   "pt": "Envio com seguro grátis a partir de 150 € | Caixa de oferta incluída | Garantia de 2 anos",
+   "ru": "Бесплатная застрахованная доставка от 150 € | Подарочная коробка в комплекте | Гарантия 2 года"
+  }
+ },
+ "attribute_groups": [
+  {
+   "key": "size",
+   "type": "radio",
+   "name": {
+    "en": "Size",
+    "fr": "Taille",
+    "es": "Talla",
+    "it": "Taglia",
+    "pl": "Rozmiar",
+    "de": "Größe",
+    "cs": "Velikost",
+    "nl": "Maat",
+    "pt": "Tamanho",
+    "ru": "Размер"
+   },
+   "values": [
+    {
+     "key": "48",
+     "name": "48"
+    },
+    {
+     "key": "50",
+     "name": "50"
+    },
+    {
+     "key": "52",
+     "name": "52"
+    },
+    {
+     "key": "54",
+     "name": "54"
+    },
+    {
+     "key": "56",
+     "name": "56"
+    },
+    {
+     "key": "58",
+     "name": "58"
+    }
+   ]
+  },
+  {
+   "key": "color",
+   "type": "color",
+   "name": {
+    "en": "Colour",
+    "fr": "Couleur",
+    "es": "Color",
+    "it": "Colore",
+    "pl": "Kolor",
+    "de": "Farbe",
+    "cs": "Barva",
+    "nl": "Kleur",
+    "pt": "Cor",
+    "ru": "Цвет"
+   },
+   "values": [
+    {
+     "key": "gold",
+     "name": {
+      "en": "Gold",
+      "fr": "Or",
+      "es": "Dorado",
+      "it": "Oro",
+      "pl": "Złoty",
+      "de": "Gold",
+      "cs": "Zlatá",
+      "nl": "Goud",
+      "pt": "Dourado",
+      "ru": "Золотой"
+     },
+     "color": "#D4AF6A"
+    },
+    {
+     "key": "rose-gold",
+     "name": {
+      "en": "Rose gold",
+      "fr": "Or rose",
+      "es": "Oro rosa",
+      "it": "Oro rosa",
+      "pl": "Różowe złoto",
+      "de": "Roségold",
+      "cs": "Růžové zlato",
+      "nl": "Roségoud",
+      "pt": "Ouro rosa",
+      "ru": "Розовое золото"
+     },
+     "color": "#D8A08A"
+    },
+    {
+     "key": "silver",
+     "name": {
+      "en": "Silver",
+      "fr": "Argent",
+      "es": "Plateado",
+      "it": "Argento",
+      "pl": "Srebrny",
+      "de": "Silber",
+      "cs": "Stříbrná",
+      "nl": "Zilver",
+      "pt": "Prateado",
+      "ru": "Серебряный"
+     },
+     "color": "#C9CBD0"
+    },
+    {
+     "key": "white",
+     "name": {
+      "en": "White",
+      "fr": "Blanc",
+      "es": "Blanco",
+      "it": "Bianco",
+      "pl": "Biały",
+      "de": "Weiß",
+      "cs": "Bílá",
+      "nl": "Wit",
+      "pt": "Branco",
+      "ru": "Белый"
+     },
+     "color": "#F7F4EC"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "key": "metal",
+   "name": {
+    "en": "Metal",
+    "fr": "Métal",
+    "es": "Metal",
+    "it": "Metallo",
+    "pl": "Metal",
+    "de": "Metall",
+    "cs": "Kov",
+    "nl": "Metaal",
+    "pt": "Metal",
+    "ru": "Металл"
+   },
+   "values": [
+    {
+     "key": "gold-18k",
+     "name": {
+      "en": "18k solid gold",
+      "fr": "Or massif 18 carats",
+      "es": "Oro macizo de 18 quilates",
+      "it": "Oro massiccio 18 carati",
+      "pl": "Lite złoto 18 karatów",
+      "de": "Massives 750er Gold (18 Karat)",
+      "cs": "Ryzí zlato 18 karátů",
+      "nl": "Massief 18-karaats goud",
+      "pt": "Ouro maciço de 18 quilates",
+      "ru": "Золото 750 пробы (18 карат)"
+     }
+    },
+    {
+     "key": "gold-14k",
+     "name": {
+      "en": "14k solid gold",
+      "fr": "Or massif 14 carats",
+      "es": "Oro macizo de 14 quilates",
+      "it": "Oro massiccio 14 carati",
+      "pl": "Lite złoto 14 karatów",
+      "de": "Massives 585er Gold (14 Karat)",
+      "cs": "Ryzí zlato 14 karátů",
+      "nl": "Massief 14-karaats goud",
+      "pt": "Ouro maciço de 14 quilates",
+      "ru": "Золото 585 пробы (14 карат)"
+     }
+    },
+    {
+     "key": "vermeil",
+     "name": {
+      "en": "Gold vermeil on sterling silver",
+      "fr": "Vermeil sur argent massif",
+      "es": "Vermeil sobre plata de ley",
+      "it": "Vermeil su argento sterling",
+      "pl": "Vermeil na srebrze próby 925",
+      "de": "Vermeil auf Sterlingsilber",
+      "cs": "Vermeil na stříbře 925",
+      "nl": "Vermeil op sterling zilver",
+      "pt": "Vermeil sobre prata de lei",
+      "ru": "Вермель на серебре 925"
+     }
+    },
+    {
+     "key": "silver-925",
+     "name": {
+      "en": "Sterling silver 925",
+      "fr": "Argent 925",
+      "es": "Plata de ley 925",
+      "it": "Argento sterling 925",
+      "pl": "Srebro próby 925",
+      "de": "Sterlingsilber 925",
+      "cs": "Stříbro 925",
+      "nl": "Sterling zilver 925",
+      "pt": "Prata de lei 925",
+      "ru": "Серебро 925 пробы"
+     }
+    },
+    {
+     "key": "platinum",
+     "name": {
+      "en": "Platinum 950",
+      "fr": "Platine 950",
+      "es": "Platino 950",
+      "it": "Platino 950",
+      "pl": "Platyna 950",
+      "de": "Platin 950",
+      "cs": "Platina 950",
+      "nl": "Platina 950",
+      "pt": "Platina 950",
+      "ru": "Платина 950"
+     }
+    }
+   ]
+  },
+  {
+   "key": "stone",
+   "name": {
+    "en": "Stone",
+    "fr": "Pierre",
+    "es": "Piedra",
+    "it": "Pietra",
+    "pl": "Kamień",
+    "de": "Stein",
+    "cs": "Kámen",
+    "nl": "Steen",
+    "pt": "Pedra",
+    "ru": "Камень"
+   },
+   "values": [
+    {
+     "key": "diamond-lab",
+     "name": {
+      "en": "Lab-grown diamond",
+      "fr": "Diamant de laboratoire",
+      "es": "Diamante de laboratorio",
+      "it": "Diamante creato in laboratorio",
+      "pl": "Diament laboratoryjny",
+      "de": "Laborgezüchteter Diamant",
+      "cs": "Laboratorní diamant",
+      "nl": "Labgekweekte diamant",
+      "pt": "Diamante de laboratório",
+      "ru": "Лабораторный бриллиант"
+     }
+    },
+    {
+     "key": "sapphire",
+     "name": {
+      "en": "Sapphire",
+      "fr": "Saphir",
+      "es": "Zafiro",
+      "it": "Zaffiro",
+      "pl": "Szafir",
+      "de": "Saphir",
+      "cs": "Safír",
+      "nl": "Saffier",
+      "pt": "Safira",
+      "ru": "Сапфир"
+     }
+    },
+    {
+     "key": "amethyst",
+     "name": {
+      "en": "Amethyst",
+      "fr": "Améthyste",
+      "es": "Amatista",
+      "it": "Ametista",
+      "pl": "Ametyst",
+      "de": "Amethyst",
+      "cs": "Ametyst",
+      "nl": "Amethist",
+      "pt": "Ametista",
+      "ru": "Аметист"
+     }
+    },
+    {
+     "key": "topaz",
+     "name": {
+      "en": "Blue topaz",
+      "fr": "Topaze bleue",
+      "es": "Topacio azul",
+      "it": "Topazio azzurro",
+      "pl": "Niebieski topaz",
+      "de": "Blautopas",
+      "cs": "Modrý topaz",
+      "nl": "Blauwe topaas",
+      "pt": "Topázio azul",
+      "ru": "Голубой топаз"
+     }
+    },
+    {
+     "key": "obsidian",
+     "name": {
+      "en": "Snowflake obsidian",
+      "fr": "Obsidienne flocon de neige",
+      "es": "Obsidiana copo de nieve",
+      "it": "Ossidiana fiocco di neve",
+      "pl": "Obsydian płatkowy",
+      "de": "Schneeflocken-Obsidian",
+      "cs": "Vločkový obsidián",
+      "nl": "Sneeuwvlok-obsidiaan",
+      "pt": "Obsidiana floco de neve",
+      "ru": "Снежный обсидиан"
+     }
+    },
+    {
+     "key": "zirconia",
+     "name": {
+      "en": "Cubic zirconia",
+      "fr": "Oxyde de zirconium",
+      "es": "Circonita",
+      "it": "Zircone cubico",
+      "pl": "Cyrkonia",
+      "de": "Zirkonia",
+      "cs": "Zirkon",
+      "nl": "Zirkonia",
+      "pt": "Zircónia",
+      "ru": "Фианит"
+     }
+    },
+    {
+     "key": "pearl",
+     "name": {
+      "en": "Freshwater pearl",
+      "fr": "Perle d'eau douce",
+      "es": "Perla de agua dulce",
+      "it": "Perla d'acqua dolce",
+      "pl": "Perła słodkowodna",
+      "de": "Süßwasserperle",
+      "cs": "Sladkovodní perla",
+      "nl": "Zoetwaterparel",
+      "pt": "Pérola de água doce",
+      "ru": "Пресноводный жемчуг"
+     }
+    },
+    {
+     "key": "none",
+     "name": {
+      "en": "No stone",
+      "fr": "Sans pierre",
+      "es": "Sin piedra",
+      "it": "Senza pietra",
+      "pl": "Bez kamienia",
+      "de": "Ohne Stein",
+      "cs": "Bez kamene",
+      "nl": "Zonder steen",
+      "pt": "Sem pedra",
+      "ru": "Без камня"
+     }
+    }
+   ]
+  },
+  {
+   "key": "hallmark",
+   "name": {
+    "en": "Hallmark",
+    "fr": "Poinçon",
+    "es": "Contraste",
+    "it": "Marchio",
+    "pl": "Próba",
+    "de": "Feingehaltsstempel",
+    "cs": "Puncovní značka",
+    "nl": "Keurmerk",
+    "pt": "Contrastaria",
+    "ru": "Проба"
+   },
+   "values": [
+    {
+     "key": "750",
+     "name": {
+      "en": "750",
+      "fr": "750",
+      "es": "750",
+      "it": "750",
+      "pl": "750",
+      "de": "750",
+      "cs": "750",
+      "nl": "750",
+      "pt": "750",
+      "ru": "750"
+     }
+    },
+    {
+     "key": "585",
+     "name": {
+      "en": "585",
+      "fr": "585",
+      "es": "585",
+      "it": "585",
+      "pl": "585",
+      "de": "585",
+      "cs": "585",
+      "nl": "585",
+      "pt": "585",
+      "ru": "585"
+     }
+    },
+    {
+     "key": "925",
+     "name": {
+      "en": "925",
+      "fr": "925",
+      "es": "925",
+      "it": "925",
+      "pl": "925",
+      "de": "925",
+      "cs": "925",
+      "nl": "925",
+      "pt": "925",
+      "ru": "925"
+     }
+    },
+    {
+     "key": "950",
+     "name": {
+      "en": "950",
+      "fr": "950",
+      "es": "950",
+      "it": "950",
+      "pl": "950",
+      "de": "950",
+      "cs": "950",
+      "nl": "950",
+      "pt": "950",
+      "ru": "950"
+     }
+    }
+   ]
+  },
+  {
+   "key": "origin",
+   "name": {
+    "en": "Made in",
+    "fr": "Fabriqué en",
+    "es": "Fabricado en",
+    "it": "Prodotto in",
+    "pl": "Wyprodukowano w",
+    "de": "Hergestellt in",
+    "cs": "Vyrobeno v",
+    "nl": "Gemaakt in",
+    "pt": "Fabricado em",
+    "ru": "Сделано в"
+   },
+   "values": [
+    {
+     "key": "italy",
+     "name": {
+      "en": "Italy",
+      "fr": "Italie",
+      "es": "Italia",
+      "it": "Italia",
+      "pl": "Włoszech",
+      "de": "Italien",
+      "cs": "Itálii",
+      "nl": "Italië",
+      "pt": "Itália",
+      "ru": "Италии"
+     }
+    },
+    {
+     "key": "france",
+     "name": {
+      "en": "France",
+      "fr": "France",
+      "es": "Francia",
+      "it": "Francia",
+      "pl": "Francji",
+      "de": "Frankreich",
+      "cs": "Francii",
+      "nl": "Frankrijk",
+      "pt": "França",
+      "ru": "Франции"
+     }
+    },
+    {
+     "key": "spain",
+     "name": {
+      "en": "Spain",
+      "fr": "Espagne",
+      "es": "España",
+      "it": "Spagna",
+      "pl": "Hiszpanii",
+      "de": "Spanien",
+      "cs": "Španělsku",
+      "nl": "Spanje",
+      "pt": "Espanha",
+      "ru": "Испании"
+     }
+    },
+    {
+     "key": "portugal",
+     "name": {
+      "en": "Portugal",
+      "fr": "Portugal",
+      "es": "Portugal",
+      "it": "Portogallo",
+      "pl": "Portugalii",
+      "de": "Portugal",
+      "cs": "Portugalsku",
+      "nl": "Portugal",
+      "pt": "Portugal",
+      "ru": "Португалии"
+     }
+    },
+    {
+     "key": "japan",
+     "name": {
+      "en": "Japan",
+      "fr": "Japon",
+      "es": "Japón",
+      "it": "Giappone",
+      "pl": "Japonii",
+      "de": "Japan",
+      "cs": "Japonsku",
+      "nl": "Japan",
+      "pt": "Japão",
+      "ru": "Японии"
+     }
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "key": "aurelle",
+   "name": "Aurelle",
+   "logo": "brands/aurelle.png"
+  },
+  {
+   "key": "maris",
+   "name": "Maris",
+   "logo": "brands/maris.png"
+  },
+  {
+   "key": "luce",
+   "name": "Luce",
+   "logo": "brands/luce.png"
+  },
+  {
+   "key": "nami",
+   "name": "Nami Pearls",
+   "logo": "brands/nami.png"
+  }
+ ],
+ "categories": [
+  {
+   "key": "rings",
+   "name": {
+    "en": "Rings",
+    "fr": "Bagues",
+    "es": "Anillos",
+    "it": "Anelli",
+    "pl": "Pierścionki",
+    "de": "Ringe",
+    "cs": "Prsteny",
+    "nl": "Ringen",
+    "pt": "Anéis",
+    "ru": "Кольца"
+   },
+   "description": {
+    "en": "Solitaires, signet rings and stacking rings in gold and silver.",
+    "fr": "Solitaires, chevalières et bagues à empiler en or et en argent.",
+    "es": "Solitarios, sellos y anillos apilables en oro y plata.",
+    "it": "Solitari, anelli con sigillo e anelli impilabili in oro e argento.",
+    "pl": "Soliter, sygnety i pierścionki do łączenia ze złota i srebra.",
+    "de": "Solitärringe, Siegelringe und Stapelringe aus Gold und Silber.",
+    "cs": "Solitéry, pečetní prsteny a kombinovatelné prsteny ze zlata a stříbra.",
+    "nl": "Solitairs, zegelringen en stapelringen in goud en zilver.",
+    "pt": "Solitários, anéis de sinete e anéis para empilhar em ouro e prata.",
+    "ru": "Кольца-солитеры, печатки и наборные кольца из золота и серебра."
+   },
+   "image": "categories/rings.jpg"
+  },
+  {
+   "key": "necklaces",
+   "name": {
+    "en": "Necklaces",
+    "fr": "Colliers",
+    "es": "Collares",
+    "it": "Collane",
+    "pl": "Naszyjniki",
+    "de": "Halsketten",
+    "cs": "Náhrdelníky",
+    "nl": "Kettingen",
+    "pt": "Colares",
+    "ru": "Колье"
+   },
+   "description": {
+    "en": "Fine pendants and delicate chains to wear alone or layered.",
+    "fr": "Pendentifs fins et chaînes délicates à porter seuls ou superposés.",
+    "es": "Colgantes finos y cadenas delicadas para llevar solos o superpuestos.",
+    "it": "Pendenti sottili e catene delicate da portare da sole o sovrapposte.",
+    "pl": "Subtelne zawieszki i delikatne łańcuszki do noszenia osobno lub warstwowo.",
+    "de": "Feine Anhänger und zarte Ketten, einzeln oder im Layering getragen.",
+    "cs": "Jemné přívěsky a řetízky k nošení samostatně i ve vrstvách.",
+    "nl": "Fijne hangers en tere kettinkjes om los of gelaagd te dragen.",
+    "pt": "Pendentes finos e correntes delicadas para usar sozinhos ou em camadas.",
+    "ru": "Изящные подвески и тонкие цепочки, которые можно носить отдельно или слоями."
+   },
+   "image": "categories/necklaces.jpg"
+  },
+  {
+   "key": "earrings",
+   "name": {
+    "en": "Earrings",
+    "fr": "Boucles d'oreilles",
+    "es": "Pendientes",
+    "it": "Orecchini",
+    "pl": "Kolczyki",
+    "de": "Ohrringe",
+    "cs": "Náušnice",
+    "nl": "Oorbellen",
+    "pt": "Brincos",
+    "ru": "Серьги"
+   },
+   "description": {
+    "en": "Studs, drops and statement earrings for every day and every occasion.",
+    "fr": "Puces, pendantes et boucles statement pour tous les jours et toutes les occasions.",
+    "es": "Botones, colgantes y pendientes llamativos para cada día y cada ocasión.",
+    "it": "Punti luce, pendenti e orecchini importanti per ogni giorno e ogni occasione.",
+    "pl": "Wkrętki, wiszące i efektowne kolczyki na co dzień i od święta.",
+    "de": "Ohrstecker, Hänger und Statement-Ohrringe für jeden Tag und jeden Anlass.",
+    "cs": "Pecky, visací a výrazné náušnice na každý den i zvláštní příležitosti.",
+    "nl": "Oorknopjes, hangers en statement-oorbellen voor elke dag en elke gelegenheid.",
+    "pt": "Brincos de botão, pendentes e marcantes para todos os dias e ocasiões.",
+    "ru": "Пусеты, подвески и эффектные серьги на каждый день и для особых случаев."
+   },
+   "image": "categories/earrings.jpg"
+  },
+  {
+   "key": "bracelets",
+   "name": {
+    "en": "Bracelets",
+    "fr": "Bracelets",
+    "es": "Pulseras",
+    "it": "Bracciali",
+    "pl": "Bransoletki",
+    "de": "Armbänder",
+    "cs": "Náramky",
+    "nl": "Armbanden",
+    "pt": "Pulseiras",
+    "ru": "Браслеты"
+   },
+   "description": {
+    "en": "Tennis bracelets, bangles and link bracelets.",
+    "fr": "Bracelets rivière, joncs et bracelets à maillons.",
+    "es": "Pulseras rivière, brazaletes y pulseras de eslabones.",
+    "it": "Bracciali tennis, rigidi e a maglie.",
+    "pl": "Bransoletki tenisowe, bangle i bransoletki z ogniwami.",
+    "de": "Tennisarmbänder, Armreifen und Gliederarmbänder.",
+    "cs": "Tenisové náramky, pevné náramky a článkové náramky.",
+    "nl": "Tennisarmbanden, bangles en schakelarmbanden.",
+    "pt": "Pulseiras rivière, braceletes rígidas e pulseiras de elos.",
+    "ru": "Теннисные браслеты, жёсткие браслеты и браслеты-цепочки."
+   },
+   "image": "categories/bracelets.jpg"
+  },
+  {
+   "key": "pearls",
+   "name": {
+    "en": "Pearls",
+    "fr": "Perles",
+    "es": "Perlas",
+    "it": "Perle",
+    "pl": "Perły",
+    "de": "Perlen",
+    "cs": "Perly",
+    "nl": "Parels",
+    "pt": "Pérolas",
+    "ru": "Жемчуг"
+   },
+   "description": {
+    "en": "Freshwater and baroque pearls, strung and set by hand.",
+    "fr": "Perles d'eau douce et baroques, enfilées et serties à la main.",
+    "es": "Perlas de agua dulce y barrocas, enhebradas y engastadas a mano.",
+    "it": "Perle d'acqua dolce e barocche, infilate e incastonate a mano.",
+    "pl": "Perły słodkowodne i barokowe, nawlekane i oprawiane ręcznie.",
+    "de": "Süßwasser- und Barockperlen, von Hand aufgefädelt und gefasst.",
+    "cs": "Sladkovodní a barokní perly, ručně navlékané a zasazené.",
+    "nl": "Zoetwater- en barokparels, met de hand geregen en gezet.",
+    "pt": "Pérolas de água doce e barrocas, enfiadas e cravadas à mão.",
+    "ru": "Пресноводный и барочный жемчуг, нанизанный и закреплённый вручную."
+   },
+   "image": "categories/pearls.jpg"
+  },
+  {
+   "key": "bridal",
+   "name": {
+    "en": "Bridal",
+    "fr": "Mariage",
+    "es": "Novias",
+    "it": "Sposa",
+    "pl": "Ślub",
+    "de": "Braut",
+    "cs": "Svatba",
+    "nl": "Bruid",
+    "pt": "Noiva",
+    "ru": "Свадьба"
+   },
+   "description": {
+    "en": "Engagement rings, wedding bands and jewellery for the big day.",
+    "fr": "Bagues de fiançailles, alliances et bijoux pour le grand jour.",
+    "es": "Anillos de compromiso, alianzas y joyas para el gran día.",
+    "it": "Anelli di fidanzamento, fedi e gioielli per il grande giorno.",
+    "pl": "Pierścionki zaręczynowe, obrączki i biżuteria na wielki dzień.",
+    "de": "Verlobungsringe, Eheringe und Schmuck für den großen Tag.",
+    "cs": "Zásnubní prsteny, snubní prsteny a šperky pro velký den.",
+    "nl": "Verlovingsringen, trouwringen en sieraden voor de grote dag.",
+    "pt": "Anéis de noivado, alianças e joias para o grande dia.",
+    "ru": "Помолвочные кольца, обручальные кольца и украшения для главного дня."
+   },
+   "image": "categories/bridal.jpg"
+  }
+ ],
+ "catalog": {
+  "id_tax_rules_group": 0,
+  "also_in_home": true,
+  "details_feature_list": false,
+  "home_name": {
+   "en": "Home",
+   "fr": "Accueil",
+   "es": "Inicio",
+   "it": "Home",
+   "pl": "Strona główna",
+   "de": "Startseite",
+   "cs": "Domů",
+   "nl": "Home",
+   "pt": "Início",
+   "ru": "Главная"
+  },
+  "facets": [
+   "group:size",
+   "feature:metal",
+   "feature:stone",
+   "group:color",
+   "price"
+  ]
+ },
+ "products": [
+  {
+   "key": "solitaire-ring",
+   "reference": "AU-101",
+   "category": "rings",
+   "brand": "aurelle",
+   "price": 890,
+   "name": {
+    "en": "Solitaire Diamond Ring",
+    "fr": "Bague solitaire diamant",
+    "es": "Anillo solitario de diamante",
+    "it": "Anello solitario con diamante",
+    "pl": "Pierścionek z diamentem soliter",
+    "de": "Diamant-Solitärring",
+    "cs": "Prsten solitér s diamantem",
+    "nl": "Diamanten solitairring",
+    "pt": "Anel solitário de diamante",
+    "ru": "Кольцо-солитер с бриллиантом"
+   },
+   "short": {
+    "en": "A brilliant-cut lab-grown diamond on a slim band.",
+    "fr": "Un diamant de laboratoire taille brillant sur un anneau fin.",
+    "es": "Un diamante de laboratorio talla brillante sobre un aro fino.",
+    "it": "Un diamante creato in laboratorio taglio brillante su una fascia sottile.",
+    "pl": "Diament laboratoryjny o szlifie brylantowym na smukłej obrączce.",
+    "de": "Ein laborgezüchteter Diamant im Brillantschliff auf einer schmalen Schiene.",
+    "cs": "Laboratorní diamant v briliantovém brusu na štíhlé obroučce.",
+    "nl": "Een labgekweekte diamant in briljantslijpsel op een smalle ring.",
+    "pt": "Um diamante de laboratório em talhe brilhante num aro fino.",
+    "ru": "Лабораторный бриллиант круглой огранки на тонкой шинке."
+   },
+   "description": {
+    "en": "A 0.5 ct brilliant-cut lab-grown diamond in a smooth bezel setting, with a small diamond on each side of the band. Made to be worn every day.",
+    "fr": "Un diamant de synthèse taille brillant de 0,5 ct dans un serti clos lisse, avec un petit diamant de chaque côté de l'anneau. Fait pour être porté tous les jours.",
+    "es": "Un diamante de laboratorio de talla brillante de 0,5 ct en un engaste de bisel liso, con un pequeño diamante a cada lado del aro. Hecho para llevarlo a diario.",
+    "it": "Un diamante sintetico taglio brillante da 0,5 ct in una castonatura a collet liscia, con un piccolo diamante su ogni lato del gambo. Fatto per essere indossato ogni giorno.",
+    "pl": "Diament laboratoryjny 0,5 ct o szlifie brylantowym w gładkiej oprawie, z małym diamentem po każdej stronie obrączki. Stworzony do noszenia na co dzień.",
+    "de": "Ein 0,5 ct Labordiamant im Brillantschliff in einer glatten Zargenfassung, mit einem kleinen Diamanten auf jeder Seite der Ringschiene. Gemacht, um jeden Tag getragen zu werden.",
+    "cs": "Laboratorně vypěstovaný diamant 0,5 ct v briliantovém brusu v hladkém luneta zasazení, s malým diamantem po každé straně obroučky. Vyrobený pro každodenní nošení.",
+    "nl": "Een labgekweekte diamant van 0,5 ct in briljantslijpsel in een gladde chatonzetting, met een kleine diamant aan elke kant van de ring. Gemaakt om elke dag te dragen.",
+    "pt": "Um diamante de laboratório de talhe brilhante de 0,5 ct num engaste de aro liso, com um pequeno diamante de cada lado do anel. Feito para usar todos os dias.",
+    "ru": "Лабораторный бриллиант 0,5 карата огранки «круглый бриллиант» в гладкой глухой закрепке, с маленьким бриллиантом по обе стороны шинки. Создано для ежедневной носки."
+   },
+   "features": {
+    "metal": "gold-18k",
+    "stone": "diamond-lab",
+    "origin": "italy",
+    "hallmark": "750"
+   },
+   "combinations": {
+    "size": [
+     "48",
+     "50",
+     "52",
+     "54",
+     "56",
+     "58"
+    ],
+    "color": [
+     "silver",
+     "gold"
+    ]
+   },
+   "images": [
+    "products/solitaire-ring.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "diamond-studs",
+    "solitaire-pendant"
+   ]
+  },
+  {
+   "key": "stacking-rings",
+   "reference": "AU-102",
+   "category": "rings",
+   "brand": "aurelle",
+   "price": 240,
+   "name": {
+    "en": "Twin Stacking Rings",
+    "fr": "Duo de bagues à empiler",
+    "es": "Dúo de anillos apilables",
+    "it": "Coppia di anelli impilabili",
+    "pl": "Duet pierścionków do łączenia",
+    "de": "Stapelring-Duo",
+    "cs": "Duo kombinovatelných prstenů",
+    "nl": "Stapelringen-duo",
+    "pt": "Duo de anéis para empilhar",
+    "ru": "Дуэт наборных колец"
+   },
+   "short": {
+    "en": "Two slim gold bands to wear together or apart.",
+    "fr": "Deux anneaux fins en or à porter ensemble ou séparément.",
+    "es": "Dos aros finos de oro para llevar juntos o por separado.",
+    "it": "Due sottili fasce d'oro da portare insieme o separate.",
+    "pl": "Dwie smukłe złote obrączki do noszenia razem lub osobno.",
+    "de": "Zwei schmale Goldringe, zusammen oder einzeln zu tragen.",
+    "cs": "Dvě štíhlé zlaté obroučky k nošení spolu i zvlášť.",
+    "nl": "Twee smalle gouden ringen om samen of los te dragen.",
+    "pt": "Dois aros finos de ouro para usar juntos ou separados.",
+    "ru": "Два тонких золотых кольца, которые можно носить вместе или по отдельности."
+   },
+   "description": {
+    "en": "One polished and one textured band in 14k gold. Stack them, split them or add a third.",
+    "fr": "Un anneau poli et un anneau texturé en or 14 carats. Empilez-les, séparez-les ou ajoutez-en un troisième.",
+    "es": "Un aro pulido y otro texturizado en oro de 14 quilates. Apílalos, sepáralos o añade un tercero.",
+    "it": "Una fascia lucida e una texturizzata in oro 14 carati. Impilale, separale o aggiungine una terza.",
+    "pl": "Jedna polerowana i jedna fakturowana obrączka z 14-karatowego złota. Łącz je, rozdzielaj albo dodaj trzecią.",
+    "de": "Ein polierter und ein strukturierter Ring aus 585er Gold. Stapeln, trennen oder einen dritten dazunehmen.",
+    "cs": "Jedna leštěná a jedna strukturovaná obroučka ze 14karátového zlata. Kombinujte, rozdělte nebo přidejte třetí.",
+    "nl": "Eén gepolijste en één gestructureerde ring in 14-karaats goud. Stapel ze, draag ze los of voeg een derde toe.",
+    "pt": "Um aro polido e outro texturado em ouro de 14 quilates. Empilhe-os, separe-os ou junte um terceiro.",
+    "ru": "Одно полированное и одно фактурное кольцо из золота 585 пробы. Сочетайте, разделяйте или добавьте третье."
+   },
+   "features": {
+    "metal": "gold-14k",
+    "origin": "italy",
+    "hallmark": "585"
+   },
+   "combinations": {
+    "size": [
+     "48",
+     "50",
+     "52",
+     "54",
+     "56",
+     "58"
+    ],
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/stacking-rings.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "signet-ring",
+   "reference": "AU-103",
+   "category": "rings",
+   "brand": "maris",
+   "price": 320,
+   "name": {
+    "en": "Engraved Signet Ring",
+    "fr": "Chevalière gravée",
+    "es": "Sello grabado",
+    "it": "Anello con sigillo inciso",
+    "pl": "Grawerowany sygnet",
+    "de": "Gravierter Siegelring",
+    "cs": "Rytý pečetní prsten",
+    "nl": "Gegraveerde zegelring",
+    "pt": "Anel de sinete gravado",
+    "ru": "Гравированная печатка"
+   },
+   "short": {
+    "en": "A classic signet ring ready for your initials.",
+    "fr": "Une chevalière classique prête pour vos initiales.",
+    "es": "Un anillo de sello clásico listo para tus iniciales.",
+    "it": "Un classico anello con sigillo pronto per le tue iniziali.",
+    "pl": "Klasyczny sygnet gotowy na twoje inicjały.",
+    "de": "Ein klassischer Siegelring, bereit für Ihre Initialen.",
+    "cs": "Klasický pečetní prsten připravený na vaše iniciály.",
+    "nl": "Een klassieke zegelring, klaar voor je initialen.",
+    "pt": "Um anel de sinete clássico pronto para as suas iniciais.",
+    "ru": "Классическая печатка, готовая для ваших инициалов."
+   },
+   "description": {
+    "en": "A substantial oval face with a hand-engraved shoulder. Add your initials with our free engraving service.",
+    "fr": "Un plateau ovale généreux et des épaules gravées à la main. Ajoutez vos initiales grâce à notre gravure offerte.",
+    "es": "Una cara ovalada generosa y hombros grabados a mano. Añade tus iniciales con nuestro grabado gratuito.",
+    "it": "Un ampio castone ovale e spalle incise a mano. Aggiungi le tue iniziali con la nostra incisione gratuita.",
+    "pl": "Duża owalna płytka i ręcznie grawerowane ramiona. Dodaj inicjały dzięki naszemu darmowemu grawerowi.",
+    "de": "Eine großzügige ovale Platte und handgravierte Schultern. Mit unserer Gratis-Gravur kommen Ihre Initialen dazu.",
+    "cs": "Velká oválná ploška a ručně ryté boky. Přidejte iniciály díky naší rytině zdarma.",
+    "nl": "Een royaal ovaal plateau en met de hand gegraveerde schouders. Voeg je initialen toe met onze gratis gravure.",
+    "pt": "Uma face oval generosa e ombros gravados à mão. Acrescente as suas iniciais com a nossa gravação gratuita.",
+    "ru": "Крупная овальная площадка и плечи с ручной гравировкой. Добавьте инициалы с нашей бесплатной гравировкой."
+   },
+   "features": {
+    "metal": "silver-925",
+    "origin": "spain",
+    "hallmark": "925"
+   },
+   "combinations": {
+    "size": [
+     "48",
+     "50",
+     "52",
+     "54",
+     "56",
+     "58"
+    ],
+    "color": [
+     "silver",
+     "gold"
+    ]
+   },
+   "images": [
+    "products/signet-ring.jpg"
+   ],
+   "quantity": 30,
+   "discount": 15,
+   "new": false
+  },
+  {
+   "key": "sapphire-ring",
+   "reference": "AU-104",
+   "category": "rings",
+   "brand": "aurelle",
+   "price": 1150,
+   "name": {
+    "en": "Sapphire Ring",
+    "fr": "Bague saphir",
+    "es": "Anillo de zafiro",
+    "it": "Anello con zaffiro",
+    "pl": "Pierścionek z szafirem",
+    "de": "Saphirring",
+    "cs": "Prsten se safírem",
+    "nl": "Saffierring",
+    "pt": "Anel de safira",
+    "ru": "Кольцо с сапфиром"
+   },
+   "short": {
+    "en": "An oval blue sapphire set in 18k gold.",
+    "fr": "Un saphir bleu ovale serti sur or 18 carats.",
+    "es": "Un zafiro azul ovalado engastado en oro de 18 quilates.",
+    "it": "Uno zaffiro blu ovale incastonato in oro 18 carati.",
+    "pl": "Owalny niebieski szafir w 18-karatowym złocie.",
+    "de": "Ein ovaler blauer Saphir in 750er Gold.",
+    "cs": "Oválný modrý safír v 18karátovém zlatě.",
+    "nl": "Een ovale blauwe saffier in 18-karaats goud.",
+    "pt": "Uma safira azul oval cravada em ouro de 18 quilates.",
+    "ru": "Овальный синий сапфир в золоте 750 пробы."
+   },
+   "description": {
+    "en": "A deep blue oval sapphire on a fine gold band. A colourful alternative to a diamond.",
+    "fr": "Un saphir ovale bleu profond sur un anneau d'or fin. Une alternative colorée au diamant.",
+    "es": "Un zafiro ovalado azul intenso sobre un aro de oro fino. Una alternativa con color al diamante.",
+    "it": "Uno zaffiro ovale blu intenso su una sottile fascia d'oro. Un'alternativa colorata al diamante.",
+    "pl": "Owalny szafir w głębokim błękicie na cienkiej złotej obrączce. Kolorowa alternatywa dla diamentu.",
+    "de": "Ein ovaler, tiefblauer Saphir auf einer feinen Goldschiene. Eine farbige Alternative zum Diamanten.",
+    "cs": "Oválný sytě modrý safír na jemné zlaté obroučce. Barevná alternativa k diamantu.",
+    "nl": "Een ovale, diepblauwe saffier op een fijne gouden ring. Een kleurrijk alternatief voor een diamant.",
+    "pt": "Uma safira oval azul profundo num aro de ouro fino. Uma alternativa colorida ao diamante.",
+    "ru": "Овальный сапфир глубокого синего цвета на тонкой золотой шинке. Цветная альтернатива бриллианту."
+   },
+   "features": {
+    "metal": "gold-18k",
+    "stone": "sapphire",
+    "origin": "france",
+    "hallmark": "750"
+   },
+   "combinations": {
+    "size": [
+     "48",
+     "50",
+     "52",
+     "54",
+     "56",
+     "58"
+    ],
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/sapphire-ring.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "solitaire-pendant",
+   "reference": "AU-201",
+   "category": "necklaces",
+   "brand": "aurelle",
+   "price": 640,
+   "name": {
+    "en": "Solitaire Pendant",
+    "fr": "Pendentif solitaire",
+    "es": "Colgante solitario",
+    "it": "Pendente punto luce",
+    "pl": "Zawieszka soliter",
+    "de": "Solitär-Anhänger",
+    "cs": "Přívěsek solitér",
+    "nl": "Solitairhanger",
+    "pt": "Pendente solitário",
+    "ru": "Подвеска-солитер"
+   },
+   "short": {
+    "en": "A single lab-grown diamond on a fine chain.",
+    "fr": "Un diamant de laboratoire sur une chaîne fine.",
+    "es": "Un diamante de laboratorio sobre una cadena fina.",
+    "it": "Un singolo diamante creato in laboratorio su una catena sottile.",
+    "pl": "Pojedynczy diament laboratoryjny na cienkim łańcuszku.",
+    "de": "Ein einzelner Labordiamant an einer feinen Kette.",
+    "cs": "Jediný laboratorní diamant na jemném řetízku.",
+    "nl": "Eén labdiamant aan een fijn kettinkje.",
+    "pt": "Um único diamante de laboratório numa corrente fina.",
+    "ru": "Один лабораторный бриллиант на тонкой цепочке."
+   },
+   "description": {
+    "en": "A 0.25 ct lab-grown diamond that floats on a 42 cm chain with an extender to 45 cm.",
+    "fr": "Un diamant de laboratoire de 0,25 ct qui flotte sur une chaîne de 42 cm avec rallonge jusqu'à 45 cm.",
+    "es": "Un diamante de laboratorio de 0,25 ct que flota sobre una cadena de 42 cm con alargador hasta 45 cm.",
+    "it": "Un diamante creato in laboratorio da 0,25 ct che fluttua su una catena di 42 cm con prolunga fino a 45 cm.",
+    "pl": "Diament laboratoryjny 0,25 ct na łańcuszku 42 cm z przedłużką do 45 cm.",
+    "de": "Ein 0,25-ct-Labordiamant, der an einer 42-cm-Kette mit Verlängerung auf 45 cm schwebt.",
+    "cs": "Laboratorní diamant 0,25 ct na řetízku 42 cm s prodloužením na 45 cm.",
+    "nl": "Een labdiamant van 0,25 ct die zweeft aan een ketting van 42 cm met verlengstuk tot 45 cm.",
+    "pt": "Um diamante de laboratório de 0,25 ct que flutua numa corrente de 42 cm com extensão até 45 cm.",
+    "ru": "Лабораторный бриллиант 0,25 карата на цепочке 42 см с удлинителем до 45 см."
+   },
+   "features": {
+    "metal": "gold-18k",
+    "stone": "diamond-lab",
+    "origin": "italy",
+    "hallmark": "750"
+   },
+   "combinations": {
+    "color": [
+     "silver",
+     "gold"
+    ]
+   },
+   "images": [
+    "products/solitaire-pendant.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "solitaire-ring",
+    "diamond-studs"
+   ]
+  },
+  {
+   "key": "herringbone-chain",
+   "reference": "AU-202",
+   "category": "necklaces",
+   "brand": "maris",
+   "price": 290,
+   "name": {
+    "en": "Amethyst Drop Necklace",
+    "fr": "Collier goutte améthyste",
+    "es": "Collar gota de amatista",
+    "it": "Collana goccia di ametista",
+    "pl": "Naszyjnik z kroplą ametystu",
+    "de": "Amethyst-Tropfenkette",
+    "cs": "Náhrdelník s kapkou ametystu",
+    "nl": "Amethist druppelketting",
+    "pt": "Colar gota de ametista",
+    "ru": "Колье с каплей аметиста"
+   },
+   "short": {
+    "en": "A pear-cut amethyst on a fine gold chain.",
+    "fr": "Une améthyste taille poire sur une chaîne en or fine.",
+    "es": "Una amatista talla pera sobre una fina cadena de oro.",
+    "it": "Un'ametista taglio goccia su una sottile catena d'oro.",
+    "pl": "Ametyst w szlifie gruszki na cienkim złotym łańcuszku.",
+    "de": "Ein Amethyst im Tropfenschliff an einer feinen Goldkette.",
+    "cs": "Ametyst v hruškovém brusu na jemném zlatém řetízku.",
+    "nl": "Een amethist in peerslijpsel aan een fijne gouden ketting.",
+    "pt": "Uma ametista em talhe pera numa corrente fina de ouro.",
+    "ru": "Аметист огранки «груша» на тонкой золотой цепочке."
+   },
+   "description": {
+    "en": "A violet pear-cut amethyst in a bezel setting, hanging from a 45 cm vermeil chain.",
+    "fr": "Une améthyste violette taille poire en serti clos, suspendue à une chaîne en vermeil de 45 cm.",
+    "es": "Una amatista violeta talla pera en engaste de bisel, colgada de una cadena de vermeil de 45 cm.",
+    "it": "Un'ametista viola taglio goccia con castone a bezel, appesa a una catena in vermeil di 45 cm.",
+    "pl": "Fioletowy ametyst w szlifie gruszki w oprawie koszyczkowej, zawieszony na łańcuszku z vermeilu 45 cm.",
+    "de": "Ein violetter Amethyst im Tropfenschliff in Zargenfassung, an einer 45 cm langen Vermeil-Kette.",
+    "cs": "Fialový ametyst v hruškovém brusu v obroučkovém zasazení, na řetízku z vermeilu dlouhém 45 cm.",
+    "nl": "Een paarse amethist in peerslijpsel in een kastzetting, aan een vermeil ketting van 45 cm.",
+    "pt": "Uma ametista violeta em talhe pera em cravação de aro, suspensa numa corrente de vermeil de 45 cm.",
+    "ru": "Фиолетовый аметист огранки «груша» в глухой закрепке на цепочке из вермеля длиной 45 см."
+   },
+   "features": {
+    "metal": "vermeil",
+    "stone": "amethyst",
+    "origin": "italy",
+    "hallmark": "925"
+   },
+   "combinations": {
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/herringbone-chain.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "coin-pendant",
+   "reference": "AU-203",
+   "category": "necklaces",
+   "brand": "luce",
+   "price": 180,
+   "name": {
+    "en": "Open Heart Necklace",
+    "fr": "Collier cœur ajouré",
+    "es": "Collar corazón calado",
+    "it": "Collana cuore traforato",
+    "pl": "Naszyjnik z ażurowym sercem",
+    "de": "Kette mit offenem Herz",
+    "cs": "Náhrdelník s otevřeným srdcem",
+    "nl": "Ketting met open hart",
+    "pt": "Colar coração vazado",
+    "ru": "Колье с открытым сердцем"
+   },
+   "short": {
+    "en": "A delicate open heart on a gold chain.",
+    "fr": "Un cœur ajouré délicat sur une chaîne dorée.",
+    "es": "Un delicado corazón calado en una cadena dorada.",
+    "it": "Un delicato cuore traforato su una catena dorata.",
+    "pl": "Delikatne ażurowe serce na złotym łańcuszku.",
+    "de": "Ein zartes offenes Herz an einer goldenen Kette.",
+    "cs": "Jemné otevřené srdce na zlatém řetízku.",
+    "nl": "Een sierlijk open hartje aan een gouden ketting.",
+    "pt": "Um delicado coração vazado numa corrente dourada.",
+    "ru": "Изящное открытое сердце на золотистой цепочке."
+   },
+   "description": {
+    "en": "A hand-polished open heart in gold vermeil. A simple gift that says everything.",
+    "fr": "Un cœur ajouré poli à la main en vermeil. Un cadeau simple qui dit tout.",
+    "es": "Un corazón calado pulido a mano en vermeil. Un regalo sencillo que lo dice todo.",
+    "it": "Un cuore traforato lucidato a mano in vermeil. Un regalo semplice che dice tutto.",
+    "pl": "Ręcznie polerowane ażurowe serce z vermeilu. Prosty prezent, który mówi wszystko.",
+    "de": "Ein von Hand poliertes offenes Herz aus Vermeil. Ein schlichtes Geschenk, das alles sagt.",
+    "cs": "Ručně leštěné otevřené srdce z vermeilu. Jednoduchý dárek, který řekne vše.",
+    "nl": "Een met de hand gepolijst open hart in vermeil. Een eenvoudig cadeau dat alles zegt.",
+    "pt": "Um coração vazado polido à mão em vermeil. Um presente simples que diz tudo.",
+    "ru": "Открытое сердце из вермеля, отполированное вручную. Простой подарок, который говорит обо всём."
+   },
+   "features": {
+    "metal": "vermeil",
+    "origin": "spain",
+    "hallmark": "925"
+   },
+   "combinations": {
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/coin-pendant.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false
+  },
+  {
+   "key": "heart-locket",
+   "reference": "AU-204",
+   "category": "necklaces",
+   "brand": "luce",
+   "price": 150,
+   "name": {
+    "en": "Pavé Heart Pendant",
+    "fr": "Pendentif cœur pavé",
+    "es": "Colgante corazón pavé",
+    "it": "Pendente cuore pavé",
+    "pl": "Zawieszka serce pavé",
+    "de": "Pavé-Herzanhänger",
+    "cs": "Přívěsek srdce pavé",
+    "nl": "Pavé hartjeshanger",
+    "pt": "Pendente coração pavé",
+    "ru": "Подвеска-сердце паве"
+   },
+   "short": {
+    "en": "A sparkling heart pendant in sterling silver.",
+    "fr": "Un pendentif cœur scintillant en argent massif.",
+    "es": "Un colgante de corazón brillante en plata de ley.",
+    "it": "Un pendente a cuore scintillante in argento sterling.",
+    "pl": "Błyszcząca zawieszka w kształcie serca ze srebra.",
+    "de": "Ein funkelnder Herzanhänger aus Sterlingsilber.",
+    "cs": "Třpytivý přívěsek ve tvaru srdce ze stříbra.",
+    "nl": "Een fonkelende hartjeshanger in sterling zilver.",
+    "pt": "Um pendente de coração cintilante em prata de lei.",
+    "ru": "Сверкающая подвеска в форме сердца из серебра."
+   },
+   "description": {
+    "en": "A heart outline set with tiny cubic zirconia, on a 42 cm sterling silver chain.",
+    "fr": "Un contour de cœur serti de minuscules oxydes de zirconium, sur une chaîne en argent de 42 cm.",
+    "es": "Un contorno de corazón engastado con diminutas circonitas, en una cadena de plata de 42 cm.",
+    "it": "Il profilo di un cuore incastonato di minuscoli zirconi, su una catena in argento di 42 cm.",
+    "pl": "Kontur serca wysadzany drobnymi cyrkoniami, na srebrnym łańcuszku 42 cm.",
+    "de": "Eine Herzkontur mit winzigen Zirkonia, an einer 42-cm-Kette aus Sterlingsilber.",
+    "cs": "Obrys srdce posázený drobnými zirkony, na stříbrném řetízku 42 cm.",
+    "nl": "Een hartcontour bezet met piepkleine zirkonia, aan een zilveren ketting van 42 cm.",
+    "pt": "O contorno de um coração cravejado de pequenas zircónias, numa corrente de prata de 42 cm.",
+    "ru": "Контур сердца, усыпанный крошечными фианитами, на серебряной цепочке 42 см."
+   },
+   "features": {
+    "metal": "silver-925",
+    "stone": "zirconia",
+    "origin": "portugal",
+    "hallmark": "925"
+   },
+   "combinations": {
+    "color": [
+     "silver"
+    ]
+   },
+   "images": [
+    "products/heart-locket.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "diamond-studs",
+   "reference": "AU-301",
+   "category": "earrings",
+   "brand": "aurelle",
+   "price": 520,
+   "name": {
+    "en": "Flower Diamond Studs",
+    "fr": "Puces fleur diamants",
+    "es": "Pendientes flor de diamantes",
+    "it": "Orecchini fiore con diamanti",
+    "pl": "Kolczyki kwiaty z diamentami",
+    "de": "Blüten-Diamantstecker",
+    "cs": "Květinové náušnice s diamanty",
+    "nl": "Bloem-diamantoorknoppen",
+    "pt": "Brincos flor de diamantes",
+    "ru": "Пусеты-цветы с бриллиантами"
+   },
+   "short": {
+    "en": "Flower studs set with lab-grown diamonds.",
+    "fr": "Des puces fleur serties de diamants de laboratoire.",
+    "es": "Pendientes de botón en forma de flor con diamantes de laboratorio.",
+    "it": "Orecchini a fiore con diamanti creati in laboratorio.",
+    "pl": "Kolczyki w kształcie kwiatów z diamentami laboratoryjnymi.",
+    "de": "Blütenförmige Ohrstecker mit Labordiamanten.",
+    "cs": "Pecky ve tvaru květu s laboratorními diamanty.",
+    "nl": "Bloemvormige oorknopjes met labdiamanten.",
+    "pt": "Brincos de botão em forma de flor com diamantes de laboratório.",
+    "ru": "Серьги-пусеты в форме цветка с лабораторными бриллиантами."
+   },
+   "description": {
+    "en": "Five petals of pavé lab-grown diamonds in 18k gold, with secure butterfly backs.",
+    "fr": "Cinq pétales pavés de diamants de laboratoire en or 18 carats, avec fermoirs papillon sécurisés.",
+    "es": "Cinco pétalos en pavé de diamantes de laboratorio en oro de 18 quilates, con cierres de mariposa seguros.",
+    "it": "Cinque petali in pavé di diamanti creati in laboratorio in oro 18 carati, con chiusure a farfalla sicure.",
+    "pl": "Pięć płatków z diamentów laboratoryjnych w oprawie pavé z 18-karatowego złota, z bezpiecznymi zapięciami motylkowymi.",
+    "de": "Fünf Blütenblätter mit Pavé-Labordiamanten in 750er Gold, mit sicheren Butterfly-Verschlüssen.",
+    "cs": "Pět okvětních lístků s laboratorními diamanty v zasazení pavé z 18karátového zlata, s bezpečným zapínáním na motýlka.",
+    "nl": "Vijf blaadjes met pavé labdiamanten in 18-karaats goud, met veilige vlindersluitingen.",
+    "pt": "Cinco pétalas em pavé de diamantes de laboratório em ouro de 18 quilates, com fechos de borboleta seguros.",
+    "ru": "Пять лепестков в закрепке паве из лабораторных бриллиантов в золоте 750 пробы, с надёжными замками-бабочками."
+   },
+   "features": {
+    "metal": "gold-18k",
+    "stone": "diamond-lab",
+    "origin": "italy",
+    "hallmark": "750"
+   },
+   "combinations": {
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/diamond-studs.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "gold-hoops",
+   "reference": "AU-302",
+   "category": "earrings",
+   "brand": "maris",
+   "price": 210,
+   "name": {
+    "en": "Gold Hoop Earrings",
+    "fr": "Créoles en or",
+    "es": "Aros de oro",
+    "it": "Cerchi in oro",
+    "pl": "Złote koła",
+    "de": "Goldene Creolen",
+    "cs": "Zlaté kruhy",
+    "nl": "Gouden creolen",
+    "pt": "Argolas em ouro",
+    "ru": "Золотые серьги-кольца"
+   },
+   "short": {
+    "en": "Large, light hoops in solid gold.",
+    "fr": "De grandes créoles légères en or massif.",
+    "es": "Aros grandes y ligeros de oro macizo.",
+    "it": "Cerchi grandi e leggeri in oro massiccio.",
+    "pl": "Duże, lekkie koła ze złota.",
+    "de": "Große, leichte Creolen aus massivem Gold.",
+    "cs": "Velké, lehké kruhy z ryzího zlata.",
+    "nl": "Grote, lichte creolen van massief goud.",
+    "pt": "Argolas grandes e leves em ouro maciço.",
+    "ru": "Крупные лёгкие кольца из золота."
+   },
+   "description": {
+    "en": "Hollow hoops that stay light on the ear, with a hinged clasp that closes with a soft click. Wear them every day, alone or with a stud.",
+    "fr": "Des créoles creuses qui restent légères à l'oreille, avec un fermoir à charnière qui se ferme d'un petit clic. À porter tous les jours, seules ou avec une puce.",
+    "es": "Aros huecos que se sienten ligeros en la oreja, con un cierre de bisagra que se cierra con un suave clic. Para llevar a diario, solos o con un pendiente de botón.",
+    "it": "Cerchi cavi che restano leggeri all'orecchio, con una chiusura a cerniera che scatta con un leggero clic. Da portare ogni giorno, da soli o con un punto luce.",
+    "pl": "Puste w środku koła, lekkie dla ucha, z zapięciem na zawiasie, które zamyka się z cichym kliknięciem. Do noszenia na co dzień, same lub z sztyftem.",
+    "de": "Hohle Creolen, die leicht am Ohr bleiben, mit einem Scharnierverschluss, der mit einem sanften Klick schließt. Für jeden Tag, allein oder mit einem Stecker.",
+    "cs": "Duté kruhy, které zůstávají lehké v uchu, se zapínáním na pantu, které se zavře jemným cvaknutím. Na každý den, samotné nebo s pecičkou.",
+    "nl": "Holle creolen die licht blijven aan het oor, met een scharniersluiting die met een zachte klik dichtgaat. Voor elke dag, alleen of met een knopje.",
+    "pt": "Argolas ocas que ficam leves na orelha, com um fecho de dobradiça que fecha com um clique suave. Para usar todos os dias, sozinhas ou com um brinco pequeno.",
+    "ru": "Полые кольца остаются лёгкими на ухе, а замок на шарнире закрывается с мягким щелчком. На каждый день, отдельно или с пусетой."
+   },
+   "features": {
+    "metal": "gold-14k",
+    "origin": "italy",
+    "hallmark": "585"
+   },
+   "combinations": {
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/gold-hoops.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "drop-earrings",
+   "reference": "AU-303",
+   "category": "earrings",
+   "brand": "luce",
+   "price": 160,
+   "name": {
+    "en": "Pearl Drop Earrings",
+    "fr": "Pendants d'oreilles perles",
+    "es": "Pendientes de perla",
+    "it": "Orecchini pendenti con perla",
+    "pl": "Kolczyki z perłami",
+    "de": "Perlen-Ohrhänger",
+    "cs": "Visací náušnice s perlou",
+    "nl": "Parel oorhangers",
+    "pt": "Brincos pendentes de pérola",
+    "ru": "Серьги-подвески с жемчугом"
+   },
+   "short": {
+    "en": "Teardrop pearls under ornate gold filigree.",
+    "fr": "Des perles en goutte sous un filigrane doré ouvragé.",
+    "es": "Perlas en forma de gota bajo una filigrana dorada.",
+    "it": "Perle a goccia sotto una filigrana dorata.",
+    "pl": "Perły w kształcie kropli pod złotym filigranem.",
+    "de": "Tropfenperlen unter verziertem Goldfiligran.",
+    "cs": "Perly ve tvaru kapky pod zlatým filigránem.",
+    "nl": "Druppelparels onder sierlijk gouden filigraan.",
+    "pt": "Pérolas em gota sob filigrana dourada.",
+    "ru": "Жемчужины-капли под золотой филигранью."
+   },
+   "description": {
+    "en": "Lustrous teardrop pearls hang beneath sparkling filigree tops. Made for evenings and celebrations.",
+    "fr": "Des perles lustrées en forme de goutte sous des têtes en filigrane scintillant. Faites pour les soirées et les fêtes.",
+    "es": "Perlas lustrosas en forma de gota bajo remates de filigrana brillante. Hechos para noches y celebraciones.",
+    "it": "Perle lucenti a goccia sotto elementi in filigrana scintillante. Pensati per le serate e le feste.",
+    "pl": "Lśniące perły w kształcie kropli pod błyszczącymi filigranowymi elementami. Na wieczory i uroczystości.",
+    "de": "Glänzende Tropfenperlen unter funkelnden Filigranelementen. Gemacht für Abende und Feste.",
+    "cs": "Lesklé perly ve tvaru kapky pod třpytivými filigránovými prvky. Na večery a oslavy.",
+    "nl": "Glanzende druppelparels onder fonkelende filigraandelen. Gemaakt voor avonden en feesten.",
+    "pt": "Pérolas brilhantes em forma de gota sob topos de filigrana cintilante. Feitos para noites e celebrações.",
+    "ru": "Блестящие жемчужины в форме капли под сверкающими филигранными элементами. Для вечеров и праздников."
+   },
+   "features": {
+    "metal": "vermeil",
+    "stone": "pearl",
+    "origin": "portugal",
+    "hallmark": "925"
+   },
+   "combinations": {
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/drop-earrings.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false
+  },
+  {
+   "key": "ear-climbers",
+   "reference": "AU-304",
+   "category": "earrings",
+   "brand": "luce",
+   "price": 95,
+   "name": {
+    "en": "Topaz Cluster Earrings",
+    "fr": "Boucles d'oreilles topaze",
+    "es": "Pendientes de topacio",
+    "it": "Orecchini con topazio",
+    "pl": "Kolczyki z topazem",
+    "de": "Topas-Ohrstecker",
+    "cs": "Náušnice s topazem",
+    "nl": "Topaas oorbellen",
+    "pt": "Brincos de topázio",
+    "ru": "Серьги с топазом"
+   },
+   "short": {
+    "en": "Four blue topaz stones and small white stones in sterling silver.",
+    "fr": "Quatre topazes bleues et de petites pierres blanches sur argent sterling.",
+    "es": "Cuatro topacios azules y pequeñas piedras blancas en plata de ley.",
+    "it": "Quattro topazi azzurri e piccole pietre bianche in argento sterling.",
+    "pl": "Cztery niebieskie topazy i małe białe kamienie w srebrze próby 925.",
+    "de": "Vier blaue Topase und kleine weiße Steine in Sterlingsilber.",
+    "cs": "Čtyři modré topazy a drobné bílé kameny ve stříbře ryzosti 925.",
+    "nl": "Vier blauwe topazen en kleine witte stenen in sterling zilver.",
+    "pt": "Quatro topázios azuis e pequenas pedras brancas em prata de lei.",
+    "ru": "Четыре голубых топаза и маленькие белые камни в серебре 925 пробы."
+   },
+   "description": {
+    "en": "A square cluster of four round blue topaz with small white stones between them, on a secure post and clip back.",
+    "fr": "Un carré de quatre topazes bleues rondes entourées de petites pierres blanches, sur une tige avec fermoir clip sécurisé.",
+    "es": "Un cuadrado de cuatro topacios azules redondos con pequeñas piedras blancas entre ellos, con cierre de presión seguro.",
+    "it": "Un quadrato di quattro topazi azzurri tondi con piccole pietre bianche, su perno con chiusura a clip sicura.",
+    "pl": "Kwadrat z czterech okrągłych niebieskich topazów z małymi białymi kamieniami, na sztyfcie z bezpiecznym zapięciem.",
+    "de": "Ein Quadrat aus vier runden blauen Topasen mit kleinen weißen Steinen dazwischen, auf Stecker mit sicherem Clipverschluss.",
+    "cs": "Čtverec ze čtyř kulatých modrých topazů s drobnými bílými kameny mezi nimi, na pecce s bezpečným zapínáním.",
+    "nl": "Een vierkant van vier ronde blauwe topazen met kleine witte stenen ertussen, op een steker met veilige clipsluiting.",
+    "pt": "Um quadrado de quatro topázios azuis redondos com pequenas pedras brancas entre eles, com fecho de pressão seguro.",
+    "ru": "Квадрат из четырёх круглых голубых топазов с маленькими белыми камнями между ними, на штифте с надёжной застёжкой."
+   },
+   "features": {
+    "metal": "silver-925",
+    "stone": "topaz",
+    "origin": "portugal",
+    "hallmark": "925"
+   },
+   "combinations": {
+    "color": [
+     "silver"
+    ]
+   },
+   "images": [
+    "products/ear-climbers.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "tennis-bracelet",
+   "reference": "AU-401",
+   "category": "bracelets",
+   "brand": "aurelle",
+   "price": 1290,
+   "name": {
+    "en": "Tennis Bracelet",
+    "fr": "Bracelet rivière",
+    "es": "Pulsera rivière",
+    "it": "Bracciale tennis",
+    "pl": "Bransoletka tenisowa",
+    "de": "Tennisarmband",
+    "cs": "Tenisový náramek",
+    "nl": "Tennisarmband",
+    "pt": "Pulseira rivière",
+    "ru": "Теннисный браслет"
+   },
+   "short": {
+    "en": "A continuous line of lab-grown diamonds.",
+    "fr": "Une ligne continue de diamants de laboratoire.",
+    "es": "Una línea continua de diamantes de laboratorio.",
+    "it": "Una linea continua di diamanti creati in laboratorio.",
+    "pl": "Nieprzerwana linia diamentów laboratoryjnych.",
+    "de": "Eine durchgehende Reihe Labordiamanten.",
+    "cs": "Nepřerušená řada laboratorních diamantů.",
+    "nl": "Een doorlopende rij labgekweekte diamanten.",
+    "pt": "Uma linha contínua de diamantes de laboratório.",
+    "ru": "Непрерывная дорожка лабораторных бриллиантов."
+   },
+   "description": {
+    "en": "Lab-grown diamonds set in a flexible line of 18k white gold, with a double safety clasp.",
+    "fr": "Des diamants de laboratoire sertis sur une ligne souple en or blanc 18 carats, avec double fermoir de sécurité.",
+    "es": "Diamantes de laboratorio engastados en una línea flexible de oro blanco de 18 quilates, con doble cierre de seguridad.",
+    "it": "Diamanti creati in laboratorio incastonati in una linea flessibile in oro bianco 18 carati, con doppia chiusura di sicurezza.",
+    "pl": "Diamenty laboratoryjne osadzone w elastycznej linii z 18-karatowego białego złota, z podwójnym zapięciem zabezpieczającym.",
+    "de": "Labordiamanten in einer flexiblen Reihe aus 750er Weißgold, mit doppeltem Sicherheitsverschluss.",
+    "cs": "Laboratorní diamanty zasazené v pružné řadě z 18karátového bílého zlata, s dvojitou bezpečnostní sponou.",
+    "nl": "Labdiamanten gezet in een soepele rij van 18-karaats witgoud, met dubbele veiligheidssluiting.",
+    "pt": "Diamantes de laboratório cravados numa linha flexível de ouro branco de 18 quilates, com fecho de segurança duplo.",
+    "ru": "Лабораторные бриллианты в гибкой дорожке из белого золота 750 пробы, с двойным предохранительным замком."
+   },
+   "features": {
+    "metal": "gold-18k",
+    "stone": "diamond-lab",
+    "origin": "italy",
+    "hallmark": "750"
+   },
+   "combinations": {
+    "color": [
+     "silver"
+    ]
+   },
+   "images": [
+    "products/tennis-bracelet.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "chain-bracelet",
+   "reference": "AU-402",
+   "category": "bracelets",
+   "brand": "maris",
+   "price": 190,
+   "name": {
+    "en": "Halo Link Bracelet",
+    "fr": "Bracelet halo",
+    "es": "Pulsera halo",
+    "it": "Bracciale halo",
+    "pl": "Bransoletka halo",
+    "de": "Halo-Gliederarmband",
+    "cs": "Náramek halo",
+    "nl": "Halo schakelarmband",
+    "pt": "Pulseira halo",
+    "ru": "Браслет с ореолом"
+   },
+   "short": {
+    "en": "A fine gold bracelet with a diamond halo centre.",
+    "fr": "Un bracelet en or fin avec un centre halo de diamants.",
+    "es": "Una pulsera de oro fino con un centro halo de diamantes.",
+    "it": "Un bracciale in oro sottile con centro halo di diamanti.",
+    "pl": "Cienka złota bransoletka z diamentowym halo pośrodku.",
+    "de": "Ein feines Goldarmband mit Diamant-Halo in der Mitte.",
+    "cs": "Jemný zlatý náramek s diamantovým halo uprostřed.",
+    "nl": "Een fijne gouden armband met een diamanten halo in het midden.",
+    "pt": "Uma pulseira de ouro fino com um halo de diamantes ao centro.",
+    "ru": "Тонкий золотой браслет с бриллиантовым ореолом в центре."
+   },
+   "description": {
+    "en": "A square halo of lab-grown diamonds between two fine gold links. Adjustable from 16 to 19 cm.",
+    "fr": "Un halo carré de diamants de laboratoire entre deux fines chaînes en or. Réglable de 16 à 19 cm.",
+    "es": "Un halo cuadrado de diamantes de laboratorio entre dos finas cadenas de oro. Ajustable de 16 a 19 cm.",
+    "it": "Un halo quadrato di diamanti creati in laboratorio tra due sottili catene d'oro. Regolabile da 16 a 19 cm.",
+    "pl": "Kwadratowe halo z diamentów laboratoryjnych między dwoma cienkimi złotymi łańcuszkami. Regulowana od 16 do 19 cm.",
+    "de": "Ein quadratisches Halo aus Labordiamanten zwischen zwei feinen Goldketten. Verstellbar von 16 bis 19 cm.",
+    "cs": "Čtvercové halo z laboratorních diamantů mezi dvěma jemnými zlatými řetízky. Nastavitelný od 16 do 19 cm.",
+    "nl": "Een vierkante halo van labdiamanten tussen twee fijne gouden kettinkjes. Verstelbaar van 16 tot 19 cm.",
+    "pt": "Um halo quadrado de diamantes de laboratório entre duas correntes finas de ouro. Ajustável de 16 a 19 cm.",
+    "ru": "Квадратный ореол из лабораторных бриллиантов между двумя тонкими золотыми цепочками. Регулируется от 16 до 19 см."
+   },
+   "features": {
+    "metal": "gold-14k",
+    "stone": "diamond-lab",
+    "origin": "italy",
+    "hallmark": "585"
+   },
+   "combinations": {
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/chain-bracelet.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "cuff-bangle",
+   "reference": "AU-403",
+   "category": "bracelets",
+   "brand": "maris",
+   "price": 260,
+   "name": {
+    "en": "Engraved Gold Bangle",
+    "fr": "Jonc en or gravé",
+    "es": "Brazalete de oro grabado",
+    "it": "Bracciale rigido inciso",
+    "pl": "Grawerowana złota bransoleta",
+    "de": "Gravierter Goldarmreif",
+    "cs": "Rytý zlatý náramek",
+    "nl": "Gegraveerde gouden bangle",
+    "pt": "Pulseira rígida gravada",
+    "ru": "Гравированный золотой браслет"
+   },
+   "short": {
+    "en": "A wide gold bangle engraved by hand.",
+    "fr": "Un large jonc en or gravé à la main.",
+    "es": "Un brazalete ancho de oro grabado a mano.",
+    "it": "Un bracciale rigido largo in oro, inciso a mano.",
+    "pl": "Szeroka złota bransoleta grawerowana ręcznie.",
+    "de": "Ein breiter Goldarmreif, von Hand graviert.",
+    "cs": "Široký zlatý náramek rytý ručně.",
+    "nl": "Een brede gouden bangle, met de hand gegraveerd.",
+    "pt": "Uma pulseira rígida larga em ouro, gravada à mão.",
+    "ru": "Широкий золотой браслет с ручной гравировкой."
+   },
+   "description": {
+    "en": "A wide, hinged bangle in 14k gold with a hand-engraved floral pattern. It catches the light from every side.",
+    "fr": "Un large jonc articulé en or 14 carats, gravé à la main d'un motif floral. Il capte la lumière sous tous les angles.",
+    "es": "Un brazalete ancho con bisagra en oro de 14 quilates, con un motivo floral grabado a mano. Atrapa la luz desde todos los lados.",
+    "it": "Un bracciale rigido largo con cerniera in oro 14 carati, con un motivo floreale inciso a mano. Cattura la luce da ogni lato.",
+    "pl": "Szeroka bransoleta na zawiasie z 14-karatowego złota z ręcznie grawerowanym kwiatowym wzorem. Łapie światło z każdej strony.",
+    "de": "Ein breiter Armreif mit Scharnier aus 14 Karat Gold mit handgraviertem Blumenmuster. Er fängt das Licht von allen Seiten.",
+    "cs": "Široký náramek na pantu ze 14karátového zlata s ručně rytým květinovým vzorem. Chytá světlo ze všech stran.",
+    "nl": "Een brede bangle met scharnier van 14 karaat goud met een met de hand gegraveerd bloemmotief. Hij vangt het licht van alle kanten.",
+    "pt": "Uma pulseira rígida larga com dobradiça em ouro de 14 quilates, com um motivo floral gravado à mão. Apanha a luz de todos os lados.",
+    "ru": "Широкий браслет на шарнире из золота 585 пробы с цветочным узором, выгравированным вручную. Ловит свет со всех сторон."
+   },
+   "features": {
+    "metal": "gold-14k",
+    "origin": "spain",
+    "hallmark": "585"
+   },
+   "combinations": {
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/cuff-bangle.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "charm-bracelet",
+   "reference": "AU-404",
+   "category": "bracelets",
+   "brand": "luce",
+   "price": 140,
+   "name": {
+    "en": "Obsidian Link Bracelet",
+    "fr": "Bracelet obsidienne",
+    "es": "Pulsera de obsidiana",
+    "it": "Bracciale in ossidiana",
+    "pl": "Bransoletka z obsydianem",
+    "de": "Obsidian-Gliederarmband",
+    "cs": "Článkový náramek s obsidiánem",
+    "nl": "Obsidiaan schakelarmband",
+    "pt": "Pulseira de obsidiana",
+    "ru": "Браслет с обсидианом"
+   },
+   "short": {
+    "en": "Snowflake obsidian drops on silver links.",
+    "fr": "Des gouttes d'obsidienne sur des maillons d'argent.",
+    "es": "Gotas de obsidiana sobre eslabones de plata.",
+    "it": "Gocce di ossidiana su maglie d'argento.",
+    "pl": "Krople obsydianu na srebrnych ogniwach.",
+    "de": "Obsidian-Tropfen an Silbergliedern.",
+    "cs": "Kapky obsidiánu na stříbrných článcích.",
+    "nl": "Obsidiaan druppels aan zilveren schakels.",
+    "pt": "Gotas de obsidiana em elos de prata.",
+    "ru": "Капли обсидиана на серебряных звеньях."
+   },
+   "description": {
+    "en": "Polished snowflake obsidian stones, each one unique, linked in sterling silver with a toggle clasp.",
+    "fr": "Des obsidiennes flocon de neige polies, toutes uniques, reliées en argent massif avec un fermoir T.",
+    "es": "Obsidianas copo de nieve pulidas, todas únicas, unidas en plata de ley con cierre de palanca.",
+    "it": "Ossidiane fiocco di neve lucidate, tutte uniche, unite in argento sterling con chiusura a T.",
+    "pl": "Polerowane obsydiany płatkowe, każdy inny, połączone srebrem próby 925 z zapięciem typu toggle.",
+    "de": "Polierte Schneeflocken-Obsidiane, jeder ein Unikat, verbunden mit Sterlingsilber und Knebelverschluss.",
+    "cs": "Leštěné vločkové obsidiány, každý jedinečný, spojené stříbrem 925 se zapínáním na kolík.",
+    "nl": "Gepolijste sneeuwvlok-obsidianen, elk uniek, verbonden in sterling zilver met een staafsluiting.",
+    "pt": "Obsidianas floco de neve polidas, cada uma única, unidas em prata de lei com fecho de barra.",
+    "ru": "Полированные снежные обсидианы, каждый уникален, соединённые серебром 925 пробы с замком-тогглом."
+   },
+   "features": {
+    "metal": "silver-925",
+    "stone": "obsidian",
+    "origin": "portugal",
+    "hallmark": "925"
+   },
+   "combinations": {
+    "color": [
+     "silver"
+    ]
+   },
+   "images": [
+    "products/charm-bracelet.jpg"
+   ],
+   "quantity": 30,
+   "discount": 25,
+   "new": false
+  },
+  {
+   "key": "pearl-strand",
+   "reference": "AU-501",
+   "category": "pearls",
+   "brand": "nami",
+   "price": 480,
+   "name": {
+    "en": "Classic Pearl Strand",
+    "fr": "Rang de perles classique",
+    "es": "Hilo de perlas clásico",
+    "it": "Filo di perle classico",
+    "pl": "Klasyczny sznur pereł",
+    "de": "Klassischer Perlenstrang",
+    "cs": "Klasický perlový náhrdelník",
+    "nl": "Klassiek parelsnoer",
+    "pt": "Fio de pérolas clássico",
+    "ru": "Классическая нить жемчуга"
+   },
+   "short": {
+    "en": "A single strand of round freshwater pearls.",
+    "fr": "Un rang de perles d'eau douce rondes.",
+    "es": "Un hilo de perlas redondas de agua dulce.",
+    "it": "Un filo di perle tonde d'acqua dolce.",
+    "pl": "Pojedynczy sznur okrągłych pereł słodkowodnych.",
+    "de": "Ein Strang runder Süßwasserperlen.",
+    "cs": "Jedna řada kulatých sladkovodních perel.",
+    "nl": "Eén snoer ronde zoetwaterparels.",
+    "pt": "Um fio de pérolas redondas de água doce.",
+    "ru": "Одна нить круглого пресноводного жемчуга."
+   },
+   "description": {
+    "en": "Hand-knotted between every pearl and finished with a 14k gold clasp. 45 cm long.",
+    "fr": "Noué à la main entre chaque perle et fini par un fermoir en or 14 carats. Longueur 45 cm.",
+    "es": "Anudado a mano entre cada perla y rematado con un cierre de oro de 14 quilates. 45 cm de largo.",
+    "it": "Annodato a mano tra ogni perla e rifinito con una chiusura in oro 14 carati. Lunghezza 45 cm.",
+    "pl": "Ręcznie wiązany między każdą perłą i wykończony zapięciem z 14-karatowego złota. Długość 45 cm.",
+    "de": "Zwischen jeder Perle von Hand geknotet, mit einem Verschluss aus 585er Gold. 45 cm lang.",
+    "cs": "Ručně uzlovaný mezi každou perlou, se zapínáním ze 14karátového zlata. Délka 45 cm.",
+    "nl": "Met de hand geknoopt tussen elke parel en afgewerkt met een sluiting van 14-karaats goud. 45 cm lang.",
+    "pt": "Atado à mão entre cada pérola e rematado com um fecho de ouro de 14 quilates. 45 cm de comprimento.",
+    "ru": "Вручную завязана узелками между жемчужинами и завершена замком из золота 585 пробы. Длина 45 см."
+   },
+   "features": {
+    "metal": "gold-14k",
+    "stone": "pearl",
+    "origin": "japan",
+    "hallmark": "585"
+   },
+   "combinations": {
+    "color": [
+     "white"
+    ]
+   },
+   "images": [
+    "products/pearl-strand.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "pearl-studs",
+    "pearl-bracelet"
+   ]
+  },
+  {
+   "key": "pearl-studs",
+   "reference": "AU-502",
+   "category": "pearls",
+   "brand": "nami",
+   "price": 120,
+   "name": {
+    "en": "Pearl Collar Necklace",
+    "fr": "Collier ras-de-cou perles",
+    "es": "Gargantilla de perlas",
+    "it": "Collana girocollo di perle",
+    "pl": "Naszyjnik choker z pereł",
+    "de": "Perlen-Collier",
+    "cs": "Perlový obojkový náhrdelník",
+    "nl": "Parelcollier",
+    "pt": "Gargantilha de pérolas",
+    "ru": "Жемчужное колье-чокер"
+   },
+   "short": {
+    "en": "A short multi-strand pearl necklace.",
+    "fr": "Un collier court à plusieurs rangs de perles.",
+    "es": "Un collar corto de varias vueltas de perlas.",
+    "it": "Una collana corta a più fili di perle.",
+    "pl": "Krótki naszyjnik z kilku sznurów pereł.",
+    "de": "Ein kurzes, mehrreihiges Perlencollier.",
+    "cs": "Krátký vícevrstvý perlový náhrdelník.",
+    "nl": "Een kort parelcollier van meerdere snoeren.",
+    "pt": "Um colar curto de várias voltas de pérolas.",
+    "ru": "Короткое многорядное жемчужное колье."
+   },
+   "description": {
+    "en": "Several strands of freshwater pearls gathered into one elegant collar.",
+    "fr": "Plusieurs rangs de perles d'eau douce réunis en un ras-de-cou élégant.",
+    "es": "Varias vueltas de perlas de agua dulce reunidas en una gargantilla elegante.",
+    "it": "Diversi fili di perle d'acqua dolce riuniti in un elegante girocollo.",
+    "pl": "Kilka sznurów pereł słodkowodnych połączonych w elegancki choker.",
+    "de": "Mehrere Stränge Süßwasserperlen, zu einem eleganten Collier vereint.",
+    "cs": "Několik řad sladkovodních perel spojených do elegantního obojku.",
+    "nl": "Meerdere snoeren zoetwaterparels samengebracht in een elegant collier.",
+    "pt": "Várias voltas de pérolas de água doce reunidas numa gargantilha elegante.",
+    "ru": "Несколько нитей пресноводного жемчуга, собранных в элегантный чокер."
+   },
+   "features": {
+    "metal": "gold-14k",
+    "stone": "pearl",
+    "origin": "japan",
+    "hallmark": "585"
+   },
+   "combinations": {
+    "color": [
+     "white"
+    ]
+   },
+   "images": [
+    "products/pearl-studs.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "baroque-pearl-pendant",
+   "reference": "AU-503",
+   "category": "pearls",
+   "brand": "nami",
+   "price": 210,
+   "name": {
+    "en": "Baroque Pearl Necklace",
+    "fr": "Collier perles baroques",
+    "es": "Collar de perlas barrocas",
+    "it": "Collana di perle barocche",
+    "pl": "Naszyjnik z pereł barokowych",
+    "de": "Barockperlen-Kette",
+    "cs": "Náhrdelník z barokních perel",
+    "nl": "Barokparel ketting",
+    "pt": "Colar de pérolas barrocas",
+    "ru": "Колье с барочным жемчугом"
+   },
+   "short": {
+    "en": "Baroque pearls and moonstones on a gold chain.",
+    "fr": "Perles baroques et pierres de lune sur une chaîne dorée.",
+    "es": "Perlas barrocas y piedras luna en una cadena dorada.",
+    "it": "Perle barocche e pietre di luna su una catena dorata.",
+    "pl": "Perły barokowe i kamienie księżycowe na złotym łańcuszku.",
+    "de": "Barockperlen und Mondsteine an einer Goldkette.",
+    "cs": "Barokní perly a měsíční kameny na zlatém řetízku.",
+    "nl": "Barokparels en maanstenen aan een gouden ketting.",
+    "pt": "Pérolas barrocas e pedras da lua numa corrente dourada.",
+    "ru": "Барочный жемчуг и лунные камни на золотистой цепочке."
+   },
+   "description": {
+    "en": "Irregular baroque pearls and soft moonstones hang along a fine gold vermeil chain. No two are alike.",
+    "fr": "Des perles baroques irrégulières et de douces pierres de lune le long d'une fine chaîne en vermeil. Aucun n'est identique.",
+    "es": "Perlas barrocas irregulares y suaves piedras luna a lo largo de una fina cadena de vermeil. No hay dos iguales.",
+    "it": "Perle barocche irregolari e morbide pietre di luna lungo una sottile catena in vermeil. Nessuna è uguale all'altra.",
+    "pl": "Nieregularne perły barokowe i delikatne kamienie księżycowe wzdłuż cienkiego łańcuszka z vermeilu. Każdy jest inny.",
+    "de": "Unregelmäßige Barockperlen und sanfte Mondsteine entlang einer feinen Vermeil-Kette. Keine gleicht der anderen.",
+    "cs": "Nepravidelné barokní perly a jemné měsíční kameny podél tenkého řetízku z vermeilu. Žádný není stejný.",
+    "nl": "Onregelmatige barokparels en zachte maanstenen langs een fijne vermeil ketting. Geen twee zijn hetzelfde.",
+    "pt": "Pérolas barrocas irregulares e suaves pedras da lua ao longo de uma corrente fina de vermeil. Não há dois iguais.",
+    "ru": "Жемчужины неправильной формы и нежные лунные камни вдоль тонкой цепочки из вермеля. Двух одинаковых не бывает."
+   },
+   "features": {
+    "metal": "vermeil",
+    "stone": "pearl",
+    "origin": "japan",
+    "hallmark": "925"
+   },
+   "combinations": {
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/baroque-pearl-pendant.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "pearl-bracelet",
+   "reference": "AU-504",
+   "category": "pearls",
+   "brand": "nami",
+   "price": 190,
+   "name": {
+    "en": "Pearl Bracelet",
+    "fr": "Bracelet perles",
+    "es": "Pulsera de perlas",
+    "it": "Bracciale di perle",
+    "pl": "Bransoletka z pereł",
+    "de": "Perlenarmband",
+    "cs": "Perlový náramek",
+    "nl": "Parelarmband",
+    "pt": "Pulseira de pérolas",
+    "ru": "Жемчужный браслет"
+   },
+   "short": {
+    "en": "A single row of small freshwater pearls.",
+    "fr": "Un rang de petites perles d'eau douce.",
+    "es": "Una vuelta de pequeñas perlas de agua dulce.",
+    "it": "Un filo di piccole perle d'acqua dolce.",
+    "pl": "Jeden rząd drobnych pereł słodkowodnych.",
+    "de": "Eine Reihe kleiner Süßwasserperlen.",
+    "cs": "Jedna řada drobných sladkovodních perel.",
+    "nl": "Eén rij kleine zoetwaterparels.",
+    "pt": "Uma fila de pequenas pérolas de água doce.",
+    "ru": "Один ряд мелкого пресноводного жемчуга."
+   },
+   "description": {
+    "en": "Small round pearls on a stretch-free silk thread with a sterling silver clasp.",
+    "fr": "De petites perles rondes sur un fil de soie, avec un fermoir en argent massif.",
+    "es": "Pequeñas perlas redondas en hilo de seda con cierre de plata de ley.",
+    "it": "Piccole perle tonde su filo di seta con chiusura in argento sterling.",
+    "pl": "Drobne okrągłe perły na jedwabnej nici ze srebrnym zapięciem.",
+    "de": "Kleine runde Perlen auf Seidenfaden mit Verschluss aus Sterlingsilber.",
+    "cs": "Drobné kulaté perly na hedvábné niti se stříbrným zapínáním.",
+    "nl": "Kleine ronde parels aan een zijden draad met een sluiting van sterling zilver.",
+    "pt": "Pequenas pérolas redondas num fio de seda com fecho de prata de lei.",
+    "ru": "Мелкие круглые жемчужины на шёлковой нити с серебряным замком."
+   },
+   "features": {
+    "metal": "silver-925",
+    "stone": "pearl",
+    "origin": "japan",
+    "hallmark": "925"
+   },
+   "combinations": {
+    "color": [
+     "white"
+    ]
+   },
+   "images": [
+    "products/pearl-bracelet.jpg"
+   ],
+   "quantity": 30,
+   "discount": 15,
+   "new": false
+  },
+  {
+   "key": "engagement-ring",
+   "reference": "AU-601",
+   "category": "bridal",
+   "brand": "aurelle",
+   "price": 1890,
+   "name": {
+    "en": "Engagement Ring",
+    "fr": "Bague de fiançailles",
+    "es": "Anillo de compromiso",
+    "it": "Anello di fidanzamento",
+    "pl": "Pierścionek zaręczynowy",
+    "de": "Verlobungsring",
+    "cs": "Zásnubní prsten",
+    "nl": "Verlovingsring",
+    "pt": "Anel de noivado",
+    "ru": "Помолвочное кольцо"
+   },
+   "short": {
+    "en": "A raised diamond solitaire in platinum.",
+    "fr": "Un solitaire diamant surélevé en platine.",
+    "es": "Un solitario de diamante elevado en platino.",
+    "it": "Un solitario con diamante rialzato in platino.",
+    "pl": "Wysoko osadzony diament soliter w platynie.",
+    "de": "Ein erhöht gefasster Diamant-Solitär in Platin.",
+    "cs": "Vysoko zasazený diamantový solitér v platině.",
+    "nl": "Een hooggezette diamanten solitair in platina.",
+    "pt": "Um solitário de diamante elevado em platina.",
+    "ru": "Высоко посаженный бриллиант-солитер в платине."
+   },
+   "description": {
+    "en": "A 1 ct lab-grown diamond in a cathedral setting, on a comfort-fit platinum band. Presented in our ring box.",
+    "fr": "Un diamant de laboratoire de 1 ct en serti cathédrale, sur un anneau confort en platine. Présenté dans notre écrin.",
+    "es": "Un diamante de laboratorio de 1 ct en engaste catedral, sobre un aro confort de platino. Presentado en nuestro estuche.",
+    "it": "Un diamante creato in laboratorio da 1 ct con incastonatura a cattedrale, su una fascia comfort in platino. Presentato nel nostro astuccio.",
+    "pl": "Diament laboratoryjny 1 ct w oprawie katedralnej na wygodnej platynowej obrączce. W naszym pudełku na pierścionek.",
+    "de": "Ein 1-ct-Labordiamant in Kathedralfassung auf einer Comfort-Fit-Schiene aus Platin. In unserer Ringbox.",
+    "cs": "Laboratorní diamant 1 ct v katedrálovém zasazení na pohodlné platinové obroučce. V naší krabičce na prsten.",
+    "nl": "Een labdiamant van 1 ct in kathedraalzetting op een comfortabele platina ring. Geleverd in onze ringdoos.",
+    "pt": "Um diamante de laboratório de 1 ct em cravação catedral, num aro confortável de platina. Apresentado na nossa caixa de anel.",
+    "ru": "Лабораторный бриллиант 1 карат в закрепке «собор» на удобной платиновой шинке. В нашей коробочке для кольца."
+   },
+   "features": {
+    "metal": "platinum",
+    "stone": "diamond-lab",
+    "origin": "france",
+    "hallmark": "950"
+   },
+   "combinations": {
+    "size": [
+     "48",
+     "50",
+     "52",
+     "54",
+     "56",
+     "58"
+    ],
+    "color": [
+     "silver",
+     "gold"
+    ]
+   },
+   "images": [
+    "products/engagement-ring.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "wedding-band",
+    "eternity-ring"
+   ]
+  },
+  {
+   "key": "wedding-band",
+   "reference": "AU-602",
+   "category": "bridal",
+   "brand": "aurelle",
+   "price": 450,
+   "name": {
+    "en": "Wedding Band",
+    "fr": "Alliance",
+    "es": "Alianza",
+    "it": "Fede nuziale",
+    "pl": "Obrączka ślubna",
+    "de": "Ehering",
+    "cs": "Snubní prsten",
+    "nl": "Trouwring",
+    "pt": "Aliança",
+    "ru": "Обручальное кольцо"
+   },
+   "short": {
+    "en": "A polished court-shaped wedding band.",
+    "fr": "Une alliance demi-jonc polie.",
+    "es": "Una alianza media caña pulida.",
+    "it": "Una fede mantovana lucida.",
+    "pl": "Polerowana obrączka o profilu półokrągłym.",
+    "de": "Ein polierter, gewölbter Ehering.",
+    "cs": "Leštěný snubní prsten s oblým profilem.",
+    "nl": "Een gepolijste, bolle trouwring.",
+    "pt": "Uma aliança abaulada polida.",
+    "ru": "Полированное обручальное кольцо классического профиля."
+   },
+   "description": {
+    "en": "A 4 mm court-shaped band in 18k gold, rounded inside for all-day comfort. Free engraving inside.",
+    "fr": "Une alliance demi-jonc de 4 mm en or 18 carats, arrondie à l'intérieur pour un confort toute la journée. Gravure intérieure offerte.",
+    "es": "Una alianza media caña de 4 mm en oro de 18 quilates, redondeada por dentro para mayor comodidad. Grabado interior gratuito.",
+    "it": "Una fede mantovana da 4 mm in oro 18 carati, arrotondata all'interno per il massimo comfort. Incisione interna gratuita.",
+    "pl": "Obrączka 4 mm z 18-karatowego złota, zaokrąglona od środka dla wygody przez cały dzień. Darmowy grawer wewnątrz.",
+    "de": "Ein 4 mm breiter, gewölbter Ring aus 750er Gold, innen abgerundet für ganztägigen Komfort. Gravur innen gratis.",
+    "cs": "Prsten šíře 4 mm z 18karátového zlata, uvnitř zaoblený pro celodenní pohodlí. Rytina uvnitř zdarma.",
+    "nl": "Een bolle ring van 4 mm in 18-karaats goud, binnenkant afgerond voor comfort de hele dag. Gratis gravure aan de binnenkant.",
+    "pt": "Uma aliança abaulada de 4 mm em ouro de 18 quilates, arredondada por dentro para conforto todo o dia. Gravação interior gratuita.",
+    "ru": "Кольцо шириной 4 мм из золота 750 пробы, скруглённое изнутри для комфорта весь день. Бесплатная гравировка внутри."
+   },
+   "features": {
+    "metal": "gold-18k",
+    "origin": "italy",
+    "hallmark": "750"
+   },
+   "combinations": {
+    "size": [
+     "48",
+     "50",
+     "52",
+     "54",
+     "56",
+     "58"
+    ],
+    "color": [
+     "gold",
+     "silver"
+    ]
+   },
+   "images": [
+    "products/wedding-band.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "eternity-ring",
+   "reference": "AU-603",
+   "category": "bridal",
+   "brand": "aurelle",
+   "price": 1350,
+   "name": {
+    "en": "Vintage Diamond Ring",
+    "fr": "Bague diamant vintage",
+    "es": "Anillo de diamante vintage",
+    "it": "Anello vintage con diamante",
+    "pl": "Pierścionek vintage z diamentem",
+    "de": "Vintage-Diamantring",
+    "cs": "Vintage prsten s diamantem",
+    "nl": "Vintage diamantring",
+    "pt": "Anel de diamante vintage",
+    "ru": "Винтажное кольцо с бриллиантом"
+   },
+   "short": {
+    "en": "A vintage-style diamond ring in yellow gold.",
+    "fr": "Une bague diamant de style vintage en or jaune.",
+    "es": "Un anillo de diamante de estilo vintage en oro amarillo.",
+    "it": "Un anello con diamante in stile vintage in oro giallo.",
+    "pl": "Pierścionek z diamentem w stylu vintage z żółtego złota.",
+    "de": "Ein Diamantring im Vintage-Stil aus Gelbgold.",
+    "cs": "Prsten s diamantem ve vintage stylu ze žlutého zlata.",
+    "nl": "Een diamantring in vintage stijl van geelgoud.",
+    "pt": "Um anel de diamante de estilo vintage em ouro amarelo.",
+    "ru": "Кольцо с бриллиантом в винтажном стиле из жёлтого золота."
+   },
+   "description": {
+    "en": "A round diamond framed by engraved gold shoulders, inspired by heirloom rings.",
+    "fr": "Un diamant rond encadré d'épaules en or gravées, inspiré des bagues de famille.",
+    "es": "Un diamante redondo enmarcado por hombros de oro grabados, inspirado en los anillos de familia.",
+    "it": "Un diamante rotondo incorniciato da spalle in oro incise, ispirato agli anelli di famiglia.",
+    "pl": "Okrągły diament otoczony grawerowanymi złotymi ramionami, inspirowany rodzinnymi pierścionkami.",
+    "de": "Ein runder Diamant, eingerahmt von gravierten Goldschultern, inspiriert von Erbstückringen.",
+    "cs": "Kulatý diamant orámovaný rytými zlatými boky, inspirovaný rodinnými prsteny.",
+    "nl": "Een ronde diamant omlijst door gegraveerde gouden schouders, geïnspireerd op erfstukringen.",
+    "pt": "Um diamante redondo emoldurado por ombros de ouro gravados, inspirado nos anéis de família.",
+    "ru": "Круглый бриллиант в обрамлении гравированных золотых плеч, вдохновлённый фамильными кольцами."
+   },
+   "features": {
+    "metal": "gold-18k",
+    "stone": "diamond-lab",
+    "origin": "france",
+    "hallmark": "750"
+   },
+   "combinations": {
+    "size": [
+     "48",
+     "50",
+     "52",
+     "54",
+     "56",
+     "58"
+    ],
+    "color": [
+     "gold"
+    ]
+   },
+   "images": [
+    "products/eternity-ring.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "bridal-earrings",
+   "reference": "AU-604",
+   "category": "bridal",
+   "brand": "luce",
+   "price": 240,
+   "name": {
+    "en": "Crystal Bridal Drops",
+    "fr": "Pendants de mariée cristal",
+    "es": "Pendientes de novia de cristal",
+    "it": "Orecchini da sposa in cristallo",
+    "pl": "Kryształowe kolczyki ślubne",
+    "de": "Kristall-Brautohrhänger",
+    "cs": "Křišťálové svatební náušnice",
+    "nl": "Kristallen bruidsoorbellen",
+    "pt": "Brincos de noiva de cristal",
+    "ru": "Хрустальные свадебные серьги"
+   },
+   "short": {
+    "en": "Long, sparkling drop earrings for the big day.",
+    "fr": "De longues boucles pendantes scintillantes pour le grand jour.",
+    "es": "Pendientes largos y brillantes para el gran día.",
+    "it": "Orecchini pendenti lunghi e scintillanti per il grande giorno.",
+    "pl": "Długie, błyszczące kolczyki na wielki dzień.",
+    "de": "Lange, funkelnde Ohrhänger für den großen Tag.",
+    "cs": "Dlouhé třpytivé visací náušnice pro velký den.",
+    "nl": "Lange, fonkelende oorhangers voor de grote dag.",
+    "pt": "Brincos pendentes longos e cintilantes para o grande dia.",
+    "ru": "Длинные сверкающие серьги-подвески для главного дня."
+   },
+   "description": {
+    "en": "Cascading cubic zirconia set in sterling silver, light enough to wear from ceremony to last dance.",
+    "fr": "Une cascade d'oxydes de zirconium sertis sur argent massif, assez légère pour être portée de la cérémonie à la dernière danse.",
+    "es": "Una cascada de circonitas engastadas en plata de ley, ligera para llevar desde la ceremonia hasta el último baile.",
+    "it": "Una cascata di zirconi incastonati in argento sterling, leggera da portare dalla cerimonia all'ultimo ballo.",
+    "pl": "Kaskada cyrkonii w oprawie ze srebra, na tyle lekka, by nosić ją od ceremonii do ostatniego tańca.",
+    "de": "Eine Kaskade aus Zirkonia in Sterlingsilber, leicht genug von der Trauung bis zum letzten Tanz.",
+    "cs": "Kaskáda zirkonů ve stříbře, dost lehká na nošení od obřadu po poslední tanec.",
+    "nl": "Een cascade van zirkonia in sterling zilver, licht genoeg van de ceremonie tot de laatste dans.",
+    "pt": "Uma cascata de zircónias cravadas em prata de lei, leve para usar desde a cerimónia até à última dança.",
+    "ru": "Каскад фианитов в серебре, достаточно лёгкий, чтобы носить от церемонии до последнего танца."
+   },
+   "features": {
+    "metal": "silver-925",
+    "stone": "zirconia",
+    "origin": "portugal",
+    "hallmark": "925"
+   },
+   "combinations": {
+    "color": [
+     "silver"
+    ]
+   },
+   "images": [
+    "products/bridal-earrings.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  }
+ ],
+ "cms": [
+  {
+   "key": "about",
+   "title": {
+    "en": "About us",
+    "fr": "À propos",
+    "es": "Sobre nosotros",
+    "it": "Chi siamo",
+    "pl": "O nas",
+    "de": "Über uns",
+    "cs": "O nás",
+    "nl": "Over ons",
+    "pt": "Sobre nós",
+    "ru": "О нас"
+   },
+   "meta_description": {
+    "en": "Aurelle Jewels designs fine jewellery in Paris with lab-grown diamonds and recycled gold.",
+    "fr": "Aurelle Jewels crée à Paris des bijoux en or recyclé et diamants de laboratoire.",
+    "es": "Aurelle Jewels diseña joyería fina en París con oro reciclado y diamantes de laboratorio.",
+    "it": "Aurelle Jewels crea gioielli a Parigi con oro riciclato e diamanti creati in laboratorio.",
+    "pl": "Aurelle Jewels projektuje w Paryżu biżuterię z recyklingowanego złota i diamentów laboratoryjnych.",
+    "de": "Aurelle Jewels entwirft in Paris Schmuck aus recyceltem Gold und Labordiamanten.",
+    "cs": "Aurelle Jewels navrhuje v Paříži šperky z recyklovaného zlata a laboratorních diamantů.",
+    "nl": "Aurelle Jewels ontwerpt in Parijs sieraden van gerecycled goud en labdiamanten.",
+    "pt": "A Aurelle Jewels cria joalharia em Paris com ouro reciclado e diamantes de laboratório.",
+    "ru": "Aurelle Jewels создаёт украшения в Париже из переработанного золота и лабораторных бриллиантов."
+   },
+   "content": {
+    "en": "<h2>Jewellery for the moments that matter</h2><p>Aurelle was founded in Paris by a jeweller and a gemmologist who wanted fine jewellery to feel personal, honest and made to last.</p><h3>Recycled gold</h3><p>All our gold and silver is recycled and hallmarked.</p><h3>Lab-grown diamonds</h3><p>Our diamonds are grown in a laboratory: physically identical to mined diamonds, with a traceable origin.</p><h3>Finished by hand</h3><p>Every piece is set, polished and checked by hand in our workshop.</p><p><em>This is demo content for the Aurelle Jewels theme.</em></p>",
+    "fr": "<h2>Des bijoux pour les moments qui comptent</h2><p>Aurelle a été fondée à Paris par une joaillière et un gemmologue qui voulaient des bijoux précieux personnels, honnêtes et faits pour durer.</p><h3>Or recyclé</h3><p>Tout notre or et notre argent sont recyclés et poinçonnés.</p><h3>Diamants de laboratoire</h3><p>Nos diamants sont créés en laboratoire : physiquement identiques aux diamants extraits, avec une origine traçable.</p><h3>Finis à la main</h3><p>Chaque pièce est sertie, polie et contrôlée à la main dans notre atelier.</p><p><em>Ceci est un contenu de démonstration du thème Aurelle Jewels.</em></p>",
+    "es": "<h2>Joyas para los momentos que importan</h2><p>Aurelle nació en París de la mano de una joyera y un gemólogo que querían joyas finas personales, honestas y hechas para durar.</p><h3>Oro reciclado</h3><p>Todo nuestro oro y plata es reciclado y contrastado.</p><h3>Diamantes de laboratorio</h3><p>Nuestros diamantes se crean en laboratorio: físicamente idénticos a los extraídos, con un origen trazable.</p><h3>Acabado a mano</h3><p>Cada pieza se engasta, pule y revisa a mano en nuestro taller.</p><p><em>Este es contenido de demostración del tema Aurelle Jewels.</em></p>",
+    "it": "<h2>Gioielli per i momenti che contano</h2><p>Aurelle è nata a Parigi da una gioielliera e un gemmologo che volevano gioielli preziosi personali, onesti e fatti per durare.</p><h3>Oro riciclato</h3><p>Tutto il nostro oro e argento è riciclato e punzonato.</p><h3>Diamanti creati in laboratorio</h3><p>I nostri diamanti sono creati in laboratorio: fisicamente identici a quelli estratti, con un'origine tracciabile.</p><h3>Rifinito a mano</h3><p>Ogni pezzo è incastonato, lucidato e controllato a mano nel nostro laboratorio.</p><p><em>Questo è contenuto dimostrativo del tema Aurelle Jewels.</em></p>",
+    "pl": "<h2>Biżuteria na chwile, które się liczą</h2><p>Aurelle założyli w Paryżu jubilerka i gemmolog, którzy chcieli, by biżuteria była osobista, uczciwa i trwała.</p><h3>Złoto z recyklingu</h3><p>Całe nasze złoto i srebro pochodzi z recyklingu i jest cechowane.</p><h3>Diamenty laboratoryjne</h3><p>Nasze diamenty powstają w laboratorium: fizycznie identyczne z wydobywanymi, o identyfikowalnym pochodzeniu.</p><h3>Wykończone ręcznie</h3><p>Każdy wyrób jest oprawiany, polerowany i sprawdzany ręcznie w naszej pracowni.</p><p><em>To jest treść demonstracyjna motywu Aurelle Jewels.</em></p>",
+    "de": "<h2>Schmuck für die Momente, die zählen</h2><p>Aurelle wurde in Paris von einer Goldschmiedin und einem Gemmologen gegründet, die Schmuck persönlich, ehrlich und langlebig machen wollten.</p><h3>Recyceltes Gold</h3><p>Unser gesamtes Gold und Silber ist recycelt und gestempelt.</p><h3>Labordiamanten</h3><p>Unsere Diamanten entstehen im Labor: physikalisch identisch mit geförderten Diamanten, mit nachvollziehbarer Herkunft.</p><h3>Von Hand vollendet</h3><p>Jedes Stück wird in unserer Werkstatt von Hand gefasst, poliert und geprüft.</p><p><em>Dies ist Demo-Inhalt für das Theme Aurelle Jewels.</em></p>",
+    "cs": "<h2>Šperky pro chvíle, na kterých záleží</h2><p>Aurelle založili v Paříži zlatnice a gemolog, kteří chtěli, aby šperky byly osobní, poctivé a trvanlivé.</p><h3>Recyklované zlato</h3><p>Veškeré naše zlato a stříbro je recyklované a puncované.</p><h3>Laboratorní diamanty</h3><p>Naše diamanty vznikají v laboratoři: fyzikálně shodné s těženými, s dohledatelným původem.</p><h3>Ručně dokončené</h3><p>Každý kus je ručně zasazen, vyleštěn a zkontrolován v naší dílně.</p><p><em>Toto je ukázkový obsah šablony Aurelle Jewels.</em></p>",
+    "nl": "<h2>Sieraden voor de momenten die ertoe doen</h2><p>Aurelle werd in Parijs opgericht door een edelsmid en een gemmoloog die wilden dat sieraden persoonlijk, eerlijk en duurzaam zijn.</p><h3>Gerecycled goud</h3><p>Al ons goud en zilver is gerecycled en gekeurd.</p><h3>Labdiamanten</h3><p>Onze diamanten worden in een lab gekweekt: fysiek identiek aan gedolven diamanten, met een traceerbare herkomst.</p><h3>Met de hand afgewerkt</h3><p>Elk stuk wordt in ons atelier met de hand gezet, gepolijst en gecontroleerd.</p><p><em>Dit is demo-inhoud voor het thema Aurelle Jewels.</em></p>",
+    "pt": "<h2>Joias para os momentos que importam</h2><p>A Aurelle foi fundada em Paris por uma ourives e um gemólogo que queriam joias pessoais, honestas e feitas para durar.</p><h3>Ouro reciclado</h3><p>Todo o nosso ouro e prata é reciclado e contrastado.</p><h3>Diamantes de laboratório</h3><p>Os nossos diamantes são criados em laboratório: fisicamente idênticos aos extraídos, com origem rastreável.</p><h3>Acabados à mão</h3><p>Cada peça é cravada, polida e verificada à mão na nossa oficina.</p><p><em>Este é conteúdo de demonstração do tema Aurelle Jewels.</em></p>",
+    "ru": "<h2>Украшения для важных моментов</h2><p>Aurelle основали в Париже ювелир и геммолог, которые хотели, чтобы украшения были личными, честными и долговечными.</p><h3>Переработанное золото</h3><p>Всё наше золото и серебро переработано и имеет пробу.</p><h3>Лабораторные бриллианты</h3><p>Наши бриллианты выращены в лаборатории: физически идентичны добытым, с прослеживаемым происхождением.</p><h3>Ручная доводка</h3><p>Каждое изделие закрепляется, полируется и проверяется вручную в нашей мастерской.</p><p><em>Это демонстрационный контент темы Aurelle Jewels.</em></p>"
+   }
+  },
+  {
+   "key": "ring-guide",
+   "title": {
+    "en": "Ring size guide",
+    "fr": "Guide des tailles de bagues",
+    "es": "Guía de tallas de anillos",
+    "it": "Guida alle misure degli anelli",
+    "pl": "Tabela rozmiarów pierścionków",
+    "de": "Ringgrößen-Ratgeber",
+    "cs": "Průvodce velikostí prstenů",
+    "nl": "Ringmaatgids",
+    "pt": "Guia de tamanhos de anéis",
+    "ru": "Как определить размер кольца"
+   },
+   "meta_description": {
+    "en": "Find your ring size: inner circumference, diameter and international sizes.",
+    "fr": "Trouvez votre taille de bague : tour de doigt, diamètre et tailles internationales.",
+    "es": "Encuentra tu talla de anillo: contorno, diámetro y tallas internacionales.",
+    "it": "Trova la tua misura: circonferenza, diametro e misure internazionali.",
+    "pl": "Znajdź swój rozmiar: obwód, średnica i rozmiary międzynarodowe.",
+    "de": "Finden Sie Ihre Ringgröße: Umfang, Durchmesser und internationale Größen.",
+    "cs": "Najděte svou velikost prstenu: obvod, průměr a mezinárodní velikosti.",
+    "nl": "Vind je ringmaat: omtrek, diameter en internationale maten.",
+    "pt": "Encontre o seu tamanho de anel: perímetro, diâmetro e tamanhos internacionais.",
+    "ru": "Определите размер кольца: окружность, диаметр и международные размеры."
+   },
+   "content": {
+    "en": "<h2>Ring size guide</h2><p>Wrap a strip of paper around your finger, mark where it meets and measure the length in millimetres.</p><table class=\"table\"><thead><tr><th>Size</th><th>Circumference (mm)</th><th>Diameter (mm)</th><th>UK</th><th>US</th></tr></thead><tbody><tr><td>48</td><td>48</td><td>15.3</td><td>I½</td><td>4½</td></tr><tr><td>50</td><td>50</td><td>15.9</td><td>K½</td><td>5½</td></tr><tr><td>52</td><td>52</td><td>16.5</td><td>L½</td><td>6</td></tr><tr><td>54</td><td>54</td><td>17.2</td><td>N</td><td>7</td></tr><tr><td>56</td><td>56</td><td>17.8</td><td>P</td><td>7½</td></tr><tr><td>58</td><td>58</td><td>18.5</td><td>Q½</td><td>8½</td></tr></tbody></table><p>Between two sizes? Choose the larger one. We resize rings for free within 60 days.</p>",
+    "fr": "<h2>Guide des tailles de bagues</h2><p>Enroulez une bande de papier autour de votre doigt, marquez la jonction et mesurez la longueur en millimètres.</p><table class=\"table\"><thead><tr><th>Taille</th><th>Tour (mm)</th><th>Diamètre (mm)</th><th>UK</th><th>US</th></tr></thead><tbody><tr><td>48</td><td>48</td><td>15,3</td><td>I½</td><td>4½</td></tr><tr><td>50</td><td>50</td><td>15,9</td><td>K½</td><td>5½</td></tr><tr><td>52</td><td>52</td><td>16,5</td><td>L½</td><td>6</td></tr><tr><td>54</td><td>54</td><td>17,2</td><td>N</td><td>7</td></tr><tr><td>56</td><td>56</td><td>17,8</td><td>P</td><td>7½</td></tr><tr><td>58</td><td>58</td><td>18,5</td><td>Q½</td><td>8½</td></tr></tbody></table><p>Entre deux tailles ? Choisissez la plus grande. Nous ajustons les bagues gratuitement sous 60 jours.</p>",
+    "es": "<h2>Guía de tallas de anillos</h2><p>Rodea tu dedo con una tira de papel, marca dónde se une y mide la longitud en milímetros.</p><table class=\"table\"><thead><tr><th>Talla</th><th>Contorno (mm)</th><th>Diámetro (mm)</th><th>UK</th><th>US</th></tr></thead><tbody><tr><td>48</td><td>48</td><td>15,3</td><td>I½</td><td>4½</td></tr><tr><td>50</td><td>50</td><td>15,9</td><td>K½</td><td>5½</td></tr><tr><td>52</td><td>52</td><td>16,5</td><td>L½</td><td>6</td></tr><tr><td>54</td><td>54</td><td>17,2</td><td>N</td><td>7</td></tr><tr><td>56</td><td>56</td><td>17,8</td><td>P</td><td>7½</td></tr><tr><td>58</td><td>58</td><td>18,5</td><td>Q½</td><td>8½</td></tr></tbody></table><p>¿Entre dos tallas? Elige la mayor. Ajustamos los anillos gratis durante 60 días.</p>",
+    "it": "<h2>Guida alle misure degli anelli</h2><p>Avvolgi una striscia di carta attorno al dito, segna il punto di incontro e misura la lunghezza in millimetri.</p><table class=\"table\"><thead><tr><th>Misura</th><th>Circonferenza (mm)</th><th>Diametro (mm)</th><th>UK</th><th>US</th></tr></thead><tbody><tr><td>48</td><td>48</td><td>15,3</td><td>I½</td><td>4½</td></tr><tr><td>50</td><td>50</td><td>15,9</td><td>K½</td><td>5½</td></tr><tr><td>52</td><td>52</td><td>16,5</td><td>L½</td><td>6</td></tr><tr><td>54</td><td>54</td><td>17,2</td><td>N</td><td>7</td></tr><tr><td>56</td><td>56</td><td>17,8</td><td>P</td><td>7½</td></tr><tr><td>58</td><td>58</td><td>18,5</td><td>Q½</td><td>8½</td></tr></tbody></table><p>Tra due misure? Scegli la più grande. Ridimensioniamo gli anelli gratuitamente entro 60 giorni.</p>",
+    "pl": "<h2>Tabela rozmiarów pierścionków</h2><p>Owiń pasek papieru wokół palca, zaznacz miejsce styku i zmierz długość w milimetrach.</p><table class=\"table\"><thead><tr><th>Rozmiar</th><th>Obwód (mm)</th><th>Średnica (mm)</th><th>UK</th><th>US</th></tr></thead><tbody><tr><td>48</td><td>48</td><td>15,3</td><td>I½</td><td>4½</td></tr><tr><td>50</td><td>50</td><td>15,9</td><td>K½</td><td>5½</td></tr><tr><td>52</td><td>52</td><td>16,5</td><td>L½</td><td>6</td></tr><tr><td>54</td><td>54</td><td>17,2</td><td>N</td><td>7</td></tr><tr><td>56</td><td>56</td><td>17,8</td><td>P</td><td>7½</td></tr><tr><td>58</td><td>58</td><td>18,5</td><td>Q½</td><td>8½</td></tr></tbody></table><p>Między dwoma rozmiarami? Wybierz większy. Bezpłatnie zmieniamy rozmiar w ciągu 60 dni.</p>",
+    "de": "<h2>Ringgrößen-Ratgeber</h2><p>Legen Sie einen Papierstreifen um Ihren Finger, markieren Sie die Überlappung und messen Sie die Länge in Millimetern.</p><table class=\"table\"><thead><tr><th>Größe</th><th>Umfang (mm)</th><th>Durchmesser (mm)</th><th>UK</th><th>US</th></tr></thead><tbody><tr><td>48</td><td>48</td><td>15,3</td><td>I½</td><td>4½</td></tr><tr><td>50</td><td>50</td><td>15,9</td><td>K½</td><td>5½</td></tr><tr><td>52</td><td>52</td><td>16,5</td><td>L½</td><td>6</td></tr><tr><td>54</td><td>54</td><td>17,2</td><td>N</td><td>7</td></tr><tr><td>56</td><td>56</td><td>17,8</td><td>P</td><td>7½</td></tr><tr><td>58</td><td>58</td><td>18,5</td><td>Q½</td><td>8½</td></tr></tbody></table><p>Zwischen zwei Größen? Wählen Sie die größere. Innerhalb von 60 Tagen ändern wir die Größe kostenlos.</p>",
+    "cs": "<h2>Průvodce velikostí prstenů</h2><p>Omotejte kolem prstu proužek papíru, označte místo, kde se setká, a změřte délku v milimetrech.</p><table class=\"table\"><thead><tr><th>Velikost</th><th>Obvod (mm)</th><th>Průměr (mm)</th><th>UK</th><th>US</th></tr></thead><tbody><tr><td>48</td><td>48</td><td>15,3</td><td>I½</td><td>4½</td></tr><tr><td>50</td><td>50</td><td>15,9</td><td>K½</td><td>5½</td></tr><tr><td>52</td><td>52</td><td>16,5</td><td>L½</td><td>6</td></tr><tr><td>54</td><td>54</td><td>17,2</td><td>N</td><td>7</td></tr><tr><td>56</td><td>56</td><td>17,8</td><td>P</td><td>7½</td></tr><tr><td>58</td><td>58</td><td>18,5</td><td>Q½</td><td>8½</td></tr></tbody></table><p>Mezi dvěma velikostmi? Vyberte větší. Do 60 dnů velikost upravíme zdarma.</p>",
+    "nl": "<h2>Ringmaatgids</h2><p>Wikkel een strookje papier om je vinger, markeer waar het samenkomt en meet de lengte in millimeters.</p><table class=\"table\"><thead><tr><th>Maat</th><th>Omtrek (mm)</th><th>Diameter (mm)</th><th>UK</th><th>US</th></tr></thead><tbody><tr><td>48</td><td>48</td><td>15,3</td><td>I½</td><td>4½</td></tr><tr><td>50</td><td>50</td><td>15,9</td><td>K½</td><td>5½</td></tr><tr><td>52</td><td>52</td><td>16,5</td><td>L½</td><td>6</td></tr><tr><td>54</td><td>54</td><td>17,2</td><td>N</td><td>7</td></tr><tr><td>56</td><td>56</td><td>17,8</td><td>P</td><td>7½</td></tr><tr><td>58</td><td>58</td><td>18,5</td><td>Q½</td><td>8½</td></tr></tbody></table><p>Tussen twee maten? Kies de grotere. Binnen 60 dagen passen we de maat gratis aan.</p>",
+    "pt": "<h2>Guia de tamanhos de anéis</h2><p>Enrole uma tira de papel à volta do dedo, marque onde se encontra e meça o comprimento em milímetros.</p><table class=\"table\"><thead><tr><th>Tamanho</th><th>Perímetro (mm)</th><th>Diâmetro (mm)</th><th>UK</th><th>US</th></tr></thead><tbody><tr><td>48</td><td>48</td><td>15,3</td><td>I½</td><td>4½</td></tr><tr><td>50</td><td>50</td><td>15,9</td><td>K½</td><td>5½</td></tr><tr><td>52</td><td>52</td><td>16,5</td><td>L½</td><td>6</td></tr><tr><td>54</td><td>54</td><td>17,2</td><td>N</td><td>7</td></tr><tr><td>56</td><td>56</td><td>17,8</td><td>P</td><td>7½</td></tr><tr><td>58</td><td>58</td><td>18,5</td><td>Q½</td><td>8½</td></tr></tbody></table><p>Entre dois tamanhos? Escolha o maior. Ajustamos anéis gratuitamente durante 60 dias.</p>",
+    "ru": "<h2>Как определить размер кольца</h2><p>Оберните полоску бумаги вокруг пальца, отметьте место соединения и измерьте длину в миллиметрах.</p><table class=\"table\"><thead><tr><th>Размер</th><th>Окружность (мм)</th><th>Диаметр (мм)</th><th>UK</th><th>US</th></tr></thead><tbody><tr><td>48</td><td>48</td><td>15,3</td><td>I½</td><td>4½</td></tr><tr><td>50</td><td>50</td><td>15,9</td><td>K½</td><td>5½</td></tr><tr><td>52</td><td>52</td><td>16,5</td><td>L½</td><td>6</td></tr><tr><td>54</td><td>54</td><td>17,2</td><td>N</td><td>7</td></tr><tr><td>56</td><td>56</td><td>17,8</td><td>P</td><td>7½</td></tr><tr><td>58</td><td>58</td><td>18,5</td><td>Q½</td><td>8½</td></tr></tbody></table><p>Между двумя размерами? Выбирайте больший. В течение 60 дней мы бесплатно изменим размер.</p>"
+   }
+  },
+  {
+   "key": "jewellery-care",
+   "title": {
+    "en": "Jewellery care",
+    "fr": "Entretien des bijoux",
+    "es": "Cuidado de las joyas",
+    "it": "Cura dei gioielli",
+    "pl": "Pielęgnacja biżuterii",
+    "de": "Schmuckpflege",
+    "cs": "Péče o šperky",
+    "nl": "Sieradenverzorging",
+    "pt": "Cuidados com as joias",
+    "ru": "Уход за украшениями"
+   },
+   "meta_description": {
+    "en": "How to clean and store gold, silver and pearl jewellery.",
+    "fr": "Comment nettoyer et ranger vos bijoux en or, en argent et en perles.",
+    "es": "Cómo limpiar y guardar joyas de oro, plata y perlas.",
+    "it": "Come pulire e conservare gioielli in oro, argento e perle.",
+    "pl": "Jak czyścić i przechowywać biżuterię ze złota, srebra i pereł.",
+    "de": "So reinigen und lagern Sie Gold-, Silber- und Perlenschmuck.",
+    "cs": "Jak čistit a uchovávat šperky ze zlata, stříbra a perel.",
+    "nl": "Zo reinig en bewaar je gouden, zilveren en parelsieraden.",
+    "pt": "Como limpar e guardar joias de ouro, prata e pérolas.",
+    "ru": "Как чистить и хранить украшения из золота, серебра и жемчуга."
+   },
+   "content": {
+    "en": "<h2>Jewellery care</h2><ul><li><strong>Last on, first off:</strong> put jewellery on after perfume and creams, and take it off before swimming or sport.</li><li><strong>Gold and diamonds:</strong> soak in warm soapy water, brush gently and dry with a soft cloth.</li><li><strong>Silver:</strong> polish with a silver cloth to remove tarnish.</li><li><strong>Pearls:</strong> wipe with a soft dry cloth after wearing and store flat.</li><li><strong>Storage:</strong> keep each piece in its own pouch to avoid scratches.</li></ul><p>Our 2-year guarantee covers clasps, settings and plating. Free cleaning for life.</p><p><em>This is demo content. Replace it with your own care guide.</em></p>",
+    "fr": "<h2>Entretien des bijoux</h2><ul><li><strong>Dernier mis, premier ôté :</strong> mettez vos bijoux après le parfum et les crèmes, et retirez-les avant la baignade ou le sport.</li><li><strong>Or et diamants :</strong> faites tremper dans de l'eau tiède savonneuse, brossez doucement et séchez avec un chiffon doux.</li><li><strong>Argent :</strong> polissez avec un chiffon pour argent pour retirer l'oxydation.</li><li><strong>Perles :</strong> essuyez avec un chiffon doux et sec après chaque port et rangez-les à plat.</li><li><strong>Rangement :</strong> gardez chaque pièce dans sa propre pochette pour éviter les rayures.</li></ul><p>Notre garantie de 2 ans couvre fermoirs, sertis et placage. Nettoyage offert à vie.</p><p><em>Ceci est un contenu de démonstration. Remplacez-le par votre propre guide d'entretien.</em></p>",
+    "es": "<h2>Cuidado de las joyas</h2><ul><li><strong>Lo último en ponerse, lo primero en quitarse:</strong> ponte las joyas después del perfume y las cremas, y quítatelas antes de nadar o hacer deporte.</li><li><strong>Oro y diamantes:</strong> déjalos en agua tibia con jabón, cepilla con suavidad y seca con un paño suave.</li><li><strong>Plata:</strong> pule con un paño para plata para eliminar la oxidación.</li><li><strong>Perlas:</strong> límpialas con un paño suave y seco después de usarlas y guárdalas en plano.</li><li><strong>Almacenaje:</strong> guarda cada pieza en su propia bolsita para evitar arañazos.</li></ul><p>Nuestra garantía de 2 años cubre cierres, engastes y baño. Limpieza gratuita de por vida.</p><p><em>Este es contenido de demostración. Sustitúyelo por tu propia guía de cuidados.</em></p>",
+    "it": "<h2>Cura dei gioielli</h2><ul><li><strong>Ultimo a mettere, primo a togliere:</strong> indossa i gioielli dopo profumo e creme e toglili prima di nuotare o fare sport.</li><li><strong>Oro e diamanti:</strong> immergi in acqua tiepida e sapone, spazzola delicatamente e asciuga con un panno morbido.</li><li><strong>Argento:</strong> lucida con un panno per argento per eliminare l'ossidazione.</li><li><strong>Perle:</strong> passale con un panno morbido e asciutto dopo averle indossate e conservale in piano.</li><li><strong>Conservazione:</strong> riponi ogni pezzo nel suo sacchetto per evitare graffi.</li></ul><p>La nostra garanzia di 2 anni copre chiusure, incastonature e placcatura. Pulizia gratuita a vita.</p><p><em>Questo è contenuto dimostrativo. Sostituiscilo con la tua guida alla cura.</em></p>",
+    "pl": "<h2>Pielęgnacja biżuterii</h2><ul><li><strong>Zakładaj ostatnią, zdejmuj pierwszą:</strong> zakładaj biżuterię po perfumach i kremach, zdejmuj przed pływaniem i sportem.</li><li><strong>Złoto i diamenty:</strong> namocz w ciepłej wodzie z mydłem, delikatnie wyszczotkuj i osusz miękką ściereczką.</li><li><strong>Srebro:</strong> poleruj ściereczką do srebra, aby usunąć nalot.</li><li><strong>Perły:</strong> po noszeniu przetrzyj miękką, suchą ściereczką i przechowuj na płasko.</li><li><strong>Przechowywanie:</strong> trzymaj każdy wyrób w osobnym woreczku, aby uniknąć zarysowań.</li></ul><p>Nasza 2-letnia gwarancja obejmuje zapięcia, oprawy i powłoki. Darmowe czyszczenie dożywotnio.</p><p><em>To jest treść demonstracyjna. Zastąp ją własnym poradnikiem pielęgnacji.</em></p>",
+    "de": "<h2>Schmuckpflege</h2><ul><li><strong>Zuletzt an, zuerst ab:</strong> Schmuck nach Parfüm und Cremes anlegen und vor dem Schwimmen oder Sport ablegen.</li><li><strong>Gold und Diamanten:</strong> in warmem Seifenwasser einweichen, sanft bürsten und mit einem weichen Tuch trocknen.</li><li><strong>Silber:</strong> mit einem Silberputztuch polieren, um Anlaufen zu entfernen.</li><li><strong>Perlen:</strong> nach dem Tragen mit einem weichen, trockenen Tuch abwischen und flach lagern.</li><li><strong>Aufbewahrung:</strong> jedes Stück in einem eigenen Beutel aufbewahren, um Kratzer zu vermeiden.</li></ul><p>Unsere 2-Jahres-Garantie deckt Verschlüsse, Fassungen und Beschichtung ab. Reinigung ein Leben lang gratis.</p><p><em>Dies ist Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigene Pflegeanleitung.</em></p>",
+    "cs": "<h2>Péče o šperky</h2><ul><li><strong>Nasadit naposled, sundat první:</strong> šperky si nasaďte po parfému a krémech a sundejte je před plaváním nebo sportem.</li><li><strong>Zlato a diamanty:</strong> namočte do teplé mýdlové vody, jemně vykartáčujte a osušte měkkým hadříkem.</li><li><strong>Stříbro:</strong> vyleštěte hadříkem na stříbro, abyste odstranili zašednutí.</li><li><strong>Perly:</strong> po nošení otřete měkkým suchým hadříkem a ukládejte naplocho.</li><li><strong>Uložení:</strong> každý kus mějte ve vlastním sáčku, aby se nepoškrábal.</li></ul><p>Naše dvouletá záruka pokrývá zapínání, zasazení i pokovení. Čištění zdarma po celý život.</p><p><em>Toto je ukázkový obsah. Nahraďte ho vlastním návodem k péči.</em></p>",
+    "nl": "<h2>Sieradenverzorging</h2><ul><li><strong>Als laatste om, als eerste af:</strong> doe sieraden om na parfum en crème, en doe ze af voor het zwemmen of sporten.</li><li><strong>Goud en diamanten:</strong> laat weken in lauw zeepwater, borstel voorzichtig en droog met een zachte doek.</li><li><strong>Zilver:</strong> poets met een zilverdoekje om aanslag te verwijderen.</li><li><strong>Parels:</strong> veeg na het dragen af met een zachte, droge doek en bewaar plat.</li><li><strong>Bewaren:</strong> bewaar elk stuk in een eigen zakje om krassen te voorkomen.</li></ul><p>Onze 2 jaar garantie dekt sluitingen, zettingen en verguldsel. Levenslang gratis reiniging.</p><p><em>Dit is demo-inhoud. Vervang het door je eigen verzorgingsgids.</em></p>",
+    "pt": "<h2>Cuidados com as joias</h2><ul><li><strong>Última a pôr, primeira a tirar:</strong> coloque as joias depois do perfume e dos cremes e tire-as antes de nadar ou fazer desporto.</li><li><strong>Ouro e diamantes:</strong> mergulhe em água morna com sabão, escove suavemente e seque com um pano macio.</li><li><strong>Prata:</strong> pula com um pano para prata para remover a oxidação.</li><li><strong>Pérolas:</strong> limpe com um pano macio e seco depois de usar e guarde na horizontal.</li><li><strong>Arrumação:</strong> guarde cada peça na sua bolsa para evitar riscos.</li></ul><p>A nossa garantia de 2 anos cobre fechos, cravações e banho. Limpeza gratuita para toda a vida.</p><p><em>Este é conteúdo de demonstração. Substitua-o pelo seu próprio guia de cuidados.</em></p>",
+    "ru": "<h2>Уход за украшениями</h2><ul><li><strong>Надевайте последними, снимайте первыми:</strong> надевайте украшения после духов и кремов и снимайте перед плаванием и спортом.</li><li><strong>Золото и бриллианты:</strong> замочите в тёплой мыльной воде, аккуратно почистите щёткой и вытрите мягкой тканью.</li><li><strong>Серебро:</strong> полируйте салфеткой для серебра, чтобы убрать потемнение.</li><li><strong>Жемчуг:</strong> после ношения протирайте мягкой сухой тканью и храните в горизонтальном положении.</li><li><strong>Хранение:</strong> держите каждое изделие в отдельном мешочке, чтобы избежать царапин.</li></ul><p>Наша гарантия 2 года распространяется на замки, закрепки и покрытие. Бесплатная чистка пожизненно.</p><p><em>Это демонстрационный контент. Замените его собственным руководством по уходу.</em></p>"
+   }
+  },
+  {
+   "key": "delivery",
+   "title": {
+    "en": "Delivery",
+    "fr": "Livraison",
+    "es": "Envíos",
+    "it": "Spedizioni",
+    "pl": "Dostawa",
+    "de": "Versand",
+    "cs": "Doprava",
+    "nl": "Verzending",
+    "pt": "Entregas",
+    "ru": "Доставка"
+   },
+   "meta_description": {
+    "en": "Delivery times and costs for Aurelle Jewels orders.",
+    "fr": "Délais et frais de livraison des commandes Aurelle Jewels.",
+    "es": "Plazos y costes de envío de los pedidos de Aurelle Jewels.",
+    "it": "Tempi e costi di spedizione degli ordini Aurelle Jewels.",
+    "pl": "Czas i koszt dostawy zamówień Aurelle Jewels.",
+    "de": "Lieferzeiten und Versandkosten für Bestellungen bei Aurelle Jewels.",
+    "cs": "Dodací lhůty a ceny dopravy objednávek Aurelle Jewels.",
+    "nl": "Levertijden en verzendkosten van bestellingen bij Aurelle Jewels.",
+    "pt": "Prazos e custos de entrega das encomendas Aurelle Jewels.",
+    "ru": "Сроки и стоимость доставки заказов Aurelle Jewels."
+   },
+   "content": {
+    "en": "<h2>Delivery</h2><p>Orders placed before 2 pm on a working day are shipped the same day.</p><ul><li><strong>Standard:</strong> 2 to 4 working days, free over €150.</li><li><strong>Express:</strong> next working day in most of Europe.</li><li><strong>Click &amp; collect:</strong> free, ready within 24 hours.</li></ul><p>Every parcel is tracked, and you receive the tracking link by email as soon as it leaves our warehouse.</p><p><em>This is demo content. Replace it with your own delivery terms.</em></p>",
+    "fr": "<h2>Livraison</h2><p>Les commandes passées avant 14 h un jour ouvré sont expédiées le jour même.</p><ul><li><strong>Standard :</strong> 2 à 4 jours ouvrés, offerte dès 150 €.</li><li><strong>Express :</strong> jour ouvré suivant dans la plupart des pays d'Europe.</li><li><strong>Retrait en magasin :</strong> gratuit, prêt sous 24 heures.</li></ul><p>Chaque colis est suivi : vous recevez le lien de suivi par e-mail dès qu'il quitte notre entrepôt.</p><p><em>Contenu de démonstration. Remplacez-le par vos propres conditions de livraison.</em></p>",
+    "es": "<h2>Envíos</h2><p>Los pedidos realizados antes de las 14:00 en día laborable se envían el mismo día.</p><ul><li><strong>Estándar:</strong> de 2 a 4 días laborables, gratis a partir de 150 €.</li><li><strong>Exprés:</strong> siguiente día laborable en la mayor parte de Europa.</li><li><strong>Recogida en tienda:</strong> gratis, listo en 24 horas.</li></ul><p>Todos los paquetes llevan seguimiento y recibirás el enlace por correo en cuanto salga de nuestro almacén.</p><p><em>Contenido de demostración. Sustitúyelo por tus propias condiciones de envío.</em></p>",
+    "it": "<h2>Spedizioni</h2><p>Gli ordini effettuati entro le 14:00 di un giorno lavorativo vengono spediti in giornata.</p><ul><li><strong>Standard:</strong> 2–4 giorni lavorativi, gratuita oltre 150 €.</li><li><strong>Express:</strong> giorno lavorativo successivo in gran parte d'Europa.</li><li><strong>Ritiro in negozio:</strong> gratuito, pronto entro 24 ore.</li></ul><p>Ogni pacco è tracciato: ricevi il link via email appena lascia il nostro magazzino.</p><p><em>Contenuto dimostrativo. Sostituiscilo con le tue condizioni di spedizione.</em></p>",
+    "pl": "<h2>Dostawa</h2><p>Zamówienia złożone w dzień roboczy przed 14:00 wysyłamy tego samego dnia.</p><ul><li><strong>Standard:</strong> 2–4 dni robocze, gratis od 150 €.</li><li><strong>Ekspres:</strong> następny dzień roboczy w większości krajów Europy.</li><li><strong>Odbiór osobisty:</strong> bezpłatnie, gotowe w 24 godziny.</li></ul><p>Każda paczka ma numer śledzenia – link otrzymasz e-mailem, gdy tylko opuści nasz magazyn.</p><p><em>Treść demonstracyjna. Zastąp ją własnymi warunkami dostawy.</em></p>",
+    "de": "<h2>Versand</h2><p>Bestellungen, die an Werktagen vor 14 Uhr eingehen, werden am selben Tag verschickt.</p><ul><li><strong>Standard:</strong> 2–4 Werktage, kostenlos ab 150 €.</li><li><strong>Express:</strong> nächster Werktag in den meisten Ländern Europas.</li><li><strong>Click &amp; Collect:</strong> kostenlos, innerhalb von 24 Stunden abholbereit.</li></ul><p>Jedes Paket ist verfolgbar; den Link erhalten Sie per E-Mail, sobald es unser Lager verlässt.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Versandbedingungen.</em></p>",
+    "cs": "<h2>Doprava</h2><p>Objednávky přijaté v pracovní den do 14:00 odesíláme ještě týž den.</p><ul><li><strong>Standard:</strong> 2–4 pracovní dny, zdarma od 150 €.</li><li><strong>Expres:</strong> následující pracovní den ve většině Evropy.</li><li><strong>Osobní odběr:</strong> zdarma, připraveno do 24 hodin.</li></ul><p>Každý balík je sledovaný; odkaz vám pošleme e-mailem, jakmile opustí náš sklad.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními dodacími podmínkami.</em></p>",
+    "nl": "<h2>Verzending</h2><p>Bestellingen die op een werkdag vóór 14.00 uur worden geplaatst, versturen we dezelfde dag.</p><ul><li><strong>Standaard:</strong> 2–4 werkdagen, gratis vanaf € 150.</li><li><strong>Express:</strong> volgende werkdag in het grootste deel van Europa.</li><li><strong>Afhalen:</strong> gratis, binnen 24 uur klaar.</li></ul><p>Elk pakket is te volgen; je ontvangt de link per e-mail zodra het ons magazijn verlaat.</p><p><em>Democontent. Vervang dit door je eigen verzendvoorwaarden.</em></p>",
+    "pt": "<h2>Entregas</h2><p>As encomendas feitas antes das 14h num dia útil são enviadas no mesmo dia.</p><ul><li><strong>Normal:</strong> 2 a 4 dias úteis, grátis a partir de 150 €.</li><li><strong>Expresso:</strong> dia útil seguinte na maior parte da Europa.</li><li><strong>Levantamento em loja:</strong> grátis, pronto em 24 horas.</li></ul><p>Todas as encomendas têm seguimento e recebe a ligação por e-mail assim que saem do nosso armazém.</p><p><em>Conteúdo de demonstração. Substitua-o pelas suas condições de entrega.</em></p>",
+    "ru": "<h2>Доставка</h2><p>Заказы, оформленные в рабочий день до 14:00, отправляются в тот же день.</p><ul><li><strong>Стандартная:</strong> 2–4 рабочих дня, бесплатно от 150 €.</li><li><strong>Экспресс:</strong> следующий рабочий день в большинстве стран Европы.</li><li><strong>Самовывоз:</strong> бесплатно, готово в течение 24 часов.</li></ul><p>Каждая посылка отслеживается — ссылку вы получите по e-mail, как только она покинет наш склад.</p><p><em>Демонстрационный контент. Замените его своими условиями доставки.</em></p>"
+   }
+  },
+  {
+   "key": "returns",
+   "title": {
+    "en": "Returns & exchanges",
+    "fr": "Retours & échanges",
+    "es": "Devoluciones y cambios",
+    "it": "Resi e cambi",
+    "pl": "Zwroty i wymiany",
+    "de": "Rücksendung & Umtausch",
+    "cs": "Vrácení a výměna",
+    "nl": "Retourneren & ruilen",
+    "pt": "Devoluções e trocas",
+    "ru": "Возврат и обмен"
+   },
+   "meta_description": {
+    "en": "Free returns within 30 days on Aurelle Jewels orders.",
+    "fr": "Retours gratuits sous 30 jours sur les commandes Aurelle Jewels.",
+    "es": "Devoluciones gratuitas en 30 días en los pedidos de Aurelle Jewels.",
+    "it": "Reso gratuito entro 30 giorni sugli ordini Aurelle Jewels.",
+    "pl": "Bezpłatne zwroty w ciągu 30 dni dla zamówień Aurelle Jewels.",
+    "de": "Kostenlose Rücksendung innerhalb von 30 Tagen bei Aurelle Jewels.",
+    "cs": "Vrácení zdarma do 30 dní u objednávek Aurelle Jewels.",
+    "nl": "Gratis retourneren binnen 30 dagen bij Aurelle Jewels.",
+    "pt": "Devoluções gratuitas em 30 dias nas encomendas Aurelle Jewels.",
+    "ru": "Бесплатный возврат в течение 30 дней для заказов Aurelle Jewels."
+   },
+   "content": {
+    "en": "<h2>Returns &amp; exchanges</h2><p>You have 30 days from delivery to return any unworn item with its labels attached. Returns are free within the European Union.</p><ol><li>Sign in to your account and open the order.</li><li>Choose the items to return and print the prepaid label.</li><li>Drop the parcel at any post office or collection point.</li></ol><p>Refunds are made to the original payment method within 5 working days of receiving your parcel. For an exchange, simply return the item and place a new order.</p><p><em>This is demo content. Replace it with your own return policy.</em></p>",
+    "fr": "<h2>Retours &amp; échanges</h2><p>Vous disposez de 30 jours après la livraison pour retourner tout article non porté avec ses étiquettes. Les retours sont gratuits dans l'Union européenne.</p><ol><li>Connectez-vous à votre compte et ouvrez la commande.</li><li>Choisissez les articles à retourner et imprimez l'étiquette prépayée.</li><li>Déposez le colis dans un bureau de poste ou un point relais.</li></ol><p>Le remboursement est effectué sur le moyen de paiement d'origine sous 5 jours ouvrés après réception du colis. Pour un échange, retournez simplement l'article et passez une nouvelle commande.</p><p><em>Contenu de démonstration. Remplacez-le par votre propre politique de retour.</em></p>",
+    "es": "<h2>Devoluciones y cambios</h2><p>Dispones de 30 días desde la entrega para devolver cualquier artículo sin usar y con sus etiquetas. Las devoluciones son gratuitas dentro de la Unión Europea.</p><ol><li>Inicia sesión en tu cuenta y abre el pedido.</li><li>Elige los artículos que quieres devolver e imprime la etiqueta prepagada.</li><li>Entrega el paquete en cualquier oficina de correos o punto de recogida.</li></ol><p>El reembolso se realiza al método de pago original en un plazo de 5 días laborables tras recibir el paquete. Para un cambio, devuelve el artículo y realiza un nuevo pedido.</p><p><em>Contenido de demostración. Sustitúyelo por tu propia política de devoluciones.</em></p>",
+    "it": "<h2>Resi e cambi</h2><p>Hai 30 giorni dalla consegna per restituire qualsiasi articolo non indossato e con le etichette. Il reso è gratuito nell'Unione europea.</p><ol><li>Accedi al tuo account e apri l'ordine.</li><li>Scegli gli articoli da restituire e stampa l'etichetta prepagata.</li><li>Consegna il pacco in un ufficio postale o punto di ritiro.</li></ol><p>Il rimborso avviene sul metodo di pagamento originale entro 5 giorni lavorativi dalla ricezione del pacco. Per un cambio, restituisci l'articolo ed effettua un nuovo ordine.</p><p><em>Contenuto dimostrativo. Sostituiscilo con la tua politica di reso.</em></p>",
+    "pl": "<h2>Zwroty i wymiany</h2><p>Masz 30 dni od dostawy na zwrot nienoszonego produktu z metkami. Zwroty w Unii Europejskiej są bezpłatne.</p><ol><li>Zaloguj się na swoje konto i otwórz zamówienie.</li><li>Wybierz produkty do zwrotu i wydrukuj opłaconą etykietę.</li><li>Nadaj paczkę na poczcie lub w punkcie odbioru.</li></ol><p>Zwrot pieniędzy następuje na pierwotną metodę płatności w ciągu 5 dni roboczych od otrzymania paczki. Aby wymienić produkt, zwróć go i złóż nowe zamówienie.</p><p><em>Treść demonstracyjna. Zastąp ją własną polityką zwrotów.</em></p>",
+    "de": "<h2>Rücksendung &amp; Umtausch</h2><p>Sie haben ab Lieferung 30 Tage Zeit, ungetragene Artikel mit Etikett zurückzusenden. Rücksendungen innerhalb der EU sind kostenlos.</p><ol><li>Melden Sie sich in Ihrem Konto an und öffnen Sie die Bestellung.</li><li>Wählen Sie die Artikel aus und drucken Sie das vorfrankierte Etikett.</li><li>Geben Sie das Paket bei einer Post- oder Paketstelle ab.</li></ol><p>Die Erstattung erfolgt innerhalb von 5 Werktagen nach Eingang auf das ursprüngliche Zahlungsmittel. Für einen Umtausch senden Sie den Artikel zurück und bestellen neu.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Rückgabebedingungen.</em></p>",
+    "cs": "<h2>Vrácení a výměna</h2><p>Na vrácení nenošeného zboží s visačkami máte 30 dní od doručení. Vrácení v rámci Evropské unie je zdarma.</p><ol><li>Přihlaste se ke svému účtu a otevřete objednávku.</li><li>Vyberte zboží k vrácení a vytiskněte předplacený štítek.</li><li>Balík odevzdejte na poště nebo ve výdejním místě.</li></ol><p>Peníze vracíme původní platební metodou do 5 pracovních dnů od přijetí balíku. Pro výměnu zboží vraťte a vytvořte novou objednávku.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními podmínkami vrácení.</em></p>",
+    "nl": "<h2>Retourneren &amp; ruilen</h2><p>Je hebt 30 dagen na levering om ongedragen artikelen met label terug te sturen. Retourneren binnen de Europese Unie is gratis.</p><ol><li>Log in op je account en open de bestelling.</li><li>Kies de artikelen en print het gefrankeerde label.</li><li>Lever het pakket af bij een postkantoor of afhaalpunt.</li></ol><p>We betalen terug via de oorspronkelijke betaalmethode binnen 5 werkdagen na ontvangst. Om te ruilen stuur je het artikel terug en plaats je een nieuwe bestelling.</p><p><em>Democontent. Vervang dit door je eigen retourbeleid.</em></p>",
+    "pt": "<h2>Devoluções e trocas</h2><p>Tem 30 dias após a entrega para devolver qualquer artigo não usado e com etiquetas. As devoluções são gratuitas na União Europeia.</p><ol><li>Inicie sessão na sua conta e abra a encomenda.</li><li>Escolha os artigos a devolver e imprima a etiqueta pré-paga.</li><li>Entregue a encomenda numa estação de correios ou ponto de recolha.</li></ol><p>O reembolso é feito no método de pagamento original no prazo de 5 dias úteis após receção. Para uma troca, devolva o artigo e faça uma nova encomenda.</p><p><em>Conteúdo de demonstração. Substitua-o pela sua política de devoluções.</em></p>",
+    "ru": "<h2>Возврат и обмен</h2><p>У вас есть 30 дней с момента доставки, чтобы вернуть неношеный товар с ярлыками. Возврат в пределах Европейского союза бесплатный.</p><ol><li>Войдите в свой аккаунт и откройте заказ.</li><li>Выберите товары для возврата и распечатайте оплаченную этикетку.</li><li>Сдайте посылку в почтовое отделение или пункт приёма.</li></ol><p>Деньги возвращаются на исходный способ оплаты в течение 5 рабочих дней после получения посылки. Для обмена верните товар и оформите новый заказ.</p><p><em>Демонстрационный контент. Замените его своей политикой возврата.</em></p>"
+   }
+  },
+  {
+   "key": "terms",
+   "title": {
+    "en": "Terms and conditions",
+    "fr": "Conditions générales de vente",
+    "es": "Condiciones generales",
+    "it": "Condizioni di vendita",
+    "pl": "Regulamin",
+    "de": "AGB",
+    "cs": "Obchodní podmínky",
+    "nl": "Algemene voorwaarden",
+    "pt": "Termos e condições",
+    "ru": "Условия продажи"
+   },
+   "meta_description": {
+    "en": "Terms and conditions of sale.",
+    "fr": "Conditions générales de vente.",
+    "es": "Condiciones generales de venta.",
+    "it": "Condizioni generali di vendita.",
+    "pl": "Regulamin sprzedaży.",
+    "de": "Allgemeine Geschäftsbedingungen.",
+    "cs": "Všeobecné obchodní podmínky.",
+    "nl": "Algemene verkoopvoorwaarden.",
+    "pt": "Condições gerais de venda.",
+    "ru": "Общие условия продажи."
+   },
+   "content": {
+    "en": "<h2>Terms and conditions of sale</h2><p>These terms apply to all orders placed on this website. By placing an order you accept them in full.</p><h3>Prices</h3><p>Prices are shown in euros, including VAT. Delivery costs are shown before you confirm your order.</p><h3>Payment</h3><p>Payment is taken when your order is confirmed.</p><h3>Right of withdrawal</h3><p>You may withdraw from your purchase within 30 days of delivery, as described on our returns page.</p><p><em>This is demo content. Replace it with terms reviewed by a legal professional for your country.</em></p>",
+    "fr": "<h2>Conditions générales de vente</h2><p>Ces conditions s'appliquent à toutes les commandes passées sur ce site. En passant commande, vous les acceptez dans leur intégralité.</p><h3>Prix</h3><p>Les prix sont indiqués en euros, TVA comprise. Les frais de livraison sont affichés avant la validation de la commande.</p><h3>Paiement</h3><p>Le paiement est prélevé à la confirmation de la commande.</p><h3>Droit de rétractation</h3><p>Vous pouvez vous rétracter dans les 30 jours suivant la livraison, comme indiqué sur notre page des retours.</p><p><em>Contenu de démonstration. Remplacez-le par des conditions validées par un juriste pour votre pays.</em></p>",
+    "es": "<h2>Condiciones generales de venta</h2><p>Estas condiciones se aplican a todos los pedidos realizados en este sitio web. Al realizar un pedido, las aceptas íntegramente.</p><h3>Precios</h3><p>Los precios se muestran en euros, IVA incluido. Los gastos de envío se indican antes de confirmar el pedido.</p><h3>Pago</h3><p>El pago se cobra al confirmar el pedido.</p><h3>Derecho de desistimiento</h3><p>Puedes desistir de tu compra en los 30 días siguientes a la entrega, tal como se describe en nuestra página de devoluciones.</p><p><em>Contenido de demostración. Sustitúyelo por condiciones revisadas por un profesional jurídico de tu país.</em></p>",
+    "it": "<h2>Condizioni generali di vendita</h2><p>Queste condizioni si applicano a tutti gli ordini effettuati su questo sito. Effettuando un ordine le accetti integralmente.</p><h3>Prezzi</h3><p>I prezzi sono indicati in euro, IVA inclusa. Le spese di spedizione sono indicate prima della conferma dell'ordine.</p><h3>Pagamento</h3><p>Il pagamento viene addebitato alla conferma dell'ordine.</p><h3>Diritto di recesso</h3><p>Puoi recedere dall'acquisto entro 30 giorni dalla consegna, come descritto nella pagina dei resi.</p><p><em>Contenuto dimostrativo. Sostituiscilo con condizioni verificate da un legale del tuo Paese.</em></p>",
+    "pl": "<h2>Regulamin sprzedaży</h2><p>Niniejszy regulamin dotyczy wszystkich zamówień składanych w tym sklepie. Składając zamówienie, akceptujesz go w całości.</p><h3>Ceny</h3><p>Ceny podane są w euro i zawierają VAT. Koszty dostawy wyświetlamy przed potwierdzeniem zamówienia.</p><h3>Płatność</h3><p>Płatność pobierana jest w momencie potwierdzenia zamówienia.</p><h3>Prawo odstąpienia</h3><p>Możesz odstąpić od umowy w ciągu 30 dni od dostawy, jak opisano na stronie zwrotów.</p><p><em>Treść demonstracyjna. Zastąp ją regulaminem sprawdzonym przez prawnika w Twoim kraju.</em></p>",
+    "de": "<h2>Allgemeine Geschäftsbedingungen</h2><p>Diese Bedingungen gelten für alle Bestellungen auf dieser Website. Mit Ihrer Bestellung erkennen Sie sie vollständig an.</p><h3>Preise</h3><p>Alle Preise in Euro inklusive Mehrwertsteuer. Versandkosten werden vor der Bestellbestätigung angezeigt.</p><h3>Zahlung</h3><p>Die Zahlung wird mit der Bestellbestätigung fällig.</p><h3>Widerrufsrecht</h3><p>Sie können innerhalb von 30 Tagen nach Lieferung widerrufen, wie auf unserer Rückgabeseite beschrieben.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch rechtlich geprüfte Bedingungen für Ihr Land.</em></p>",
+    "cs": "<h2>Všeobecné obchodní podmínky</h2><p>Tyto podmínky platí pro všechny objednávky na tomto webu. Odesláním objednávky je přijímáte v plném rozsahu.</p><h3>Ceny</h3><p>Ceny jsou uvedeny v eurech včetně DPH. Cena dopravy se zobrazí před potvrzením objednávky.</p><h3>Platba</h3><p>Platba je stržena při potvrzení objednávky.</p><h3>Odstoupení od smlouvy</h3><p>Od nákupu můžete odstoupit do 30 dnů od doručení, jak je popsáno na stránce vrácení.</p><p><em>Ukázkový obsah. Nahraďte jej podmínkami schválenými právníkem pro vaši zemi.</em></p>",
+    "nl": "<h2>Algemene verkoopvoorwaarden</h2><p>Deze voorwaarden gelden voor alle bestellingen op deze website. Door te bestellen ga je er volledig mee akkoord.</p><h3>Prijzen</h3><p>Prijzen zijn in euro's, inclusief btw. Verzendkosten zie je voordat je je bestelling bevestigt.</p><h3>Betaling</h3><p>De betaling wordt afgeschreven bij bevestiging van de bestelling.</p><h3>Herroepingsrecht</h3><p>Je kunt je aankoop binnen 30 dagen na levering herroepen, zoals beschreven op onze retourpagina.</p><p><em>Democontent. Vervang dit door voorwaarden die door een jurist voor jouw land zijn gecontroleerd.</em></p>",
+    "pt": "<h2>Condições gerais de venda</h2><p>Estas condições aplicam-se a todas as encomendas feitas neste site. Ao encomendar, aceita-as na íntegra.</p><h3>Preços</h3><p>Os preços são apresentados em euros, com IVA incluído. Os portes são indicados antes de confirmar a encomenda.</p><h3>Pagamento</h3><p>O pagamento é cobrado na confirmação da encomenda.</p><h3>Direito de livre resolução</h3><p>Pode desistir da compra no prazo de 30 dias após a entrega, conforme descrito na página de devoluções.</p><p><em>Conteúdo de demonstração. Substitua-o por condições revistas por um jurista do seu país.</em></p>",
+    "ru": "<h2>Общие условия продажи</h2><p>Эти условия распространяются на все заказы на этом сайте. Оформляя заказ, вы принимаете их полностью.</p><h3>Цены</h3><p>Цены указаны в евро с учётом НДС. Стоимость доставки отображается до подтверждения заказа.</p><h3>Оплата</h3><p>Оплата списывается при подтверждении заказа.</p><h3>Право на отказ</h3><p>Вы можете отказаться от покупки в течение 30 дней после доставки, как описано на странице возврата.</p><p><em>Демонстрационный контент. Замените его условиями, проверенными юристом вашей страны.</em></p>"
+   },
+   "role": "conditions"
+  },
+  {
+   "key": "privacy",
+   "title": {
+    "en": "Privacy policy",
+    "fr": "Politique de confidentialité",
+    "es": "Política de privacidad",
+    "it": "Informativa sulla privacy",
+    "pl": "Polityka prywatności",
+    "de": "Datenschutzerklärung",
+    "cs": "Ochrana osobních údajů",
+    "nl": "Privacybeleid",
+    "pt": "Política de privacidade",
+    "ru": "Политика конфиденциальности"
+   },
+   "meta_description": {
+    "en": "How we collect and use your personal data.",
+    "fr": "Comment nous collectons et utilisons vos données personnelles.",
+    "es": "Cómo recogemos y utilizamos tus datos personales.",
+    "it": "Come raccogliamo e utilizziamo i tuoi dati personali.",
+    "pl": "Jak zbieramy i wykorzystujemy Twoje dane osobowe.",
+    "de": "Wie wir Ihre personenbezogenen Daten erheben und nutzen.",
+    "cs": "Jak shromažďujeme a používáme vaše osobní údaje.",
+    "nl": "Hoe we je persoonsgegevens verzamelen en gebruiken.",
+    "pt": "Como recolhemos e utilizamos os seus dados pessoais.",
+    "ru": "Как мы собираем и используем ваши персональные данные."
+   },
+   "content": {
+    "en": "<h2>Privacy policy</h2><p>We only collect the personal data we need to process your orders, answer your questions and, if you agree, send you our newsletter.</p><h3>Your rights</h3><p>You can access, correct or delete your data at any time from your account or by contacting us.</p><h3>Cookies</h3><p>We use the cookies needed for the shop to work, and others only with your consent.</p><p><em>This is demo content. Replace it with a privacy policy reviewed by a legal professional.</em></p>",
+    "fr": "<h2>Politique de confidentialité</h2><p>Nous ne collectons que les données personnelles nécessaires pour traiter vos commandes, répondre à vos questions et, si vous l'acceptez, vous envoyer notre newsletter.</p><h3>Vos droits</h3><p>Vous pouvez à tout moment accéder à vos données, les corriger ou les supprimer depuis votre compte ou en nous contactant.</p><h3>Cookies</h3><p>Nous utilisons les cookies nécessaires au fonctionnement de la boutique, et les autres uniquement avec votre consentement.</p><p><em>Contenu de démonstration. Remplacez-le par une politique validée par un juriste.</em></p>",
+    "es": "<h2>Política de privacidad</h2><p>Solo recogemos los datos personales necesarios para tramitar tus pedidos, responder a tus preguntas y, si lo aceptas, enviarte nuestro boletín.</p><h3>Tus derechos</h3><p>Puedes acceder, corregir o eliminar tus datos en cualquier momento desde tu cuenta o contactándonos.</p><h3>Cookies</h3><p>Usamos las cookies necesarias para el funcionamiento de la tienda y las demás solo con tu consentimiento.</p><p><em>Contenido de demostración. Sustitúyelo por una política revisada por un profesional jurídico.</em></p>",
+    "it": "<h2>Informativa sulla privacy</h2><p>Raccogliamo solo i dati personali necessari per gestire i tuoi ordini, rispondere alle tue domande e, se acconsenti, inviarti la nostra newsletter.</p><h3>I tuoi diritti</h3><p>Puoi accedere, correggere o cancellare i tuoi dati in qualsiasi momento dal tuo account o contattandoci.</p><h3>Cookie</h3><p>Usiamo i cookie necessari al funzionamento del negozio e gli altri solo con il tuo consenso.</p><p><em>Contenuto dimostrativo. Sostituiscilo con un'informativa verificata da un legale.</em></p>",
+    "pl": "<h2>Polityka prywatności</h2><p>Zbieramy wyłącznie dane osobowe potrzebne do realizacji zamówień, odpowiedzi na pytania i – za Twoją zgodą – wysyłki newslettera.</p><h3>Twoje prawa</h3><p>W każdej chwili możesz uzyskać dostęp do swoich danych, poprawić je lub usunąć w swoim koncie albo kontaktując się z nami.</p><h3>Pliki cookie</h3><p>Używamy plików cookie niezbędnych do działania sklepu, a pozostałych wyłącznie za Twoją zgodą.</p><p><em>Treść demonstracyjna. Zastąp ją polityką sprawdzoną przez prawnika.</em></p>",
+    "de": "<h2>Datenschutzerklärung</h2><p>Wir erheben nur die personenbezogenen Daten, die wir zur Abwicklung Ihrer Bestellungen, zur Beantwortung Ihrer Fragen und – mit Ihrer Zustimmung – für unseren Newsletter benötigen.</p><h3>Ihre Rechte</h3><p>Sie können Ihre Daten jederzeit in Ihrem Konto oder über unseren Kontakt einsehen, berichtigen oder löschen.</p><h3>Cookies</h3><p>Wir verwenden die für den Shop notwendigen Cookies, andere nur mit Ihrer Einwilligung.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch eine rechtlich geprüfte Datenschutzerklärung.</em></p>",
+    "cs": "<h2>Ochrana osobních údajů</h2><p>Shromažďujeme pouze osobní údaje nutné k vyřízení objednávek, zodpovězení dotazů a – s vaším souhlasem – k zasílání newsletteru.</p><h3>Vaše práva</h3><p>Své údaje můžete kdykoli zobrazit, opravit nebo smazat ve svém účtu nebo nás kontaktovat.</p><h3>Cookies</h3><p>Používáme cookies nezbytné pro chod obchodu, ostatní pouze s vaším souhlasem.</p><p><em>Ukázkový obsah. Nahraďte jej zásadami schválenými právníkem.</em></p>",
+    "nl": "<h2>Privacybeleid</h2><p>We verzamelen alleen de persoonsgegevens die nodig zijn om je bestellingen te verwerken, je vragen te beantwoorden en, als je dat wilt, onze nieuwsbrief te sturen.</p><h3>Je rechten</h3><p>Je kunt je gegevens op elk moment inzien, corrigeren of verwijderen via je account of door contact met ons op te nemen.</p><h3>Cookies</h3><p>We gebruiken de cookies die nodig zijn voor de werking van de winkel, en andere alleen met jouw toestemming.</p><p><em>Democontent. Vervang dit door een privacybeleid dat door een jurist is gecontroleerd.</em></p>",
+    "pt": "<h2>Política de privacidade</h2><p>Recolhemos apenas os dados pessoais necessários para processar as suas encomendas, responder às suas perguntas e, se concordar, enviar a nossa newsletter.</p><h3>Os seus direitos</h3><p>Pode aceder, corrigir ou apagar os seus dados a qualquer momento na sua conta ou contactando-nos.</p><h3>Cookies</h3><p>Usamos os cookies necessários ao funcionamento da loja e os restantes apenas com o seu consentimento.</p><p><em>Conteúdo de demonstração. Substitua-o por uma política revista por um jurista.</em></p>",
+    "ru": "<h2>Политика конфиденциальности</h2><p>Мы собираем только те персональные данные, которые нужны для обработки заказов, ответов на ваши вопросы и — с вашего согласия — отправки рассылки.</p><h3>Ваши права</h3><p>Вы можете в любой момент просмотреть, исправить или удалить свои данные в аккаунте или связавшись с нами.</p><h3>Файлы cookie</h3><p>Мы используем cookie, необходимые для работы магазина, а остальные — только с вашего согласия.</p><p><em>Демонстрационный контент. Замените его политикой, проверенной юристом.</em></p>"
+   }
+  },
+  {
+   "key": "legal",
+   "title": {
+    "en": "Legal notice",
+    "fr": "Mentions légales",
+    "es": "Aviso legal",
+    "it": "Note legali",
+    "pl": "Nota prawna",
+    "de": "Impressum",
+    "cs": "Právní informace",
+    "nl": "Juridische informatie",
+    "pt": "Aviso legal",
+    "ru": "Правовая информация"
+   },
+   "meta_description": {
+    "en": "Legal notice and company information.",
+    "fr": "Mentions légales et informations sur la société.",
+    "es": "Aviso legal e información de la empresa.",
+    "it": "Note legali e informazioni sulla società.",
+    "pl": "Nota prawna i dane firmy.",
+    "de": "Impressum und Unternehmensangaben.",
+    "cs": "Právní informace a údaje o společnosti.",
+    "nl": "Juridische informatie en bedrijfsgegevens.",
+    "pt": "Aviso legal e informações da empresa.",
+    "ru": "Правовая информация и сведения о компании."
+   },
+   "content": {
+    "en": "<h2>Legal notice</h2><p>Aurelle Jewels is a fictional brand created for this demo store.</p><p>Publisher: your company name, address, registration number and VAT number.</p><p>Hosting: your hosting provider's name and address.</p><p><em>This is demo content. Replace it with your own company details.</em></p>",
+    "fr": "<h2>Mentions légales</h2><p>Aurelle Jewels est une marque fictive créée pour cette boutique de démonstration.</p><p>Éditeur : nom de votre société, adresse, numéro d'immatriculation et numéro de TVA.</p><p>Hébergement : nom et adresse de votre hébergeur.</p><p><em>Contenu de démonstration. Remplacez-le par les informations de votre société.</em></p>",
+    "es": "<h2>Aviso legal</h2><p>Aurelle Jewels es una marca ficticia creada para esta tienda de demostración.</p><p>Titular: nombre de tu empresa, dirección, número de registro y NIF/IVA.</p><p>Alojamiento: nombre y dirección de tu proveedor de hosting.</p><p><em>Contenido de demostración. Sustitúyelo por los datos de tu empresa.</em></p>",
+    "it": "<h2>Note legali</h2><p>Aurelle Jewels è un marchio di fantasia creato per questo negozio dimostrativo.</p><p>Editore: nome della tua società, indirizzo, numero di registrazione e partita IVA.</p><p>Hosting: nome e indirizzo del tuo fornitore di hosting.</p><p><em>Contenuto dimostrativo. Sostituiscilo con i dati della tua società.</em></p>",
+    "pl": "<h2>Nota prawna</h2><p>Aurelle Jewels to fikcyjna marka stworzona na potrzeby tego sklepu demonstracyjnego.</p><p>Wydawca: nazwa Twojej firmy, adres, numer rejestrowy i NIP.</p><p>Hosting: nazwa i adres dostawcy hostingu.</p><p><em>Treść demonstracyjna. Zastąp ją danymi swojej firmy.</em></p>",
+    "de": "<h2>Impressum</h2><p>Aurelle Jewels ist eine fiktive Marke, die für diesen Demo-Shop erstellt wurde.</p><p>Anbieter: Name Ihres Unternehmens, Anschrift, Registernummer und USt-IdNr.</p><p>Hosting: Name und Anschrift Ihres Hosting-Anbieters.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Unternehmensangaben.</em></p>",
+    "cs": "<h2>Právní informace</h2><p>Aurelle Jewels je smyšlená značka vytvořená pro tento ukázkový obchod.</p><p>Provozovatel: název vaší společnosti, adresa, IČO a DIČ.</p><p>Hosting: název a adresa vašeho poskytovatele hostingu.</p><p><em>Ukázkový obsah. Nahraďte jej údaji vaší společnosti.</em></p>",
+    "nl": "<h2>Juridische informatie</h2><p>Aurelle Jewels is een fictief merk, gemaakt voor deze demowinkel.</p><p>Uitgever: je bedrijfsnaam, adres, KvK-nummer en btw-nummer.</p><p>Hosting: naam en adres van je hostingprovider.</p><p><em>Democontent. Vervang dit door je eigen bedrijfsgegevens.</em></p>",
+    "pt": "<h2>Aviso legal</h2><p>A Aurelle Jewels é uma marca fictícia criada para esta loja de demonstração.</p><p>Editor: nome da sua empresa, morada, número de registo e NIF.</p><p>Alojamento: nome e morada do seu fornecedor de alojamento.</p><p><em>Conteúdo de demonstração. Substitua-o pelos dados da sua empresa.</em></p>",
+    "ru": "<h2>Правовая информация</h2><p>Aurelle Jewels — вымышленный бренд, созданный для этого демонстрационного магазина.</p><p>Владелец: название вашей компании, адрес, регистрационный номер и номер НДС.</p><p>Хостинг: название и адрес вашего хостинг-провайдера.</p><p><em>Демонстрационный контент. Замените его данными вашей компании.</em></p>"
+   }
+  }
+ ],
+ "menu": [
+  "category:rings",
+  "category:necklaces",
+  "category:earrings",
+  "category:bracelets",
+  "category:pearls",
+  "category:bridal",
+  {
+   "label": {
+    "en": "Gifts",
+    "fr": "Cadeaux",
+    "es": "Regalos",
+    "it": "Regali",
+    "pl": "Prezenty",
+    "de": "Geschenke",
+    "cs": "Dárky",
+    "nl": "Cadeaus",
+    "pt": "Presentes",
+    "ru": "Подарки"
+   },
+   "url": "page:prices-drop"
+  }
+ ],
+ "link_blocks": [
+  {
+   "name": {
+    "en": "Shop",
+    "fr": "Boutique",
+    "es": "Tienda",
+    "it": "Negozio",
+    "pl": "Sklep",
+    "de": "Shop",
+    "cs": "Obchod",
+    "nl": "Winkel",
+    "pt": "Loja",
+    "ru": "Магазин"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "page:new-products",
+    "page:prices-drop",
+    "page:best-sales"
+   ]
+  },
+  {
+   "name": {
+    "en": "Customer care",
+    "fr": "Service client",
+    "es": "Atención al cliente",
+    "it": "Assistenza clienti",
+    "pl": "Obsługa klienta",
+    "de": "Kundenservice",
+    "cs": "Zákaznický servis",
+    "nl": "Klantenservice",
+    "pt": "Apoio ao cliente",
+    "ru": "Покупателям"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "cms:delivery",
+    "cms:returns",
+    "cms:ring-guide",
+    "cms:jewellery-care",
+    "page:contact"
+   ]
+  },
+  {
+   "name": {
+    "en": "Aurelle Jewels",
+    "fr": "Aurelle Jewels",
+    "es": "Aurelle Jewels",
+    "it": "Aurelle Jewels",
+    "pl": "Aurelle Jewels",
+    "de": "Aurelle Jewels",
+    "cs": "Aurelle Jewels",
+    "nl": "Aurelle Jewels",
+    "pt": "Aurelle Jewels",
+    "ru": "Aurelle Jewels"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "cms:about",
+    "cms:terms",
+    "cms:privacy",
+    "cms:legal",
+    "page:sitemap"
+   ]
+  }
+ ],
+ "reassurance": [
+  {
+   "icon": "pack2/carrier.svg",
+   "title": {
+    "en": "Free delivery over €150",
+    "fr": "Livraison offerte dès 150 €",
+    "es": "Envío gratis a partir de 150 €",
+    "it": "Spedizione gratuita oltre 150 €",
+    "pl": "Darmowa dostawa od 150 €",
+    "de": "Kostenloser Versand ab 150 €",
+    "cs": "Doprava zdarma od 150 €",
+    "nl": "Gratis verzending vanaf € 150",
+    "pt": "Entrega grátis a partir de 150 €",
+    "ru": "Бесплатная доставка от 150 €"
+   },
+   "text": {
+    "en": "Tracked shipping across Europe",
+    "fr": "Envoi suivi dans toute l'Europe",
+    "es": "Envío con seguimiento en toda Europa",
+    "it": "Spedizione tracciata in tutta Europa",
+    "pl": "Przesyłki ze śledzeniem w całej Europie",
+    "de": "Sendungsverfolgung in ganz Europa",
+    "cs": "Sledované zásilky po celé Evropě",
+    "nl": "Track & trace in heel Europa",
+    "pt": "Envio com seguimento em toda a Europa",
+    "ru": "Отслеживаемая доставка по всей Европе"
+   },
+   "cms": "delivery"
+  },
+  {
+   "icon": "pack2/return.svg",
+   "title": {
+    "en": "Free 30-day returns",
+    "fr": "Retours gratuits sous 30 jours",
+    "es": "Devoluciones gratis en 30 días",
+    "it": "Reso gratuito entro 30 giorni",
+    "pl": "Bezpłatny zwrot w 30 dni",
+    "de": "30 Tage kostenlose Rücksendung",
+    "cs": "Vrácení zdarma do 30 dní",
+    "nl": "30 dagen gratis retour",
+    "pt": "Devoluções grátis em 30 dias",
+    "ru": "Бесплатный возврат за 30 дней"
+   },
+   "text": {
+    "en": "Easy returns, no questions asked",
+    "fr": "Retours simples, sans justification",
+    "es": "Devoluciones fáciles, sin preguntas",
+    "it": "Resi semplici, senza domande",
+    "pl": "Proste zwroty bez pytań",
+    "de": "Einfache Rückgabe ohne Fragen",
+    "cs": "Snadné vrácení bez otázek",
+    "nl": "Makkelijk retourneren, zonder vragen",
+    "pt": "Devoluções fáceis, sem perguntas",
+    "ru": "Простой возврат без лишних вопросов"
+   },
+   "cms": "returns"
+  },
+  {
+   "icon": "pack2/security.svg",
+   "title": {
+    "en": "Secure payment",
+    "fr": "Paiement sécurisé",
+    "es": "Pago seguro",
+    "it": "Pagamento sicuro",
+    "pl": "Bezpieczna płatność",
+    "de": "Sichere Zahlung",
+    "cs": "Bezpečná platba",
+    "nl": "Veilig betalen",
+    "pt": "Pagamento seguro",
+    "ru": "Безопасная оплата"
+   },
+   "text": {
+    "en": "Card, PayPal and bank transfer",
+    "fr": "Carte, PayPal et virement",
+    "es": "Tarjeta, PayPal y transferencia",
+    "it": "Carta, PayPal e bonifico",
+    "pl": "Karta, PayPal i przelew",
+    "de": "Karte, PayPal und Überweisung",
+    "cs": "Karta, PayPal a převod",
+    "nl": "Kaart, PayPal en overschrijving",
+    "pt": "Cartão, PayPal e transferência",
+    "ru": "Карта, PayPal и банковский перевод"
+   }
+  }
+ ],
+ "config": {
+  "HOME_FEATURED_CAT": "category:home",
+  "PS_NB_DAYS_NEW_PRODUCT": 30,
+  "PS_PRODUCTS_PER_PAGE": 12,
+  "PS_SHOP_DETAILS": "",
+  "BLOCKSOCIAL_TWITTER": "",
+  "PS_JPEG_QUALITY": 82,
+  "PS_SHIPPING_FREE_PRICE": 150,
+  "PS_DISPLAY_BEST_SELLERS": 1,
+  "PS_GIFT_WRAPPING": 1,
+  "PS_GIFT_WRAPPING_PRICE": 0,
+  "HBKIT_CARD_FEATURE": "feature:metal,feature:stone",
+  "HBKIT_PRODUCT_FEATURES": "",
+  "HBKIT_QUICK_FACET": "group:size",
+  "HBKIT_SIZE_GUIDE": "cms:ring-guide",
+  "HBKIT_NEXT_CATEGORY": 1,
+  "HBKIT_TXT_NEWS_TITLE": {
+   "en": "New collections and private previews",
+   "fr": "Nouvelles collections et avant-premières privées",
+   "es": "Nuevas colecciones y preestrenos privados",
+   "it": "Nuove collezioni e anteprime private",
+   "pl": "Nowe kolekcje i prywatne przedpremiery",
+   "de": "Neue Kollektionen und private Vorpremieren",
+   "cs": "Nové kolekce a soukromé předpremiéry",
+   "nl": "Nieuwe collecties en privévoorpremières",
+   "pt": "Novas coleções e antestreias privadas",
+   "ru": "Новые коллекции и закрытые предпоказы"
+  },
+  "HBKIT_TXT_NEWS_TEXT": {
+   "en": "<p>Be the first to see new pieces. Get 10% off your first order.</p>",
+   "fr": "<p>Découvrez les nouvelles pièces en premier. Profitez de 10 % de réduction sur votre première commande.</p>",
+   "es": "<p>Descubre las nuevas piezas antes que nadie. Consigue un 10 % de descuento en tu primer pedido.</p>",
+   "it": "<p>Scopri per prima i nuovi pezzi. Ricevi il 10% di sconto sul primo ordine.</p>",
+   "pl": "<p>Zobacz nowe wyroby jako pierwsza. Otrzymaj 10% rabatu na pierwsze zamówienie.</p>",
+   "de": "<p>Sehen Sie neue Stücke als Erste. Sichern Sie sich 10 % Rabatt auf Ihre erste Bestellung.</p>",
+   "cs": "<p>Uvidíte nové kusy jako první. Získejte slevu 10 % na první objednávku.</p>",
+   "nl": "<p>Zie nieuwe stukken als eerste. Krijg 10% korting op je eerste bestelling.</p>",
+   "pt": "<p>Seja a primeira a ver as novas peças. Receba 10% de desconto na primeira encomenda.</p>",
+   "ru": "<p>Узнавайте о новых изделиях первыми. Скидка 10% на первый заказ.</p>"
+  },
+  "HBKIT_TXT_PRODUCT_NOTE": {
+   "en": "Free insured delivery over €150, tracked across Europe|Free resizing within 60 days, in our atelier|2-year guarantee on clasps, settings and plating",
+   "fr": "Livraison assurée offerte dès 150 €, suivie dans toute l'Europe|Mise à taille gratuite sous 60 jours, dans notre atelier|Garantie 2 ans sur les fermoirs, les sertis et le plaquage",
+   "es": "Envío asegurado gratis desde 150 €, con seguimiento en toda Europa|Ajuste de talla gratis en 60 días, en nuestro taller|Garantía de 2 años en cierres, engastes y baño",
+   "it": "Spedizione assicurata gratuita sopra i 150 €, tracciata in tutta Europa|Adattamento della misura gratuito entro 60 giorni, nel nostro atelier|Garanzia di 2 anni su chiusure, castoni e placcatura",
+   "pl": "Darmowa ubezpieczona dostawa od 150 €, śledzona w całej Europie|Bezpłatna zmiana rozmiaru w ciągu 60 dni, w naszej pracowni|2 lata gwarancji na zapięcia, oprawy i powłoki",
+   "de": "Kostenloser versicherter Versand ab 150 €, mit Sendungsverfolgung in ganz Europa|Kostenlose Größenanpassung innerhalb von 60 Tagen, in unserem Atelier|2 Jahre Garantie auf Verschlüsse, Fassungen und Beschichtung",
+   "cs": "Pojištěná doprava zdarma nad 150 €, sledovaná po celé Evropě|Úprava velikosti zdarma do 60 dnů v našem ateliéru|Záruka 2 roky na zapínání, kotlíky a pokovení",
+   "nl": "Gratis verzekerde verzending vanaf € 150, gevolgd in heel Europa|Gratis ringmaat aanpassen binnen 60 dagen, in ons atelier|2 jaar garantie op sluitingen, zettingen en verguldsel",
+   "pt": "Envio seguro grátis a partir de 150 €, com seguimento em toda a Europa|Ajuste de tamanho grátis em 60 dias, no nosso atelier|Garantia de 2 anos em fechos, engastes e banho",
+   "ru": "Бесплатная застрахованная доставка от 150 € с отслеживанием по всей Европе|Бесплатная подгонка размера в течение 60 дней в нашей мастерской|Гарантия 2 года на замки, закрепки и покрытие"
+  }
+ },
+ "home": [
+  {
+   "type": "hero",
+   "subtitle": {
+    "en": "Find your ring size",
+    "fr": "Trouver sa taille de bague",
+    "es": "Encuentra tu talla de anillo",
+    "it": "Trova la tua misura",
+    "pl": "Znajdź rozmiar pierścionka",
+    "de": "Ringgröße finden",
+    "cs": "Najít velikost prstenu",
+    "nl": "Vind je ringmaat",
+    "pt": "Encontrar o tamanho do anel",
+    "ru": "Узнать размер кольца"
+   },
+   "settings": {
+    "variant": "split",
+    "height": "m",
+    "autoplay": 0,
+    "overlay": 0,
+    "width": "container",
+    "spacing": "none",
+    "id_product": "solitaire-pendant",
+    "css": "au-hero"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "products/solitaire-pendant.jpg",
+      "link": "page:new-products",
+      "align": "left",
+      "tone": "dark"
+     },
+     "subtitle": {
+      "en": "New collection · Recycled gold, lab-grown diamonds",
+      "fr": "Nouvelle collection · Or recyclé, diamants de synthèse",
+      "es": "Nueva colección · Oro reciclado, diamantes de laboratorio",
+      "it": "Nuova collezione · Oro riciclato, diamanti sintetici",
+      "pl": "Nowa kolekcja · Złoto z recyklingu, diamenty laboratoryjne",
+      "de": "Neue Kollektion · Recyceltes Gold, Labordiamanten",
+      "cs": "Nová kolekce · Recyklované zlato, laboratorní diamanty",
+      "nl": "Nieuwe collectie · Gerecycled goud, labgekweekte diamanten",
+      "pt": "Nova coleção · Ouro reciclado, diamantes de laboratório",
+      "ru": "Новая коллекция · Переработанное золото, лабораторные бриллианты"
+     },
+     "title": {
+      "en": "Quiet light, made to keep",
+      "fr": "Une lumière discrète, faite pour durer",
+      "es": "Luz serena, hecha para durar",
+      "it": "Luce discreta, fatta per restare",
+      "pl": "Ciche światło, na zawsze",
+      "de": "Stilles Licht, gemacht zum Bleiben",
+      "cs": "Tiché světlo, které vydrží",
+      "nl": "Stil licht, gemaakt om te blijven",
+      "pt": "Luz serena, feita para ficar",
+      "ru": "Тихий свет, который остаётся"
+     },
+     "text": {
+      "en": "<p>Fine jewellery set and polished by hand in our Paris atelier. Every piece arrives in our gift box, with a card in your words.</p>",
+      "fr": "<p>Des bijoux sertis et polis à la main dans notre atelier parisien. Chaque pièce arrive dans notre écrin, avec une carte écrite à vos mots.</p>",
+      "es": "<p>Joyas engastadas y pulidas a mano en nuestro taller de París. Cada pieza llega en nuestro estuche, con una tarjeta con tus palabras.</p>",
+      "it": "<p>Gioielli incastonati e lucidati a mano nel nostro atelier di Parigi. Ogni pezzo arriva nella nostra scatola regalo, con un biglietto con le tue parole.</p>",
+      "pl": "<p>Biżuteria oprawiana i polerowana ręcznie w naszej paryskiej pracowni. Każdy egzemplarz dociera w naszym pudełku prezentowym, z kartką z Twoimi słowami.</p>",
+      "de": "<p>Schmuck, in unserem Pariser Atelier von Hand gefasst und poliert. Jedes Stück kommt in unserer Geschenkbox, mit einer Karte in Ihren Worten.</p>",
+      "cs": "<p>Šperky zasazené a leštěné ručně v našem pařížském ateliéru. Každý kus dorazí v naší dárkové krabičce s přáníčkem vašimi slovy.</p>",
+      "nl": "<p>Sieraden met de hand gezet en gepolijst in ons Parijse atelier. Elk stuk komt in onze geschenkdoos, met een kaartje in jouw woorden.</p>",
+      "pt": "<p>Joias cravadas e polidas à mão no nosso atelier de Paris. Cada peça chega na nossa caixa de oferta, com um cartão com as suas palavras.</p>",
+      "ru": "<p>Украшения, закреплённые и отполированные вручную в нашей парижской мастерской. Каждое приходит в нашей подарочной коробке с открыткой с вашими словами.</p>"
+     },
+     "button": {
+      "en": "Shop new pieces",
+      "fr": "Voir les nouveautés",
+      "es": "Ver novedades",
+      "it": "Scopri le novità",
+      "pl": "Zobacz nowości",
+      "de": "Neuheiten entdecken",
+      "cs": "Zobrazit novinky",
+      "nl": "Bekijk het nieuwe",
+      "pt": "Ver novidades",
+      "ru": "Смотреть новинки"
+     }
+    }
+   ]
+  },
+  {
+   "type": "categories",
+   "title": {
+    "en": "Shop by collection",
+    "fr": "Nos collections",
+    "es": "Nuestras colecciones",
+    "it": "Le nostre collezioni",
+    "pl": "Nasze kolekcje",
+    "de": "Unsere Kollektionen",
+    "cs": "Naše kolekce",
+    "nl": "Onze collecties",
+    "pt": "As nossas coleções",
+    "ru": "Наши коллекции"
+   },
+   "subtitle": {
+    "en": "All jewellery",
+    "fr": "Tous les bijoux",
+    "es": "Todas las joyas",
+    "it": "Tutti i gioielli",
+    "pl": "Cała biżuteria",
+    "de": "Alle Schmuckstücke",
+    "cs": "Všechny šperky",
+    "nl": "Alle sieraden",
+    "pt": "Todas as joias",
+    "ru": "Все украшения"
+   },
+   "settings": {
+    "style": "tiles",
+    "columns": "6",
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "category:home",
+    "css": "au-arches"
+   },
+   "items": [
+    {
+     "data": {
+      "id_category": "rings",
+      "image": "categories/rings.jpg"
+     }
+    },
+    {
+     "data": {
+      "id_category": "necklaces",
+      "image": "categories/necklaces.jpg"
+     }
+    },
+    {
+     "data": {
+      "id_category": "earrings",
+      "image": "categories/earrings.jpg"
+     }
+    },
+    {
+     "data": {
+      "id_category": "bracelets",
+      "image": "categories/bracelets.jpg"
+     }
+    },
+    {
+     "data": {
+      "id_category": "pearls",
+      "image": "categories/pearls.jpg"
+     }
+    },
+    {
+     "data": {
+      "id_category": "bridal",
+      "image": "categories/bridal.jpg"
+     }
+    }
+   ]
+  },
+  {
+   "type": "products",
+   "title": {
+    "en": "New in",
+    "fr": "Nouveautés",
+    "es": "Novedades",
+    "it": "Novità",
+    "pl": "Nowości",
+    "de": "Neuheiten",
+    "cs": "Novinky",
+    "nl": "Nieuw",
+    "pt": "Novidades",
+    "ru": "Новинки"
+   },
+   "subtitle": {
+    "en": "See all new pieces",
+    "fr": "Voir toutes les nouveautés",
+    "es": "Ver todas las novedades",
+    "it": "Vedi tutte le novità",
+    "pl": "Zobacz wszystkie nowości",
+    "de": "Alle Neuheiten",
+    "cs": "Všechny novinky",
+    "nl": "Alles wat nieuw is",
+    "pt": "Ver todas as novidades",
+    "ru": "Все новинки"
+   },
+   "settings": {
+    "limit": 4,
+    "layout": "grid",
+    "columns": "4",
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "page:new-products"
+   },
+   "items": [
+    {
+     "data": {
+      "source": "new"
+     },
+     "title": {
+      "en": "New in",
+      "fr": "Nouveautés",
+      "es": "Novedades",
+      "it": "Novità",
+      "pl": "Nowości",
+      "de": "Neuheiten",
+      "cs": "Novinky",
+      "nl": "Nieuw",
+      "pt": "Novidades",
+      "ru": "Новинки"
+     }
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "subtitle": {
+    "en": "Read the ring size guide",
+    "fr": "Lire le guide des tailles",
+    "es": "Leer la guía de tallas",
+    "it": "Leggi la guida alle misure",
+    "pl": "Przeczytaj przewodnik po rozmiarach",
+    "de": "Zum Ringgrößen-Ratgeber",
+    "cs": "Přečíst průvodce velikostmi",
+    "nl": "Lees de ringmatengids",
+    "pt": "Ler o guia de tamanhos",
+    "ru": "Таблица размеров колец"
+   },
+   "title": {
+    "en": "Lay a ring you own on the circle",
+    "fr": "Posez une bague sur le cercle",
+    "es": "Coloca un anillo tuyo sobre el círculo",
+    "it": "Appoggia un anello sul cerchio",
+    "pl": "Połóż swój pierścionek na okręgu",
+    "de": "Legen Sie einen Ring auf den Kreis",
+    "cs": "Položte svůj prsten na kruh",
+    "nl": "Leg een eigen ring op de cirkel",
+    "pt": "Pouse um anel seu sobre o círculo",
+    "ru": "Положите своё кольцо на круг"
+   },
+   "content": {
+    "en": "<p>Choose sizes until the circle meets the inside of your ring. Approximate on some screens, and every ring is resized free within 60 days.</p>",
+    "fr": "<p>Changez de taille jusqu'à ce que le cercle touche l'intérieur de votre bague. Approximatif sur certains écrans, et chaque bague est mise à taille gratuitement sous 60 jours.</p>",
+    "es": "<p>Cambia de talla hasta que el círculo toque el interior de tu anillo. Aproximado en algunas pantallas, y ajustamos cada anillo gratis en 60 días.</p>",
+    "it": "<p>Cambia misura finché il cerchio tocca l'interno del tuo anello. Approssimativo su alcuni schermi, e ogni anello viene adattato gratis entro 60 giorni.</p>",
+    "pl": "<p>Zmieniaj rozmiar, aż okrąg dotknie wnętrza pierścionka. Przybliżone na niektórych ekranach, a każdy pierścionek zmniejszamy lub powiększamy bezpłatnie w ciągu 60 dni.</p>",
+    "de": "<p>Wechseln Sie die Größe, bis der Kreis die Innenseite Ihres Rings trifft. Auf manchen Bildschirmen ungefähr, und jeder Ring wird innerhalb von 60 Tagen kostenlos angepasst.</p>",
+    "cs": "<p>Měňte velikost, dokud se kruh nedotkne vnitřku prstenu. Na některých obrazovkách přibližné a každý prsten upravíme zdarma do 60 dnů.</p>",
+    "nl": "<p>Wissel van maat tot de cirkel de binnenkant van je ring raakt. Bij benadering op sommige schermen, en elke ring passen we binnen 60 dagen gratis aan.</p>",
+    "pt": "<p>Mude de tamanho até o círculo tocar o interior do seu anel. Aproximado em alguns ecrãs, e ajustamos cada anel gratuitamente em 60 dias.</p>",
+    "ru": "<p>Меняйте размер, пока круг не совпадёт с внутренней стороной кольца. На некоторых экранах приблизительно, а каждое кольцо мы бесплатно подгоняем в течение 60 дней.</p>"
+   },
+   "settings": {
+    "link": "cms:ring-guide",
+    "spacing": "l",
+    "background": "primary",
+    "heading_align": "left",
+    "css": "au-sizer"
+   }
+  },
+  {
+   "type": "image_text",
+   "settings": {
+    "style": "image-left",
+    "ratio": "portrait",
+    "spacing": "l",
+    "css": "au-make"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/story.jpg",
+      "link": "cms:about"
+     },
+     "title": {
+      "en": "How we make it",
+      "fr": "Comment nous les fabriquons",
+      "es": "Cómo las hacemos",
+      "it": "Come li realizziamo",
+      "pl": "Jak powstaje nasza biżuteria",
+      "de": "So entsteht unser Schmuck",
+      "cs": "Jak naše šperky vznikají",
+      "nl": "Zo maken we het",
+      "pt": "Como as fazemos",
+      "ru": "Как мы их создаём"
+     },
+     "text": {
+      "en": "<ol><li><strong>Recycled gold and silver</strong> All our gold and silver is recycled and hallmarked, so you know exactly what you are wearing.</li><li><strong>Lab-grown diamonds</strong> Physically identical to mined diamonds, grown with a traceable origin and graded one by one.</li><li><strong>Set and polished by hand</strong> Stones are set one by one, claws shaped and every surface polished in our atelier until it glows.</li></ol>",
+      "fr": "<ol><li><strong>Or et argent recyclés</strong> Tout notre or et notre argent est recyclé et poinçonné : vous savez exactement ce que vous portez.</li><li><strong>Diamants de synthèse</strong> Physiquement identiques aux diamants de mine, cultivés avec une origine traçable et classés un par un.</li><li><strong>Sertis et polis à la main</strong> Les pierres sont serties une à une, les griffes façonnées et chaque surface polie dans notre atelier jusqu'à briller.</li></ol>",
+      "es": "<ol><li><strong>Oro y plata reciclados</strong> Todo nuestro oro y plata es reciclado y contrastado, así sabes exactamente lo que llevas.</li><li><strong>Diamantes de laboratorio</strong> Físicamente idénticos a los diamantes de mina, cultivados con un origen trazable y clasificados uno a uno.</li><li><strong>Engastadas y pulidas a mano</strong> Las piedras se engastan una a una, las garras se moldean y cada superficie se pule en nuestro taller hasta que brilla.</li></ol>",
+      "it": "<ol><li><strong>Oro e argento riciclati</strong> Tutto il nostro oro e argento è riciclato e marchiato, così sai esattamente cosa indossi.</li><li><strong>Diamanti sintetici</strong> Fisicamente identici ai diamanti di miniera, coltivati con un'origine tracciabile e classificati uno per uno.</li><li><strong>Incastonati e lucidati a mano</strong> Le pietre vengono incastonate una a una, le griffe modellate e ogni superficie lucidata nel nostro atelier finché brilla.</li></ol>",
+      "pl": "<ol><li><strong>Złoto i srebro z recyklingu</strong> Całe nasze złoto i srebro pochodzi z recyklingu i jest probowane, więc wiesz dokładnie, co nosisz.</li><li><strong>Diamenty laboratoryjne</strong> Fizycznie identyczne z wydobywanymi, wyhodowane z możliwym do prześledzenia pochodzeniem i oceniane pojedynczo.</li><li><strong>Oprawiane i polerowane ręcznie</strong> Kamienie oprawiamy jeden po drugim, kształtujemy łapki i polerujemy każdą powierzchnię w naszej pracowni, aż zalśni.</li></ol>",
+      "de": "<ol><li><strong>Recyceltes Gold und Silber</strong> Unser gesamtes Gold und Silber ist recycelt und gestempelt, damit Sie genau wissen, was Sie tragen.</li><li><strong>Labordiamanten</strong> Physikalisch identisch mit geschürften Diamanten, mit nachvollziehbarer Herkunft gezüchtet und einzeln bewertet.</li><li><strong>Von Hand gefasst und poliert</strong> Die Steine werden einzeln gefasst, die Krappen geformt und jede Fläche in unserem Atelier poliert, bis sie leuchtet.</li></ol>",
+      "cs": "<ol><li><strong>Recyklované zlato a stříbro</strong> Veškeré naše zlato a stříbro je recyklované a puncované, takže přesně víte, co nosíte.</li><li><strong>Laboratorní diamanty</strong> Fyzikálně totožné s těženými diamanty, vypěstované s dohledatelným původem a hodnocené jeden po druhém.</li><li><strong>Zasazené a leštěné ručně</strong> Kameny zasazujeme jeden po druhém, tvarujeme drápky a každý povrch leštíme v našem ateliéru, dokud nezáří.</li></ol>",
+      "nl": "<ol><li><strong>Gerecycled goud en zilver</strong> Al ons goud en zilver is gerecycled en gekeurd, zodat je precies weet wat je draagt.</li><li><strong>Labgekweekte diamanten</strong> Fysiek gelijk aan gedolven diamanten, gekweekt met een traceerbare herkomst en één voor één beoordeeld.</li><li><strong>Met de hand gezet en gepolijst</strong> Stenen worden één voor één gezet, griffen gevormd en elk oppervlak in ons atelier gepolijst tot het glanst.</li></ol>",
+      "pt": "<ol><li><strong>Ouro e prata reciclados</strong> Todo o nosso ouro e prata é reciclado e contrastado, para saber exatamente o que usa.</li><li><strong>Diamantes de laboratório</strong> Fisicamente idênticos aos diamantes de mina, cultivados com origem rastreável e classificados um a um.</li><li><strong>Cravadas e polidas à mão</strong> As pedras são cravadas uma a uma, as garras moldadas e cada superfície polida no nosso atelier até brilhar.</li></ol>",
+      "ru": "<ol><li><strong>Переработанное золото и серебро</strong> Всё наше золото и серебро переработано и опробировано, чтобы вы точно знали, что носите.</li><li><strong>Лабораторные бриллианты</strong> Физически идентичны добытым, выращены с прослеживаемым происхождением и оценены по одному.</li><li><strong>Закрепка и полировка вручную</strong> Камни закрепляют по одному, лапки формируют, а каждую поверхность полируют в мастерской до сияния.</li></ol>"
+     },
+     "button": ""
+    }
+   ]
+  },
+  {
+   "type": "image_text",
+   "settings": {
+    "style": "image-right",
+    "ratio": "square",
+    "spacing": "l",
+    "background": "surface",
+    "css": "au-gift"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/look-4.jpg",
+      "link": "cms:jewellery-care"
+     },
+     "title": {
+      "en": "Ready to give",
+      "fr": "Prêt à offrir",
+      "es": "Listo para regalar",
+      "it": "Pronto da regalare",
+      "pl": "Gotowe na prezent",
+      "de": "Bereit zum Verschenken",
+      "cs": "Připraveno k darování",
+      "nl": "Klaar om te geven",
+      "pt": "Pronto a oferecer",
+      "ru": "Готово к подарку"
+     },
+     "text": {
+      "en": "<p>Every piece leaves our atelier in a black gift box with an ivory ribbon. Write your message at checkout and we write the card by hand.</p><blockquote><p>For ten years of quiet mornings. All my love, A.</p><footer>Your card, written by hand</footer></blockquote>",
+      "fr": "<p>Chaque pièce quitte notre atelier dans un écrin noir au ruban ivoire. Écrivez votre message au moment de commander, nous l'écrivons à la main sur la carte.</p><blockquote><p>Pour dix ans de matins tranquilles. Avec tout mon amour, A.</p><footer>Votre carte, écrite à la main</footer></blockquote>",
+      "es": "<p>Cada pieza sale de nuestro taller en un estuche negro con cinta marfil. Escribe tu mensaje al pagar y lo escribimos a mano en la tarjeta.</p><blockquote><p>Por diez años de mañanas tranquilas. Con todo mi amor, A.</p><footer>Tu tarjeta, escrita a mano</footer></blockquote>",
+      "it": "<p>Ogni pezzo lascia il nostro atelier in una scatola nera con nastro avorio. Scrivi il tuo messaggio al checkout e lo scriviamo a mano sul biglietto.</p><blockquote><p>Per dieci anni di mattine tranquille. Con tutto il mio amore, A.</p><footer>Il tuo biglietto, scritto a mano</footer></blockquote>",
+      "pl": "<p>Każdy egzemplarz opuszcza pracownię w czarnym pudełku z kremową wstążką. Napisz wiadomość przy zamówieniu, a my przepiszemy ją ręcznie na kartkę.</p><blockquote><p>Za dziesięć lat spokojnych poranków. Z całą miłością, A.</p><footer>Twoja kartka, pisana ręcznie</footer></blockquote>",
+      "de": "<p>Jedes Stück verlässt unser Atelier in einer schwarzen Geschenkbox mit elfenbeinfarbenem Band. Schreiben Sie Ihre Nachricht an der Kasse, wir schreiben die Karte von Hand.</p><blockquote><p>Für zehn Jahre stiller Morgen. In Liebe, A.</p><footer>Ihre Karte, von Hand geschrieben</footer></blockquote>",
+      "cs": "<p>Každý kus opouští ateliér v černé dárkové krabičce se slonovinovou stuhou. Napište vzkaz při objednávce a my ho ručně přepíšeme na přáníčko.</p><blockquote><p>Za deset let klidných rán. S láskou, A.</p><footer>Vaše přáníčko, psané ručně</footer></blockquote>",
+      "nl": "<p>Elk stuk verlaat ons atelier in een zwarte geschenkdoos met een ivoorkleurig lint. Schrijf je bericht bij het afrekenen en wij schrijven het kaartje met de hand.</p><blockquote><p>Voor tien jaar stille ochtenden. Met al mijn liefde, A.</p><footer>Jouw kaartje, met de hand geschreven</footer></blockquote>",
+      "pt": "<p>Cada peça sai do nosso atelier numa caixa preta com fita marfim. Escreva a sua mensagem ao finalizar a compra e nós escrevemos o cartão à mão.</p><blockquote><p>Por dez anos de manhãs tranquilas. Com todo o meu amor, A.</p><footer>O seu cartão, escrito à mão</footer></blockquote>",
+      "ru": "<p>Каждое украшение покидает мастерскую в чёрной коробке с лентой цвета слоновой кости. Напишите пожелание при оформлении заказа, и мы перепишем его на открытку от руки.</p><blockquote><p>За десять лет тихих утр. С любовью, А.</p><footer>Ваша открытка, написанная от руки</footer></blockquote>"
+     },
+     "button": ""
+    }
+   ]
+  },
+  {
+   "type": "image_text",
+   "settings": {
+    "style": "image-left",
+    "ratio": "portrait",
+    "spacing": "l",
+    "css": "au-bridal"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/hero-2.jpg",
+      "link": "page:contact"
+     },
+     "subtitle": {
+      "en": "Bridal appointments",
+      "fr": "Rendez-vous mariage",
+      "es": "Citas de novia",
+      "it": "Appuntamenti sposa",
+      "pl": "Spotkania ślubne",
+      "de": "Braut-Termine",
+      "cs": "Svatební konzultace",
+      "nl": "Bruidsafspraken",
+      "pt": "Marcações de noiva",
+      "ru": "Свадебные консультации"
+     },
+     "title": {
+      "en": "Let us help you choose the ring",
+      "fr": "Laissez-nous vous aider à choisir la bague",
+      "es": "Te ayudamos a elegir el anillo",
+      "it": "Ti aiutiamo a scegliere l'anello",
+      "pl": "Pomożemy ci wybrać pierścionek",
+      "de": "Wir helfen Ihnen bei der Wahl des Rings",
+      "cs": "Pomůžeme vám vybrat prsten",
+      "nl": "Wij helpen je de ring te kiezen",
+      "pt": "Ajudamos a escolher o anel",
+      "ru": "Поможем выбрать кольцо"
+     },
+     "text": {
+      "en": "<p>Book a private appointment in our Paris salon or by video call. We will help you find the right stone, metal and size, with free resizing and engraving.</p>",
+      "fr": "<p>Réservez un rendez-vous privé dans notre salon parisien ou en visio. Nous vous aidons à trouver la pierre, le métal et la taille idéals, avec mise à taille et gravure offertes.</p>",
+      "es": "<p>Reserva una cita privada en nuestro salón de París o por videollamada. Te ayudamos a encontrar la piedra, el metal y la talla adecuados, con ajuste y grabado gratuitos.</p>",
+      "it": "<p>Prenota un appuntamento privato nel nostro salone di Parigi o in videochiamata. Ti aiuteremo a trovare la pietra, il metallo e la misura giusti, con ridimensionamento e incisione gratuiti.</p>",
+      "pl": "<p>Zarezerwuj prywatne spotkanie w naszym paryskim salonie lub przez wideorozmowę. Pomożemy dobrać kamień, metal i rozmiar, z bezpłatną zmianą rozmiaru i grawerem.</p>",
+      "de": "<p>Buchen Sie einen privaten Termin in unserem Pariser Salon oder per Videoanruf. Wir helfen Ihnen, den passenden Stein, das Metall und die Größe zu finden, mit kostenloser Größenanpassung und Gravur.</p>",
+      "cs": "<p>Rezervujte si soukromou schůzku v našem pařížském salonu nebo videohovor. Pomůžeme vám najít správný kámen, kov i velikost, s úpravou velikosti a rytinou zdarma.</p>",
+      "nl": "<p>Boek een privéafspraak in onze salon in Parijs of via videobellen. We helpen je de juiste steen, het metaal en de maat te vinden, met gratis maatwijziging en gravure.</p>",
+      "pt": "<p>Marque uma consulta privada no nosso salão em Paris ou por videochamada. Ajudamos a encontrar a pedra, o metal e o tamanho certos, com ajuste e gravação gratuitos.</p>",
+      "ru": "<p>Запишитесь на частную встречу в нашем парижском салоне или по видеосвязи. Мы поможем подобрать камень, металл и размер, с бесплатной подгонкой размера и гравировкой.</p>"
+     },
+     "button": {
+      "en": "Book an appointment",
+      "fr": "Prendre rendez-vous",
+      "es": "Pedir cita",
+      "it": "Prenota un appuntamento",
+      "pl": "Umów wizytę",
+      "de": "Termin vereinbaren",
+      "cs": "Objednat schůzku",
+      "nl": "Maak een afspraak",
+      "pt": "Marcar uma visita",
+      "ru": "Записаться на встречу"
+     }
+    }
+   ]
+  },
+  {
+   "type": "testimonials",
+   "settings": {
+    "style": "quote",
+    "spacing": "l",
+    "css": "au-quote"
+   },
+   "items": [
+    {
+     "data": {
+      "rating": 5
+     },
+     "title": {
+      "en": "Antoine L.",
+      "fr": "Antoine L.",
+      "es": "Antoine L.",
+      "it": "Antoine L.",
+      "pl": "Antoine L.",
+      "de": "Antoine L.",
+      "cs": "Antoine L.",
+      "nl": "Antoine L.",
+      "pt": "Antoine L.",
+      "ru": "Antoine L."
+     },
+     "subtitle": {
+      "en": "Paris",
+      "fr": "Paris",
+      "es": "París",
+      "it": "Parigi",
+      "pl": "Paryż",
+      "de": "Paris",
+      "cs": "Paříž",
+      "nl": "Parijs",
+      "pt": "Paris",
+      "ru": "Париж"
+     },
+     "text": {
+      "en": "The solitaire is even more beautiful in person. My fiancée has not stopped looking at it.",
+      "fr": "Le solitaire est encore plus beau en vrai. Ma fiancée ne cesse de le regarder.",
+      "es": "El solitario es aún más bonito en persona. Mi prometida no deja de mirarlo.",
+      "it": "Il solitario è ancora più bello dal vivo. La mia fidanzata non smette di guardarlo.",
+      "pl": "Soliter na żywo jest jeszcze piękniejszy. Moja narzeczona nie może oderwać od niego wzroku.",
+      "de": "Der Solitär ist in echt noch schöner. Meine Verlobte kann den Blick nicht davon lassen.",
+      "cs": "Solitér je naživo ještě krásnější. Moje snoubenka z něj nemůže spustit oči.",
+      "nl": "De solitair is in het echt nog mooier. Mijn verloofde blijft ernaar kijken.",
+      "pt": "O solitário é ainda mais bonito ao vivo. A minha noiva não para de olhar para ele.",
+      "ru": "Солитер вживую ещё красивее. Моя невеста не может отвести от него глаз."
+     }
+    }
+   ]
+  }
+ ]
+}
