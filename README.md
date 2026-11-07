@@ -18,7 +18,7 @@ Aurelle Jewels is a free PrestaShop 9 theme for fine jewellery, ring and bridal 
 - **Gift-ready**: a gift box line on every product, a note in the side bag and a free gift message at checkout.
 - **A jewellery box look**: velvet green and champagne on porcelain, Cormorant Garamond headings, arched photo frames and a "The details" row with metal, stone, hallmark and origin.
 - **Child theme of Hummingbird** (`parent: hummingbird`). No parent templates are copied, so Hummingbird and PrestaShop updates keep working.
-- **Hummingbird Theme Kit module** (`hbkit` v1.1.2): colours, fonts, corners, header and footer style as CSS variables, a top bar, and a homepage builder (categories, hero, image text, products, testimonials, text).
+- **Hummingbird Theme Kit module** (`hbkit` v1.1.3): colours, fonts, corners, header and footer style as CSS variables, a top bar, and a homepage builder (categories, hero, image text, products, testimonials, text).
 - **Page layouts you can switch in the back office**: side cart, cart page, category pages, product page and product cards, each with several picture-chosen styles. This demo uses: side cart that slides in; cart page with product cards; full-width grid with a filter button; minimal centred category header; classic product page; details in an accordion; 4 products per row; plain product cards.
 - **One-click demo import**: 24 products with sizes/colours and features, 6 categories, brands, 8 CMS pages, main menu, footer links, reassurance blocks and 8 homepage sections.
 - **10 languages** for everything: English, French, Spanish, Italian, Polish, German, Czech, Dutch, Portuguese, Russian.
@@ -31,9 +31,9 @@ Aurelle Jewels is a free PrestaShop 9 theme for fine jewellery, ring and bridal 
 
 ## Installation
 
-1. Download the release files: `aurelle-jewels-theme-v1.0.2.zip` and `hbkit-v1.1.2.zip`.
-2. **Modules > Module Manager > Upload a module**: upload `hbkit-v1.1.2.zip`.
-3. **Design > Theme & Logo > Add new theme**: upload `aurelle-jewels-theme-v1.0.2.zip`, then click *Use this theme*.
+1. Download the release files: `aurelle-jewels-theme-v1.0.3.zip` and `hbkit-v1.1.3.zip`.
+2. **Modules > Module Manager > Upload a module**: upload `hbkit-v1.1.3.zip`.
+3. **Design > Theme & Logo > Add new theme**: upload `aurelle-jewels-theme-v1.0.3.zip`, then click *Use this theme*.
 4. **Design > Theme Kit > Demo import**: pick *Aurelle Jewels*, type `IMPORT` and click *Import this demo*.
    On a fresh shop keep *Remove existing content first* checked. Orders and customers are never touched.
 5. Adjust colours, fonts and page layouts in **Theme Kit > Design**, and every homepage section in **Theme Kit > Homepage sections**.
